@@ -1,0 +1,1702 @@
+[
+  {
+    "case_id": "CR2025-001",
+    "parties": "Anil Sharma vs Vikram Jain",
+    "court": "Sessions Court, Mumbai",
+    "status": "Bail hearing",
+    "filing_date": "2024-06-25",
+    "next_hearing": "2025-05-22",
+    "summary": "Auto-generated criminal case CR2025-001: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-001_fir.pdf",
+      "cr2025-001_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-002",
+    "parties": "Anil Mehta vs Kiran Gupta",
+    "court": "District Court, Delhi",
+    "status": "Judgment reserved",
+    "filing_date": "2024-09-21",
+    "next_hearing": "2025-04-17",
+    "summary": "Auto-generated criminal case CR2025-002: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-002_fir.pdf",
+      "cr2025-002_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-003",
+    "parties": "Pooja Jain vs Vikram Yadav",
+    "court": "Sessions Court, Bangalore",
+    "status": "Judgment reserved",
+    "filing_date": "2024-03-27",
+    "next_hearing": "2024-07-30",
+    "summary": "Auto-generated criminal case CR2025-003: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-003_fir.pdf",
+      "cr2025-003_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-004",
+    "parties": "Meera Verma vs Anil Gupta",
+    "court": "District Court, Lucknow",
+    "status": "Pending trial",
+    "filing_date": "2023-01-10",
+    "next_hearing": "2023-11-13",
+    "summary": "Auto-generated criminal case CR2025-004: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-004_fir.pdf",
+      "cr2025-004_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-005",
+    "parties": "Sohan Yadav vs Pooja Mehta",
+    "court": "Sessions Court, Bangalore",
+    "status": "Final arguments",
+    "filing_date": "2023-07-13",
+    "next_hearing": "2024-05-17",
+    "summary": "Auto-generated criminal case CR2025-005: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-005_fir.pdf",
+      "cr2025-005_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-006",
+    "parties": "Kiran Choudhary vs Pooja Singh",
+    "court": "Sessions Court, Mumbai",
+    "status": "Under investigation",
+    "filing_date": "2023-12-07",
+    "next_hearing": "2024-04-15",
+    "summary": "Auto-generated criminal case CR2025-006: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-006_fir.pdf",
+      "cr2025-006_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-007",
+    "parties": "Sohan Verma vs Vikram Gupta",
+    "court": "District Court, Jaipur",
+    "status": "Bail hearing",
+    "filing_date": "2024-12-12",
+    "next_hearing": "2025-07-01",
+    "summary": "Auto-generated criminal case CR2025-007: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-007_fir.pdf",
+      "cr2025-007_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-008",
+    "parties": "Vikram Choudhary vs Sohan Yadav",
+    "court": "Sessions Court, Mumbai",
+    "status": "Pending trial",
+    "filing_date": "2023-05-23",
+    "next_hearing": "2024-02-27",
+    "summary": "Auto-generated criminal case CR2025-008: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-008_fir.pdf",
+      "cr2025-008_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-009",
+    "parties": "Vikram Yadav vs Ramesh Gupta",
+    "court": "District Court, Delhi",
+    "status": "Judgment reserved",
+    "filing_date": "2023-08-24",
+    "next_hearing": "2023-10-04",
+    "summary": "Auto-generated criminal case CR2025-009: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-009_fir.pdf",
+      "cr2025-009_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-010",
+    "parties": "Pooja Yadav vs Sunita Jain",
+    "court": "Sessions Court, Chennai",
+    "status": "Under investigation",
+    "filing_date": "2024-05-31",
+    "next_hearing": "2025-06-15",
+    "summary": "Auto-generated criminal case CR2025-010: concerning fraud. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-010_fir.pdf",
+      "cr2025-010_evidence.zip"
+    ],
+    "tags": [
+      "fraud"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-011",
+    "parties": "Vikram Singh vs Sohan Verma",
+    "court": "District Court, Kolkata",
+    "status": "Judgment reserved",
+    "filing_date": "2023-11-07",
+    "next_hearing": "2024-04-11",
+    "summary": "Auto-generated criminal case CR2025-011: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-011_fir.pdf",
+      "cr2025-011_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-012",
+    "parties": "Sohan Jain vs Meera Sharma",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Under investigation",
+    "filing_date": "2023-06-22",
+    "next_hearing": "2023-11-08",
+    "summary": "Auto-generated criminal case CR2025-012: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-012_fir.pdf",
+      "cr2025-012_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-013",
+    "parties": "Vikram Verma vs Ramesh Sharma",
+    "court": "District Court, Jaipur",
+    "status": "Pending trial",
+    "filing_date": "2023-08-06",
+    "next_hearing": "2023-09-21",
+    "summary": "Auto-generated criminal case CR2025-013: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-013_fir.pdf",
+      "cr2025-013_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-014",
+    "parties": "Ramesh Gupta vs Vikram Choudhary",
+    "court": "Sessions Court, Chennai",
+    "status": "Judgment reserved",
+    "filing_date": "2023-08-10",
+    "next_hearing": "2023-11-16",
+    "summary": "Auto-generated criminal case CR2025-014: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-014_fir.pdf",
+      "cr2025-014_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-015",
+    "parties": "Ramesh Sharma vs Anil Gupta",
+    "court": "Sessions Court, Chennai",
+    "status": "Pending trial",
+    "filing_date": "2024-01-03",
+    "next_hearing": "2024-02-07",
+    "summary": "Auto-generated criminal case CR2025-015: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-015_fir.pdf",
+      "cr2025-015_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-016",
+    "parties": "Ravi Kumar vs Rajesh Rajput",
+    "court": "District Court, Lucknow",
+    "status": "Final arguments",
+    "filing_date": "2024-01-24",
+    "next_hearing": "2024-05-23",
+    "summary": "Auto-generated criminal case CR2025-016: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-016_fir.pdf",
+      "cr2025-016_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-017",
+    "parties": "Sohan Rajput vs Sohan Mehta",
+    "court": "Sessions Court, Bangalore",
+    "status": "Judgment reserved",
+    "filing_date": "2024-04-03",
+    "next_hearing": "2024-05-17",
+    "summary": "Auto-generated criminal case CR2025-017: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-017_fir.pdf",
+      "cr2025-017_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-018",
+    "parties": "Pooja Rajput vs Vikram Yadav",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Final arguments",
+    "filing_date": "2024-04-11",
+    "next_hearing": "2025-05-10",
+    "summary": "Auto-generated criminal case CR2025-018: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-018_fir.pdf",
+      "cr2025-018_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-019",
+    "parties": "Sohan Yadav vs Kiran Verma",
+    "court": "Sessions Court, Bangalore",
+    "status": "Final arguments",
+    "filing_date": "2023-09-05",
+    "next_hearing": "2024-04-13",
+    "summary": "Auto-generated criminal case CR2025-019: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-019_fir.pdf",
+      "cr2025-019_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-020",
+    "parties": "Pooja Gupta vs Sohan Gupta",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Final arguments",
+    "filing_date": "2023-12-22",
+    "next_hearing": "2024-10-01",
+    "summary": "Auto-generated criminal case CR2025-020: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-020_fir.pdf",
+      "cr2025-020_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-021",
+    "parties": "Ravi Choudhary vs Sunita Rajput",
+    "court": "Sessions Court, Bangalore",
+    "status": "Pending trial",
+    "filing_date": "2024-05-14",
+    "next_hearing": "2024-12-14",
+    "summary": "Auto-generated criminal case CR2025-021: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-021_fir.pdf",
+      "cr2025-021_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-022",
+    "parties": "Meera Sharma vs Ravi Choudhary",
+    "court": "District Court, Delhi",
+    "status": "Judgment reserved",
+    "filing_date": "2024-03-25",
+    "next_hearing": "2025-01-03",
+    "summary": "Auto-generated criminal case CR2025-022: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-022_fir.pdf",
+      "cr2025-022_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-023",
+    "parties": "Anil Verma vs Kiran Rajput",
+    "court": "District Court, Kolkata",
+    "status": "Under investigation",
+    "filing_date": "2023-10-12",
+    "next_hearing": "2024-10-07",
+    "summary": "Auto-generated criminal case CR2025-023: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-023_fir.pdf",
+      "cr2025-023_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-024",
+    "parties": "Meera Verma vs Kiran Rajput",
+    "court": "District Court, Delhi",
+    "status": "Under investigation",
+    "filing_date": "2023-09-05",
+    "next_hearing": "2024-10-07",
+    "summary": "Auto-generated criminal case CR2025-024: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-024_fir.pdf",
+      "cr2025-024_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-025",
+    "parties": "Ramesh Yadav vs Pooja Kumar",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Pending trial",
+    "filing_date": "2024-07-07",
+    "next_hearing": "2025-06-12",
+    "summary": "Auto-generated criminal case CR2025-025: concerning fraud. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-025_fir.pdf",
+      "cr2025-025_evidence.zip"
+    ],
+    "tags": [
+      "fraud"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-026",
+    "parties": "Ravi Verma vs Rajesh Rajput",
+    "court": "Sessions Court, Chennai",
+    "status": "Bail hearing",
+    "filing_date": "2023-06-30",
+    "next_hearing": "2024-05-25",
+    "summary": "Auto-generated criminal case CR2025-026: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-026_fir.pdf",
+      "cr2025-026_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-027",
+    "parties": "Anil Yadav vs Sunita Gupta",
+    "court": "Sessions Court, Chennai",
+    "status": "Judgment reserved",
+    "filing_date": "2024-04-02",
+    "next_hearing": "2024-07-11",
+    "summary": "Auto-generated criminal case CR2025-027: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-027_fir.pdf",
+      "cr2025-027_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-028",
+    "parties": "Rajesh Verma vs Rajesh Yadav",
+    "court": "District Court, Kolkata",
+    "status": "Final arguments",
+    "filing_date": "2024-01-08",
+    "next_hearing": "2024-03-19",
+    "summary": "Auto-generated criminal case CR2025-028: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-028_fir.pdf",
+      "cr2025-028_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-029",
+    "parties": "Meera Gupta vs Pooja Rajput",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Bail hearing",
+    "filing_date": "2023-04-15",
+    "next_hearing": "2023-08-31",
+    "summary": "Auto-generated criminal case CR2025-029: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-029_fir.pdf",
+      "cr2025-029_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-030",
+    "parties": "Ravi Jain vs Sohan Choudhary",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Final arguments",
+    "filing_date": "2023-12-27",
+    "next_hearing": "2024-05-30",
+    "summary": "Auto-generated criminal case CR2025-030: concerning fraud. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-030_fir.pdf",
+      "cr2025-030_evidence.zip"
+    ],
+    "tags": [
+      "fraud"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-031",
+    "parties": "Anil Mehta vs Anil Singh",
+    "court": "District Court, Kolkata",
+    "status": "Pending trial",
+    "filing_date": "2023-04-15",
+    "next_hearing": "2023-10-14",
+    "summary": "Auto-generated criminal case CR2025-031: concerning theft. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-031_fir.pdf",
+      "cr2025-031_evidence.zip"
+    ],
+    "tags": [
+      "theft"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-032",
+    "parties": "Ravi Mehta vs Rajesh Gupta",
+    "court": "District Court, Lucknow",
+    "status": "Under investigation",
+    "filing_date": "2023-03-13",
+    "next_hearing": "2023-10-20",
+    "summary": "Auto-generated criminal case CR2025-032: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-032_fir.pdf",
+      "cr2025-032_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-033",
+    "parties": "Sohan Rajput vs Meera Choudhary",
+    "court": "District Court, Lucknow",
+    "status": "Judgment reserved",
+    "filing_date": "2024-04-18",
+    "next_hearing": "2024-10-13",
+    "summary": "Auto-generated criminal case CR2025-033: concerning theft. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-033_fir.pdf",
+      "cr2025-033_evidence.zip"
+    ],
+    "tags": [
+      "theft"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-034",
+    "parties": "Sohan Singh vs Meera Jain",
+    "court": "Sessions Court, Chennai",
+    "status": "Final arguments",
+    "filing_date": "2023-09-24",
+    "next_hearing": "2024-09-07",
+    "summary": "Auto-generated criminal case CR2025-034: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-034_fir.pdf",
+      "cr2025-034_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-035",
+    "parties": "Vikram Rajput vs Kiran Sharma",
+    "court": "Sessions Court, Mumbai",
+    "status": "Bail hearing",
+    "filing_date": "2024-03-12",
+    "next_hearing": "2025-02-22",
+    "summary": "Auto-generated criminal case CR2025-035: concerning theft. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-035_fir.pdf",
+      "cr2025-035_evidence.zip"
+    ],
+    "tags": [
+      "theft"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-036",
+    "parties": "Rajesh Gupta vs Ravi Verma",
+    "court": "District Court, Lucknow",
+    "status": "Pending trial",
+    "filing_date": "2023-12-11",
+    "next_hearing": "2024-05-25",
+    "summary": "Auto-generated criminal case CR2025-036: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-036_fir.pdf",
+      "cr2025-036_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-037",
+    "parties": "Vikram Verma vs Sunita Mehta",
+    "court": "Sessions Court, Chennai",
+    "status": "Under investigation",
+    "filing_date": "2024-06-26",
+    "next_hearing": "2025-06-20",
+    "summary": "Auto-generated criminal case CR2025-037: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-037_fir.pdf",
+      "cr2025-037_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-038",
+    "parties": "Rajesh Jain vs Pooja Rajput",
+    "court": "Sessions Court, Mumbai",
+    "status": "Pending trial",
+    "filing_date": "2024-09-18",
+    "next_hearing": "2025-06-11",
+    "summary": "Auto-generated criminal case CR2025-038: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-038_fir.pdf",
+      "cr2025-038_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-039",
+    "parties": "Rajesh Verma vs Pooja Gupta",
+    "court": "Sessions Court, Chennai",
+    "status": "Judgment reserved",
+    "filing_date": "2023-02-11",
+    "next_hearing": "2023-10-04",
+    "summary": "Auto-generated criminal case CR2025-039: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-039_fir.pdf",
+      "cr2025-039_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-040",
+    "parties": "Sohan Verma vs Kiran Yadav",
+    "court": "District Court, Kolkata",
+    "status": "Judgment reserved",
+    "filing_date": "2023-02-09",
+    "next_hearing": "2023-06-01",
+    "summary": "Auto-generated criminal case CR2025-040: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-040_fir.pdf",
+      "cr2025-040_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-041",
+    "parties": "Ramesh Sharma vs Rajesh Singh",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Judgment reserved",
+    "filing_date": "2023-02-18",
+    "next_hearing": "2023-05-28",
+    "summary": "Auto-generated criminal case CR2025-041: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-041_fir.pdf",
+      "cr2025-041_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-042",
+    "parties": "Rajesh Yadav vs Ravi Rajput",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Pending trial",
+    "filing_date": "2024-08-22",
+    "next_hearing": "2024-12-26",
+    "summary": "Auto-generated criminal case CR2025-042: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-042_fir.pdf",
+      "cr2025-042_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-043",
+    "parties": "Kiran Verma vs Rajesh Verma",
+    "court": "Sessions Court, Bangalore",
+    "status": "Bail hearing",
+    "filing_date": "2023-05-27",
+    "next_hearing": "2023-08-06",
+    "summary": "Auto-generated criminal case CR2025-043: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-043_fir.pdf",
+      "cr2025-043_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-044",
+    "parties": "Sunita Gupta vs Rajesh Singh",
+    "court": "District Court, Jaipur",
+    "status": "Bail hearing",
+    "filing_date": "2023-12-27",
+    "next_hearing": "2024-04-08",
+    "summary": "Auto-generated criminal case CR2025-044: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-044_fir.pdf",
+      "cr2025-044_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-045",
+    "parties": "Sunita Sharma vs Pooja Rajput",
+    "court": "Sessions Court, Bangalore",
+    "status": "Pending trial",
+    "filing_date": "2024-10-31",
+    "next_hearing": "2025-08-20",
+    "summary": "Auto-generated criminal case CR2025-045: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-045_fir.pdf",
+      "cr2025-045_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-046",
+    "parties": "Vikram Gupta vs Anil Gupta",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Bail hearing",
+    "filing_date": "2023-11-22",
+    "next_hearing": "2024-01-09",
+    "summary": "Auto-generated criminal case CR2025-046: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-046_fir.pdf",
+      "cr2025-046_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-047",
+    "parties": "Sohan Gupta vs Vikram Choudhary",
+    "court": "Sessions Court, Mumbai",
+    "status": "Bail hearing",
+    "filing_date": "2024-06-15",
+    "next_hearing": "2025-06-14",
+    "summary": "Auto-generated criminal case CR2025-047: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-047_fir.pdf",
+      "cr2025-047_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-048",
+    "parties": "Rajesh Rajput vs Kiran Choudhary",
+    "court": "District Court, Delhi",
+    "status": "Final arguments",
+    "filing_date": "2024-03-13",
+    "next_hearing": "2025-01-11",
+    "summary": "Auto-generated criminal case CR2025-048: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-048_fir.pdf",
+      "cr2025-048_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-049",
+    "parties": "Anil Rajput vs Sunita Choudhary",
+    "court": "Sessions Court, Mumbai",
+    "status": "Final arguments",
+    "filing_date": "2024-02-06",
+    "next_hearing": "2024-04-19",
+    "summary": "Auto-generated criminal case CR2025-049: concerning fraud. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-049_fir.pdf",
+      "cr2025-049_evidence.zip"
+    ],
+    "tags": [
+      "fraud"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-050",
+    "parties": "Pooja Singh vs Kiran Sharma",
+    "court": "Sessions Court, Mumbai",
+    "status": "Pending trial",
+    "filing_date": "2023-11-26",
+    "next_hearing": "2024-04-14",
+    "summary": "Auto-generated criminal case CR2025-050: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-050_fir.pdf",
+      "cr2025-050_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-051",
+    "parties": "Meera Choudhary vs Pooja Gupta",
+    "court": "District Court, Delhi",
+    "status": "Final arguments",
+    "filing_date": "2023-08-10",
+    "next_hearing": "2024-02-11",
+    "summary": "Auto-generated criminal case CR2025-051: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-051_fir.pdf",
+      "cr2025-051_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-052",
+    "parties": "Sunita Sharma vs Ramesh Sharma",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Bail hearing",
+    "filing_date": "2023-12-14",
+    "next_hearing": "2024-08-08",
+    "summary": "Auto-generated criminal case CR2025-052: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-052_fir.pdf",
+      "cr2025-052_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-053",
+    "parties": "Sohan Rajput vs Pooja Rajput",
+    "court": "Sessions Court, Mumbai",
+    "status": "Judgment reserved",
+    "filing_date": "2023-04-03",
+    "next_hearing": "2023-06-30",
+    "summary": "Auto-generated criminal case CR2025-053: concerning theft. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-053_fir.pdf",
+      "cr2025-053_evidence.zip"
+    ],
+    "tags": [
+      "theft"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-054",
+    "parties": "Pooja Yadav vs Ravi Verma",
+    "court": "District Court, Delhi",
+    "status": "Pending trial",
+    "filing_date": "2023-11-09",
+    "next_hearing": "2024-09-25",
+    "summary": "Auto-generated criminal case CR2025-054: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-054_fir.pdf",
+      "cr2025-054_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-055",
+    "parties": "Sunita Choudhary vs Ravi Rajput",
+    "court": "District Court, Lucknow",
+    "status": "Final arguments",
+    "filing_date": "2023-02-08",
+    "next_hearing": "2024-02-19",
+    "summary": "Auto-generated criminal case CR2025-055: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-055_fir.pdf",
+      "cr2025-055_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-056",
+    "parties": "Vikram Rajput vs Sohan Rajput",
+    "court": "Sessions Court, Chennai",
+    "status": "Bail hearing",
+    "filing_date": "2024-02-17",
+    "next_hearing": "2024-10-31",
+    "summary": "Auto-generated criminal case CR2025-056: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-056_fir.pdf",
+      "cr2025-056_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-057",
+    "parties": "Ramesh Verma vs Pooja Mehta",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Pending trial",
+    "filing_date": "2024-07-09",
+    "next_hearing": "2025-06-21",
+    "summary": "Auto-generated criminal case CR2025-057: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-057_fir.pdf",
+      "cr2025-057_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-058",
+    "parties": "Ravi Kumar vs Sunita Sharma",
+    "court": "Sessions Court, Mumbai",
+    "status": "Pending trial",
+    "filing_date": "2024-04-06",
+    "next_hearing": "2025-05-03",
+    "summary": "Auto-generated criminal case CR2025-058: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-058_fir.pdf",
+      "cr2025-058_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-059",
+    "parties": "Kiran Kumar vs Ramesh Rajput",
+    "court": "District Court, Delhi",
+    "status": "Under investigation",
+    "filing_date": "2023-03-09",
+    "next_hearing": "2023-06-09",
+    "summary": "Auto-generated criminal case CR2025-059: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-059_fir.pdf",
+      "cr2025-059_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-060",
+    "parties": "Pooja Kumar vs Sunita Sharma",
+    "court": "District Court, Delhi",
+    "status": "Final arguments",
+    "filing_date": "2024-02-02",
+    "next_hearing": "2024-07-23",
+    "summary": "Auto-generated criminal case CR2025-060: concerning theft. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-060_fir.pdf",
+      "cr2025-060_evidence.zip"
+    ],
+    "tags": [
+      "theft"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-061",
+    "parties": "Ravi Gupta vs Kiran Sharma",
+    "court": "Sessions Court, Mumbai",
+    "status": "Judgment reserved",
+    "filing_date": "2024-11-11",
+    "next_hearing": "2025-09-02",
+    "summary": "Auto-generated criminal case CR2025-061: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-061_fir.pdf",
+      "cr2025-061_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-062",
+    "parties": "Anil Verma vs Sunita Sharma",
+    "court": "District Court, Jaipur",
+    "status": "Judgment reserved",
+    "filing_date": "2023-07-06",
+    "next_hearing": "2024-03-28",
+    "summary": "Auto-generated criminal case CR2025-062: concerning fraud. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-062_fir.pdf",
+      "cr2025-062_evidence.zip"
+    ],
+    "tags": [
+      "fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-063",
+    "parties": "Vikram Sharma vs Sunita Gupta",
+    "court": "District Court, Kolkata",
+    "status": "Bail hearing",
+    "filing_date": "2023-10-03",
+    "next_hearing": "2024-08-25",
+    "summary": "Auto-generated criminal case CR2025-063: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-063_fir.pdf",
+      "cr2025-063_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-064",
+    "parties": "Vikram Gupta vs Sohan Sharma",
+    "court": "Sessions Court, Chennai",
+    "status": "Pending trial",
+    "filing_date": "2023-04-26",
+    "next_hearing": "2023-06-05",
+    "summary": "Auto-generated criminal case CR2025-064: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-064_fir.pdf",
+      "cr2025-064_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-065",
+    "parties": "Ravi Jain vs Rajesh Verma",
+    "court": "Sessions Court, Mumbai",
+    "status": "Judgment reserved",
+    "filing_date": "2024-01-16",
+    "next_hearing": "2024-10-21",
+    "summary": "Auto-generated criminal case CR2025-065: concerning theft. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-065_fir.pdf",
+      "cr2025-065_evidence.zip"
+    ],
+    "tags": [
+      "theft"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-066",
+    "parties": "Pooja Verma vs Ramesh Sharma",
+    "court": "District Court, Kolkata",
+    "status": "Under investigation",
+    "filing_date": "2023-09-15",
+    "next_hearing": "2024-01-08",
+    "summary": "Auto-generated criminal case CR2025-066: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-066_fir.pdf",
+      "cr2025-066_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-067",
+    "parties": "Meera Rajput vs Sohan Sharma",
+    "court": "District Court, Kolkata",
+    "status": "Bail hearing",
+    "filing_date": "2023-06-20",
+    "next_hearing": "2024-02-14",
+    "summary": "Auto-generated criminal case CR2025-067: concerning theft. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-067_fir.pdf",
+      "cr2025-067_evidence.zip"
+    ],
+    "tags": [
+      "theft"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-068",
+    "parties": "Ravi Rajput vs Sohan Mehta",
+    "court": "Sessions Court, Mumbai",
+    "status": "Final arguments",
+    "filing_date": "2024-12-20",
+    "next_hearing": "2025-06-21",
+    "summary": "Auto-generated criminal case CR2025-068: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-068_fir.pdf",
+      "cr2025-068_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-069",
+    "parties": "Ramesh Mehta vs Sohan Choudhary",
+    "court": "District Court, Delhi",
+    "status": "Final arguments",
+    "filing_date": "2024-12-10",
+    "next_hearing": "2025-12-13",
+    "summary": "Auto-generated criminal case CR2025-069: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-069_fir.pdf",
+      "cr2025-069_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-070",
+    "parties": "Ravi Choudhary vs Ramesh Sharma",
+    "court": "District Court, Delhi",
+    "status": "Under investigation",
+    "filing_date": "2023-11-25",
+    "next_hearing": "2024-09-23",
+    "summary": "Auto-generated criminal case CR2025-070: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-070_fir.pdf",
+      "cr2025-070_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-071",
+    "parties": "Anil Yadav vs Ramesh Rajput",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Final arguments",
+    "filing_date": "2023-02-07",
+    "next_hearing": "2023-12-14",
+    "summary": "Auto-generated criminal case CR2025-071: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-071_fir.pdf",
+      "cr2025-071_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-072",
+    "parties": "Kiran Rajput vs Sunita Sharma",
+    "court": "District Court, Kolkata",
+    "status": "Final arguments",
+    "filing_date": "2023-10-24",
+    "next_hearing": "2024-05-02",
+    "summary": "Auto-generated criminal case CR2025-072: concerning robbery. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-072_fir.pdf",
+      "cr2025-072_evidence.zip"
+    ],
+    "tags": [
+      "robbery"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-073",
+    "parties": "Pooja Choudhary vs Sohan Sharma",
+    "court": "District Court, Lucknow",
+    "status": "Judgment reserved",
+    "filing_date": "2023-06-24",
+    "next_hearing": "2024-06-19",
+    "summary": "Auto-generated criminal case CR2025-073: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-073_fir.pdf",
+      "cr2025-073_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-074",
+    "parties": "Sohan Choudhary vs Ramesh Choudhary",
+    "court": "Sessions Court, Mumbai",
+    "status": "Judgment reserved",
+    "filing_date": "2023-01-30",
+    "next_hearing": "2024-02-28",
+    "summary": "Auto-generated criminal case CR2025-074: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-074_fir.pdf",
+      "cr2025-074_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-075",
+    "parties": "Meera Choudhary vs Kiran Jain",
+    "court": "District Court, Jaipur",
+    "status": "Final arguments",
+    "filing_date": "2023-02-17",
+    "next_hearing": "2023-10-16",
+    "summary": "Auto-generated criminal case CR2025-075: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-075_fir.pdf",
+      "cr2025-075_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-076",
+    "parties": "Rajesh Sharma vs Sohan Kumar",
+    "court": "District Court, Kolkata",
+    "status": "Pending trial",
+    "filing_date": "2024-02-08",
+    "next_hearing": "2024-05-22",
+    "summary": "Auto-generated criminal case CR2025-076: concerning fraud. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-076_fir.pdf",
+      "cr2025-076_evidence.zip"
+    ],
+    "tags": [
+      "fraud"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-077",
+    "parties": "Pooja Kumar vs Sohan Yadav",
+    "court": "Sessions Court, Bangalore",
+    "status": "Pending trial",
+    "filing_date": "2024-11-07",
+    "next_hearing": "2025-08-01",
+    "summary": "Auto-generated criminal case CR2025-077: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-077_fir.pdf",
+      "cr2025-077_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-078",
+    "parties": "Anil Sharma vs Ramesh Yadav",
+    "court": "District Court, Kolkata",
+    "status": "Bail hearing",
+    "filing_date": "2023-08-14",
+    "next_hearing": "2023-09-22",
+    "summary": "Auto-generated criminal case CR2025-078: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-078_fir.pdf",
+      "cr2025-078_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-079",
+    "parties": "Sohan Singh vs Kiran Singh",
+    "court": "Sessions Court, Mumbai",
+    "status": "Judgment reserved",
+    "filing_date": "2023-12-02",
+    "next_hearing": "2024-04-13",
+    "summary": "Auto-generated criminal case CR2025-079: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-079_fir.pdf",
+      "cr2025-079_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-080",
+    "parties": "Vikram Gupta vs Ramesh Choudhary",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Final arguments",
+    "filing_date": "2024-04-12",
+    "next_hearing": "2024-08-11",
+    "summary": "Auto-generated criminal case CR2025-080: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-080_fir.pdf",
+      "cr2025-080_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-081",
+    "parties": "Ramesh Gupta vs Meera Jain",
+    "court": "District Court, Kolkata",
+    "status": "Pending trial",
+    "filing_date": "2023-10-17",
+    "next_hearing": "2024-08-06",
+    "summary": "Auto-generated criminal case CR2025-081: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-081_fir.pdf",
+      "cr2025-081_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-082",
+    "parties": "Pooja Sharma vs Kiran Yadav",
+    "court": "District Court, Kolkata",
+    "status": "Pending trial",
+    "filing_date": "2023-08-06",
+    "next_hearing": "2024-09-04",
+    "summary": "Auto-generated criminal case CR2025-082: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-082_fir.pdf",
+      "cr2025-082_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-083",
+    "parties": "Pooja Yadav vs Sunita Jain",
+    "court": "District Court, Jaipur",
+    "status": "Final arguments",
+    "filing_date": "2024-05-27",
+    "next_hearing": "2024-09-11",
+    "summary": "Auto-generated criminal case CR2025-083: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-083_fir.pdf",
+      "cr2025-083_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-084",
+    "parties": "Pooja Singh vs Sunita Gupta",
+    "court": "Sessions Court, Mumbai",
+    "status": "Final arguments",
+    "filing_date": "2024-02-19",
+    "next_hearing": "2024-09-07",
+    "summary": "Auto-generated criminal case CR2025-084: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-084_fir.pdf",
+      "cr2025-084_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-085",
+    "parties": "Anil Gupta vs Kiran Mehta",
+    "court": "District Court, Delhi",
+    "status": "Final arguments",
+    "filing_date": "2024-11-17",
+    "next_hearing": "2025-04-08",
+    "summary": "Auto-generated criminal case CR2025-085: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-085_fir.pdf",
+      "cr2025-085_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-086",
+    "parties": "Sohan Mehta vs Pooja Rajput",
+    "court": "District Court, Jaipur",
+    "status": "Judgment reserved",
+    "filing_date": "2024-03-19",
+    "next_hearing": "2024-06-14",
+    "summary": "Auto-generated criminal case CR2025-086: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-086_fir.pdf",
+      "cr2025-086_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-087",
+    "parties": "Rajesh Verma vs Meera Choudhary",
+    "court": "District Court, Kolkata",
+    "status": "Pending trial",
+    "filing_date": "2023-02-17",
+    "next_hearing": "2023-08-03",
+    "summary": "Auto-generated criminal case CR2025-087: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-087_fir.pdf",
+      "cr2025-087_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-088",
+    "parties": "Vikram Jain vs Ramesh Mehta",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Final arguments",
+    "filing_date": "2024-04-29",
+    "next_hearing": "2024-11-14",
+    "summary": "Auto-generated criminal case CR2025-088: concerning drug trafficking. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-088_fir.pdf",
+      "cr2025-088_evidence.zip"
+    ],
+    "tags": [
+      "drug trafficking"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-089",
+    "parties": "Kiran Mehta vs Ravi Rajput",
+    "court": "Sessions Court, Bangalore",
+    "status": "Final arguments",
+    "filing_date": "2023-06-27",
+    "next_hearing": "2023-09-19",
+    "summary": "Auto-generated criminal case CR2025-089: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-089_fir.pdf",
+      "cr2025-089_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-090",
+    "parties": "Rajesh Jain vs Anil Mehta",
+    "court": "District Court, Jaipur",
+    "status": "Pending trial",
+    "filing_date": "2024-11-02",
+    "next_hearing": "2025-02-27",
+    "summary": "Auto-generated criminal case CR2025-090: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-090_fir.pdf",
+      "cr2025-090_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-091",
+    "parties": "Sunita Gupta vs Meera Rajput",
+    "court": "Sessions Court, Bangalore",
+    "status": "Judgment reserved",
+    "filing_date": "2024-09-22",
+    "next_hearing": "2025-07-29",
+    "summary": "Auto-generated criminal case CR2025-091: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-091_fir.pdf",
+      "cr2025-091_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-092",
+    "parties": "Sunita Sharma vs Ravi Sharma",
+    "court": "Sessions Court, Mumbai",
+    "status": "Pending trial",
+    "filing_date": "2024-02-18",
+    "next_hearing": "2024-03-31",
+    "summary": "Auto-generated criminal case CR2025-092: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-092_fir.pdf",
+      "cr2025-092_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-093",
+    "parties": "Kiran Kumar vs Rajesh Mehta",
+    "court": "Sessions Court, Bangalore",
+    "status": "Judgment reserved",
+    "filing_date": "2024-01-29",
+    "next_hearing": "2024-12-24",
+    "summary": "Auto-generated criminal case CR2025-093: concerning assault. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-093_fir.pdf",
+      "cr2025-093_evidence.zip"
+    ],
+    "tags": [
+      "assault"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CR2025-094",
+    "parties": "Rajesh Mehta vs Ramesh Singh",
+    "court": "District Court, Delhi",
+    "status": "Under investigation",
+    "filing_date": "2024-01-18",
+    "next_hearing": "2024-05-17",
+    "summary": "Auto-generated criminal case CR2025-094: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-094_fir.pdf",
+      "cr2025-094_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-095",
+    "parties": "Pooja Rajput vs Kiran Rajput",
+    "court": "Sessions Court, Mumbai",
+    "status": "Final arguments",
+    "filing_date": "2023-12-03",
+    "next_hearing": "2024-12-14",
+    "summary": "Auto-generated criminal case CR2025-095: concerning kidnapping. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-095_fir.pdf",
+      "cr2025-095_evidence.zip"
+    ],
+    "tags": [
+      "kidnapping"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-096",
+    "parties": "Sunita Kumar vs Ravi Rajput",
+    "court": "Sessions Court, Hyderabad",
+    "status": "Pending trial",
+    "filing_date": "2023-08-02",
+    "next_hearing": "2024-03-14",
+    "summary": "Auto-generated criminal case CR2025-096: concerning cyber crime. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-096_fir.pdf",
+      "cr2025-096_evidence.zip"
+    ],
+    "tags": [
+      "cyber crime"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-097",
+    "parties": "Rajesh Jain vs Anil Singh",
+    "court": "Sessions Court, Bangalore",
+    "status": "Judgment reserved",
+    "filing_date": "2024-04-23",
+    "next_hearing": "2025-03-05",
+    "summary": "Auto-generated criminal case CR2025-097: concerning illegal possession. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-097_fir.pdf",
+      "cr2025-097_evidence.zip"
+    ],
+    "tags": [
+      "illegal possession"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CR2025-098",
+    "parties": "Kiran Sharma vs Vikram Sharma",
+    "court": "District Court, Delhi",
+    "status": "Pending trial",
+    "filing_date": "2024-06-30",
+    "next_hearing": "2025-06-17",
+    "summary": "Auto-generated criminal case CR2025-098: concerning domestic violence. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-098_fir.pdf",
+      "cr2025-098_evidence.zip"
+    ],
+    "tags": [
+      "domestic violence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CR2025-099",
+    "parties": "Sunita Rajput vs Kiran Singh",
+    "court": "District Court, Kolkata",
+    "status": "Pending trial",
+    "filing_date": "2024-12-07",
+    "next_hearing": "2025-03-02",
+    "summary": "Auto-generated criminal case CR2025-099: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-099_fir.pdf",
+      "cr2025-099_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "CR2025-100",
+    "parties": "Ravi Kumar vs Sunita Singh",
+    "court": "Sessions Court, Bangalore",
+    "status": "Bail hearing",
+    "filing_date": "2024-08-05",
+    "next_hearing": "2025-02-03",
+    "summary": "Auto-generated criminal case CR2025-100: concerning murder. Court proceedings ongoing.",
+    "documents": [
+      "cr2025-100_fir.pdf",
+      "cr2025-100_evidence.zip"
+    ],
+    "tags": [
+      "murder"
+    ],
+    "priority": "Medium"
+  }
+]

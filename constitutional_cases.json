@@ -1,0 +1,604 @@
+{
+    "cases": [
+        {
+            "case_id": "C-1001",
+            "title": "Wong vs. Berry, Huynh and Ramos",
+            "parties": [
+                "Jason Washington",
+                "Tanner Group"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2024-04-10",
+            "status": "Pending",
+            "summary": "Make section give cell respond over health yes identify line let include treat kind drive the."
+        },
+        {
+            "case_id": "C-1002",
+            "title": "Bell vs. Gordon, Austin and Park",
+            "parties": [
+                "Juan Williamson",
+                "Bryant, Leach and Wilson"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2022-12-26",
+            "status": "Dismissed",
+            "summary": "Thought plant enjoy century relate wall across appear couple fear fish air material take general."
+        },
+        {
+            "case_id": "C-1003",
+            "title": "Martin vs. Jackson PLC",
+            "parties": [
+                "Emily Hernandez",
+                "Hendrix Ltd"
+            ],
+            "case_type": "Civil",
+            "filed_date": "2024-05-16",
+            "status": "Pending",
+            "summary": "Carry hair worker example middle something decision political still kind true industry."
+        },
+        {
+            "case_id": "C-1004",
+            "title": "Fisher vs. Woods-Martinez",
+            "parties": [
+                "Regina Underwood",
+                "Reed, Jones and Holden"
+            ],
+            "case_type": "Family",
+            "filed_date": "2023-12-17",
+            "status": "Dismissed",
+            "summary": "Movement improve cover develop check itself first how color none knowledge certainly policy your wonder everything."
+        },
+        {
+            "case_id": "C-1005",
+            "title": "Walker vs. Odonnell, Mayer and Morgan",
+            "parties": [
+                "Jeffrey Bradley",
+                "Leonard PLC"
+            ],
+            "case_type": "Property",
+            "filed_date": "2023-12-01",
+            "status": "Appealed",
+            "summary": "Our early explain book responsibility college indeed."
+        },
+        {
+            "case_id": "C-1006",
+            "title": "Cohen vs. Case, Burns and Flores",
+            "parties": [
+                "Nicole Roman",
+                "Jones-Pennington"
+            ],
+            "case_type": "Intellectual Property",
+            "filed_date": "2025-08-13",
+            "status": "Ongoing",
+            "summary": "Gas occur fast allow painting democratic authority adult."
+        },
+        {
+            "case_id": "C-1007",
+            "title": "Harper vs. Harris-Webster",
+            "parties": [
+                "Michelle Kirk",
+                "Taylor, Becker and Solis"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2024-10-05",
+            "status": "Ongoing",
+            "summary": "Including student hand personal admit save the many dog indeed often affect hair benefit."
+        },
+        {
+            "case_id": "C-1008",
+            "title": "Nash vs. Arnold-Mccullough",
+            "parties": [
+                "Amy Woods",
+                "Bates PLC"
+            ],
+            "case_type": "Intellectual Property",
+            "filed_date": "2023-11-05",
+            "status": "Ongoing",
+            "summary": "Weight future economic determine stand war whose message short economic story impact seek."
+        },
+        {
+            "case_id": "C-1009",
+            "title": "Mullins vs. Mayer, Robinson and Johnson",
+            "parties": [
+                "Christopher Wilson",
+                "Arnold and Sons"
+            ],
+            "case_type": "Property",
+            "filed_date": "2025-05-31",
+            "status": "Ongoing",
+            "summary": "Until consider understand official all hand about assume hotel whose only approach attention number pay."
+        },
+        {
+            "case_id": "C-1010",
+            "title": "Cabrera vs. Rice-Hebert",
+            "parties": [
+                "Wayne Young",
+                "Melton-Gonzalez"
+            ],
+            "case_type": "Tax",
+            "filed_date": "2023-01-13",
+            "status": "Pending",
+            "summary": "Measure summer son my within low choice officer lay sister."
+        },
+        {
+            "case_id": "C-1011",
+            "title": "Oneal vs. Kline Inc",
+            "parties": [
+                "John Reed",
+                "Hernandez-Calderon"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2022-09-30",
+            "status": "Ongoing",
+            "summary": "Control interesting he thousand part with particular poor sea heavy eye wish usually bit thus."
+        },
+        {
+            "case_id": "C-1012",
+            "title": "Page vs. Martin, Brown and Martinez",
+            "parties": [
+                "Samantha Davis",
+                "Cook-Jackson"
+            ],
+            "case_type": "Criminal",
+            "filed_date": "2023-03-12",
+            "status": "Ongoing",
+            "summary": "Begin culture top unit Democrat business party sort agent."
+        },
+        {
+            "case_id": "C-1013",
+            "title": "Prince vs. Mckee-Higgins",
+            "parties": [
+                "Karina Ferguson",
+                "Brown, White and Haas"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2025-07-09",
+            "status": "Appealed",
+            "summary": "Fly recent system he front like later allow recognize phone marriage bad mind gun guess."
+        },
+        {
+            "case_id": "C-1014",
+            "title": "Barnes vs. Peck, Morris and Allen",
+            "parties": [
+                "Ashley Berg",
+                "Hines, Kelly and Daniels"
+            ],
+            "case_type": "Civil",
+            "filed_date": "2024-02-25",
+            "status": "Pending",
+            "summary": "Page probably try personal who common make myself task."
+        },
+        {
+            "case_id": "C-1015",
+            "title": "Hansen vs. Parker-Obrien",
+            "parties": [
+                "Jeffrey Richardson",
+                "Allen-Davis"
+            ],
+            "case_type": "Criminal",
+            "filed_date": "2023-04-14",
+            "status": "Closed",
+            "summary": "Century from class summer behavior age commercial take Congress record research knowledge."
+        },
+        {
+            "case_id": "C-1016",
+            "title": "Ward vs. Myers, Johnson and Williams",
+            "parties": [
+                "Kyle Martinez",
+                "James, Flores and Williams"
+            ],
+            "case_type": "Tax",
+            "filed_date": "2025-08-15",
+            "status": "Dismissed",
+            "summary": "Interview whatever into see artist within blue."
+        },
+        {
+            "case_id": "C-1017",
+            "title": "Garrett vs. Jackson, Barnes and Fowler",
+            "parties": [
+                "Jonathan Sanchez",
+                "Ward LLC"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2025-03-29",
+            "status": "Closed",
+            "summary": "Population top share gas mouth risk this beat control in power keep owner television staff."
+        },
+        {
+            "case_id": "C-1018",
+            "title": "Rice vs. Silva, Reeves and Scott",
+            "parties": [
+                "Cynthia Reed",
+                "Brown, Bennett and Crawford"
+            ],
+            "case_type": "Civil",
+            "filed_date": "2025-09-04",
+            "status": "Pending",
+            "summary": "Other approach order book son yeah cup black assume serious away side civil act watch pretty."
+        },
+        {
+            "case_id": "C-1019",
+            "title": "Ellis vs. Schaefer-Davis",
+            "parties": [
+                "George Smith",
+                "Smith-Knight"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2023-07-08",
+            "status": "Ongoing",
+            "summary": "Letter then determine animal remember Democrat inside."
+        },
+        {
+            "case_id": "C-1020",
+            "title": "Harris vs. Martinez-Anderson",
+            "parties": [
+                "Brittany Coleman",
+                "Gonzalez, Daniels and Logan"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2023-12-30",
+            "status": "Ongoing",
+            "summary": "You town no only article success scientist later include Republican hour thousand gas force."
+        },
+        {
+            "case_id": "C-1021",
+            "title": "Sutton vs. Park-Rios",
+            "parties": [
+                "Samuel Davis",
+                "Solis-Morris"
+            ],
+            "case_type": "Property",
+            "filed_date": "2024-01-26",
+            "status": "Dismissed",
+            "summary": "Include organization whole difference even sell field later strategy nice."
+        },
+        {
+            "case_id": "C-1022",
+            "title": "Young vs. Wilson Ltd",
+            "parties": [
+                "Jonathan Colon",
+                "Williams Ltd"
+            ],
+            "case_type": "Intellectual Property",
+            "filed_date": "2023-10-16",
+            "status": "Ongoing",
+            "summary": "Despite build detail early environment by about firm you certain technology election firm top."
+        },
+        {
+            "case_id": "C-1023",
+            "title": "Freeman vs. Hubbard Inc",
+            "parties": [
+                "Kaitlyn Long",
+                "Sims-Owens"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2023-08-07",
+            "status": "Dismissed",
+            "summary": "Statement quite perform win world pattern forward conference guy leg."
+        },
+        {
+            "case_id": "C-1024",
+            "title": "Berg vs. Moore Ltd",
+            "parties": [
+                "Tony Diaz",
+                "Martinez and Sons"
+            ],
+            "case_type": "Family",
+            "filed_date": "2023-05-21",
+            "status": "Dismissed",
+            "summary": "Exist smile increase rest condition music increase goal child behind carry."
+        },
+        {
+            "case_id": "C-1025",
+            "title": "Zamora vs. Shea, Hart and Chung",
+            "parties": [
+                "Jennifer Smith",
+                "Cross, Reese and Campbell"
+            ],
+            "case_type": "Criminal",
+            "filed_date": "2024-10-22",
+            "status": "Pending",
+            "summary": "Go sit stand worker add well newspaper large reason dog through both."
+        },
+        {
+            "case_id": "C-1026",
+            "title": "Brady vs. Johnson PLC",
+            "parties": [
+                "Richard Spencer",
+                "Rivera Group"
+            ],
+            "case_type": "Tax",
+            "filed_date": "2022-09-17",
+            "status": "Closed",
+            "summary": "Prove generation wait simple inside shoulder around history name role impact music Mrs example bad clearly."
+        },
+        {
+            "case_id": "C-1027",
+            "title": "Adams vs. Nguyen Group",
+            "parties": [
+                "Darlene Mitchell",
+                "Grimes LLC"
+            ],
+            "case_type": "Intellectual Property",
+            "filed_date": "2025-07-31",
+            "status": "Ongoing",
+            "summary": "Kid party news stop rather middle similar tax source plan performance especially fire through."
+        },
+        {
+            "case_id": "C-1028",
+            "title": "Morales vs. Dennis Inc",
+            "parties": [
+                "Tonya Lee",
+                "Nichols Group"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2025-08-04",
+            "status": "Ongoing",
+            "summary": "Happy miss keep tax space life card laugh arrive loss."
+        },
+        {
+            "case_id": "C-1029",
+            "title": "Mitchell vs. Jackson Group",
+            "parties": [
+                "Kayla Garcia",
+                "Hammond, Ali and Nelson"
+            ],
+            "case_type": "Family",
+            "filed_date": "2022-11-04",
+            "status": "Appealed",
+            "summary": "Today once than shoulder federal go recent school avoid arrive."
+        },
+        {
+            "case_id": "C-1030",
+            "title": "Smith vs. Alvarez, Wiley and Rowland",
+            "parties": [
+                "Todd Bennett",
+                "Parker PLC"
+            ],
+            "case_type": "Family",
+            "filed_date": "2023-02-20",
+            "status": "Ongoing",
+            "summary": "Generation structure coach wait simple others trip alone possible single scientist stage attention camera fine write."
+        },
+        {
+            "case_id": "C-1031",
+            "title": "Bailey vs. Banks Group",
+            "parties": [
+                "Barry Chambers",
+                "Hatfield-Hart"
+            ],
+            "case_type": "Intellectual Property",
+            "filed_date": "2023-01-30",
+            "status": "Closed",
+            "summary": "Exist my suggest themselves goal agree size black perhaps provide go."
+        },
+        {
+            "case_id": "C-1032",
+            "title": "Rivera vs. Barron, Miller and Rodriguez",
+            "parties": [
+                "Joseph Kirk",
+                "Bass Group"
+            ],
+            "case_type": "Intellectual Property",
+            "filed_date": "2022-09-19",
+            "status": "Pending",
+            "summary": "Single there best list central Republican prepare bank hair quickly dog someone live could."
+        },
+        {
+            "case_id": "C-1033",
+            "title": "Elliott vs. Powell and Sons",
+            "parties": [
+                "Luis Morris",
+                "Reynolds, Santos and Wallace"
+            ],
+            "case_type": "Criminal",
+            "filed_date": "2024-11-20",
+            "status": "Ongoing",
+            "summary": "Purpose cultural law card yard forward physical set herself walk indeed."
+        },
+        {
+            "case_id": "C-1034",
+            "title": "Patel vs. Robles, Carlson and Beard",
+            "parties": [
+                "Wesley May",
+                "Brady Inc"
+            ],
+            "case_type": "Property",
+            "filed_date": "2024-10-09",
+            "status": "Pending",
+            "summary": "Then pull hit spend civil front also rule fact a imagine."
+        },
+        {
+            "case_id": "C-1035",
+            "title": "Williams vs. Olsen and Sons",
+            "parties": [
+                "Suzanne Robinson",
+                "Bates, Sutton and Gonzalez"
+            ],
+            "case_type": "Tax",
+            "filed_date": "2024-04-17",
+            "status": "Ongoing",
+            "summary": "Amount several kid race how drug most next about."
+        },
+        {
+            "case_id": "C-1036",
+            "title": "Brooks vs. Flores and Sons",
+            "parties": [
+                "William Crane",
+                "Young-Simmons"
+            ],
+            "case_type": "Civil",
+            "filed_date": "2025-06-11",
+            "status": "Closed",
+            "summary": "Month until gas seem north mother ready."
+        },
+        {
+            "case_id": "C-1037",
+            "title": "Guerrero vs. Clayton, Nolan and Watson",
+            "parties": [
+                "Gabriel Aguilar",
+                "Gallagher-Howell"
+            ],
+            "case_type": "Civil",
+            "filed_date": "2023-01-30",
+            "status": "Dismissed",
+            "summary": "Almost stand former various item thank strong kitchen result face tell statement image beyond."
+        },
+        {
+            "case_id": "C-1038",
+            "title": "Adams vs. Bennett Group",
+            "parties": [
+                "Angel Long",
+                "Ward-Guzman"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2024-03-02",
+            "status": "Ongoing",
+            "summary": "Require rather game them attention after most certainly likely decide best office positive start."
+        },
+        {
+            "case_id": "C-1039",
+            "title": "Beltran vs. Brooks, Clark and Vaughn",
+            "parties": [
+                "Anthony George",
+                "Osborn, Rodriguez and Jackson"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2024-08-10",
+            "status": "Dismissed",
+            "summary": "Spring field commercial want pick hand few rather newspaper sound put learn defense note fill cup."
+        },
+        {
+            "case_id": "C-1040",
+            "title": "Mayo vs. Dominguez, Davis and Chambers",
+            "parties": [
+                "Kyle Gonzalez",
+                "Jones, Mendoza and Jimenez"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2022-12-30",
+            "status": "Closed",
+            "summary": "Red happen future there politics lay until."
+        },
+        {
+            "case_id": "C-1041",
+            "title": "Wheeler vs. Armstrong, Soto and Newton",
+            "parties": [
+                "Jeff Tucker",
+                "Miranda, Cardenas and Solomon"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2025-02-18",
+            "status": "Closed",
+            "summary": "Life customer several benefit modern music already scene worry office step city prevent gas point."
+        },
+        {
+            "case_id": "C-1042",
+            "title": "Stanley vs. Clark-Maldonado",
+            "parties": [
+                "Elizabeth Anderson",
+                "Santos, Cabrera and Duncan"
+            ],
+            "case_type": "Family",
+            "filed_date": "2024-12-30",
+            "status": "Closed",
+            "summary": "Half until suddenly practice trial right front treat return money memory opportunity story society surface baby."
+        },
+        {
+            "case_id": "C-1043",
+            "title": "Miller vs. Nguyen PLC",
+            "parties": [
+                "Candice Haynes",
+                "Johnson-Wilson"
+            ],
+            "case_type": "Corporate",
+            "filed_date": "2025-02-28",
+            "status": "Closed",
+            "summary": "East and street model two have everybody out interest black company clear friend American try."
+        },
+        {
+            "case_id": "C-1044",
+            "title": "Cook vs. Martinez-Hawkins",
+            "parties": [
+                "Ashley Perez",
+                "Wheeler-Christensen"
+            ],
+            "case_type": "Civil",
+            "filed_date": "2023-07-26",
+            "status": "Pending",
+            "summary": "Away certainly effort life game traditional money."
+        },
+        {
+            "case_id": "C-1045",
+            "title": "Ross vs. Diaz, Hammond and Francis",
+            "parties": [
+                "Miss Nancy Morris DVM",
+                "Holland LLC"
+            ],
+            "case_type": "Family",
+            "filed_date": "2025-01-04",
+            "status": "Dismissed",
+            "summary": "Color avoid soldier bill on speak worry shoulder rather brother along pick stand plan."
+        },
+        {
+            "case_id": "C-1046",
+            "title": "Gilbert vs. Holloway Ltd",
+            "parties": [
+                "Heather Clarke",
+                "Smith, Davis and Brown"
+            ],
+            "case_type": "Civil",
+            "filed_date": "2025-01-02",
+            "status": "Ongoing",
+            "summary": "Office heart also turn next Republican government movement cause so."
+        },
+        {
+            "case_id": "C-1047",
+            "title": "Meyer vs. Wilkerson, Gillespie and Bowers",
+            "parties": [
+                "Michael Marsh",
+                "Roberts Ltd"
+            ],
+            "case_type": "Tax",
+            "filed_date": "2024-10-06",
+            "status": "Dismissed",
+            "summary": "Fill return decade possible control child of two."
+        },
+        {
+            "case_id": "C-1048",
+            "title": "Smith vs. Reeves-Johnson",
+            "parties": [
+                "James Berg",
+                "Cortez, Horton and Levy"
+            ],
+            "case_type": "Tax",
+            "filed_date": "2025-06-02",
+            "status": "Ongoing",
+            "summary": "Outside scene gas follow several current evening measure."
+        },
+        {
+            "case_id": "C-1049",
+            "title": "Lopez vs. Garrison-Armstrong",
+            "parties": [
+                "Rachel Gomez",
+                "Fuller, Rogers and Strickland"
+            ],
+            "case_type": "Family",
+            "filed_date": "2022-11-12",
+            "status": "Dismissed",
+            "summary": "Responsibility successful inside tree stay amount painting beat."
+        },
+        {
+            "case_id": "C-1050",
+            "title": "Pena vs. Li, Lee and Henderson",
+            "parties": [
+                "Dennis Nguyen",
+                "Rogers-Adams"
+            ],
+            "case_type": "Labor",
+            "filed_date": "2023-12-22",
+            "status": "Closed",
+            "summary": "Rock around notice before up degree send dream form."
+        }
+    ]
+}

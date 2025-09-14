@@ -1,0 +1,1702 @@
+[
+  {
+    "case_id": "CY2025-001",
+    "parties": "Rahul Joshi vs Individual User",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Awaiting forensic report",
+    "filing_date": "2024-08-12",
+    "next_hearing": "2025-03-31",
+    "summary": "Auto-generated cybercrime case CY2025-001: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-001_fir.pdf",
+      "cy2025-001_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-002",
+    "parties": "Deepa Gupta vs Healthcare Provider",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Trial ongoing",
+    "filing_date": "2023-03-26",
+    "next_hearing": "2023-05-11",
+    "summary": "Auto-generated cybercrime case CY2025-002: concerning cryptojacking. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-002_fir.pdf",
+      "cy2025-002_forensics.zip"
+    ],
+    "tags": [
+      "cryptojacking"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-003",
+    "parties": "Amit Iyer vs E-commerce Platform",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Evidence collection",
+    "filing_date": "2022-12-03",
+    "next_hearing": "2023-09-05",
+    "summary": "Auto-generated cybercrime case CY2025-003: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-003_fir.pdf",
+      "cy2025-003_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-004",
+    "parties": "Amit Iyer vs Banking Customer",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Charge sheet filed",
+    "filing_date": "2021-08-30",
+    "next_hearing": "2022-04-03",
+    "summary": "Auto-generated cybercrime case CY2025-004: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-004_fir.pdf",
+      "cy2025-004_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-005",
+    "parties": "Karan Singh vs Banking Customer",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Bail hearing",
+    "filing_date": "2025-03-22",
+    "next_hearing": "2025-12-30",
+    "summary": "Auto-generated cybercrime case CY2025-005: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-005_fir.pdf",
+      "cy2025-005_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-006",
+    "parties": "Karan Gupta vs Healthcare Provider",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Bail hearing",
+    "filing_date": "2024-04-03",
+    "next_hearing": "2024-11-18",
+    "summary": "Auto-generated cybercrime case CY2025-006: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-006_fir.pdf",
+      "cy2025-006_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-007",
+    "parties": "Vikram Joshi vs Banking Customer",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Awaiting forensic report",
+    "filing_date": "2024-12-25",
+    "next_hearing": "2025-04-07",
+    "summary": "Auto-generated cybercrime case CY2025-007: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-007_fir.pdf",
+      "cy2025-007_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-008",
+    "parties": "Amit Mehta vs Healthcare Provider",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Under investigation",
+    "filing_date": "2021-08-19",
+    "next_hearing": "2022-02-04",
+    "summary": "Auto-generated cybercrime case CY2025-008: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-008_fir.pdf",
+      "cy2025-008_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-009",
+    "parties": "Vikram Reddy vs Crypto Exchange",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Awaiting forensic report",
+    "filing_date": "2022-12-03",
+    "next_hearing": "2023-01-06",
+    "summary": "Auto-generated cybercrime case CY2025-009: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-009_fir.pdf",
+      "cy2025-009_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-010",
+    "parties": "Sneha Rao vs Healthcare Provider",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Charge sheet filed",
+    "filing_date": "2025-04-28",
+    "next_hearing": "2026-01-04",
+    "summary": "Auto-generated cybercrime case CY2025-010: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-010_fir.pdf",
+      "cy2025-010_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-011",
+    "parties": "Karan Patel vs E-commerce Platform",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Bail hearing",
+    "filing_date": "2021-08-14",
+    "next_hearing": "2022-07-10",
+    "summary": "Auto-generated cybercrime case CY2025-011: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-011_fir.pdf",
+      "cy2025-011_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-012",
+    "parties": "Sneha Khan vs E-commerce Platform",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Under investigation",
+    "filing_date": "2020-06-19",
+    "next_hearing": "2021-02-14",
+    "summary": "Auto-generated cybercrime case CY2025-012: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-012_fir.pdf",
+      "cy2025-012_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-013",
+    "parties": "Karan Mehta vs Crypto Exchange",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Charge sheet filed",
+    "filing_date": "2025-03-25",
+    "next_hearing": "2025-04-20",
+    "summary": "Auto-generated cybercrime case CY2025-013: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-013_fir.pdf",
+      "cy2025-013_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-014",
+    "parties": "Arjun Reddy vs Individual User",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Under investigation",
+    "filing_date": "2024-08-22",
+    "next_hearing": "2025-03-13",
+    "summary": "Auto-generated cybercrime case CY2025-014: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-014_fir.pdf",
+      "cy2025-014_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-015",
+    "parties": "Karan Iyer vs Government Portal",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Trial ongoing",
+    "filing_date": "2024-11-23",
+    "next_hearing": "2025-10-23",
+    "summary": "Auto-generated cybercrime case CY2025-015: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-015_fir.pdf",
+      "cy2025-015_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-016",
+    "parties": "Amit Khan vs Healthcare Provider",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Evidence collection",
+    "filing_date": "2022-05-12",
+    "next_hearing": "2023-04-11",
+    "summary": "Auto-generated cybercrime case CY2025-016: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-016_fir.pdf",
+      "cy2025-016_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-017",
+    "parties": "Arjun Joshi vs Government Portal",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Bail hearing",
+    "filing_date": "2024-05-03",
+    "next_hearing": "2025-02-16",
+    "summary": "Auto-generated cybercrime case CY2025-017: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-017_fir.pdf",
+      "cy2025-017_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-018",
+    "parties": "Arjun Iyer vs E-commerce Platform",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Trial ongoing",
+    "filing_date": "2024-08-27",
+    "next_hearing": "2025-02-17",
+    "summary": "Auto-generated cybercrime case CY2025-018: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-018_fir.pdf",
+      "cy2025-018_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-019",
+    "parties": "Sameer Reddy vs A Corporate Entity",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Awaiting forensic report",
+    "filing_date": "2023-02-17",
+    "next_hearing": "2024-01-12",
+    "summary": "Auto-generated cybercrime case CY2025-019: concerning data breach. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-019_fir.pdf",
+      "cy2025-019_forensics.zip"
+    ],
+    "tags": [
+      "data breach"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-020",
+    "parties": "Rahul Gupta vs E-commerce Platform",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Under investigation",
+    "filing_date": "2020-07-14",
+    "next_hearing": "2020-11-25",
+    "summary": "Auto-generated cybercrime case CY2025-020: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-020_fir.pdf",
+      "cy2025-020_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-021",
+    "parties": "Rahul Patel vs E-commerce Platform",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Awaiting forensic report",
+    "filing_date": "2024-06-26",
+    "next_hearing": "2025-01-18",
+    "summary": "Auto-generated cybercrime case CY2025-021: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-021_fir.pdf",
+      "cy2025-021_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-022",
+    "parties": "Rahul Iyer vs A Corporate Entity",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Charge sheet filed",
+    "filing_date": "2024-03-16",
+    "next_hearing": "2024-10-13",
+    "summary": "Auto-generated cybercrime case CY2025-022: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-022_fir.pdf",
+      "cy2025-022_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-023",
+    "parties": "Sameer Iyer vs Healthcare Provider",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Charge sheet filed",
+    "filing_date": "2023-06-11",
+    "next_hearing": "2023-07-11",
+    "summary": "Auto-generated cybercrime case CY2025-023: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-023_fir.pdf",
+      "cy2025-023_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-024",
+    "parties": "Priya Sharma vs E-commerce Platform",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Evidence collection",
+    "filing_date": "2022-08-08",
+    "next_hearing": "2023-01-19",
+    "summary": "Auto-generated cybercrime case CY2025-024: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-024_fir.pdf",
+      "cy2025-024_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-025",
+    "parties": "Neha Rao vs Individual User",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Evidence collection",
+    "filing_date": "2022-10-13",
+    "next_hearing": "2023-10-02",
+    "summary": "Auto-generated cybercrime case CY2025-025: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-025_fir.pdf",
+      "cy2025-025_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-026",
+    "parties": "Karan Khan vs Banking Customer",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Bail hearing",
+    "filing_date": "2023-12-28",
+    "next_hearing": "2024-05-08",
+    "summary": "Auto-generated cybercrime case CY2025-026: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-026_fir.pdf",
+      "cy2025-026_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-027",
+    "parties": "Karan Singh vs Educational Institute",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Trial ongoing",
+    "filing_date": "2020-10-19",
+    "next_hearing": "2021-03-03",
+    "summary": "Auto-generated cybercrime case CY2025-027: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-027_fir.pdf",
+      "cy2025-027_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-028",
+    "parties": "Rahul Iyer vs Individual User",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Evidence collection",
+    "filing_date": "2025-01-14",
+    "next_hearing": "2025-11-08",
+    "summary": "Auto-generated cybercrime case CY2025-028: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-028_fir.pdf",
+      "cy2025-028_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-029",
+    "parties": "Sameer Joshi vs Individual User",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Awaiting forensic report",
+    "filing_date": "2022-04-21",
+    "next_hearing": "2022-05-11",
+    "summary": "Auto-generated cybercrime case CY2025-029: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-029_fir.pdf",
+      "cy2025-029_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-030",
+    "parties": "Rahul Khan vs A Corporate Entity",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Under investigation",
+    "filing_date": "2025-03-14",
+    "next_hearing": "2026-03-05",
+    "summary": "Auto-generated cybercrime case CY2025-030: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-030_fir.pdf",
+      "cy2025-030_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-031",
+    "parties": "Arjun Gupta vs Educational Institute",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Bail hearing",
+    "filing_date": "2022-05-20",
+    "next_hearing": "2022-07-25",
+    "summary": "Auto-generated cybercrime case CY2025-031: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-031_fir.pdf",
+      "cy2025-031_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-032",
+    "parties": "Sameer Patel vs Crypto Exchange",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Evidence collection",
+    "filing_date": "2021-10-17",
+    "next_hearing": "2022-06-20",
+    "summary": "Auto-generated cybercrime case CY2025-032: concerning cryptojacking. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-032_fir.pdf",
+      "cy2025-032_forensics.zip"
+    ],
+    "tags": [
+      "cryptojacking"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-033",
+    "parties": "Amit Mehta vs A Corporate Entity",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Awaiting forensic report",
+    "filing_date": "2023-06-20",
+    "next_hearing": "2023-09-10",
+    "summary": "Auto-generated cybercrime case CY2025-033: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-033_fir.pdf",
+      "cy2025-033_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-034",
+    "parties": "Rahul Sharma vs Healthcare Provider",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Bail hearing",
+    "filing_date": "2023-11-29",
+    "next_hearing": "2024-04-25",
+    "summary": "Auto-generated cybercrime case CY2025-034: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-034_fir.pdf",
+      "cy2025-034_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-035",
+    "parties": "Sameer Khan vs Individual User",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Bail hearing",
+    "filing_date": "2020-10-27",
+    "next_hearing": "2021-07-04",
+    "summary": "Auto-generated cybercrime case CY2025-035: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-035_fir.pdf",
+      "cy2025-035_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-036",
+    "parties": "Neha Rao vs Banking Customer",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Bail hearing",
+    "filing_date": "2021-10-26",
+    "next_hearing": "2021-11-26",
+    "summary": "Auto-generated cybercrime case CY2025-036: concerning data breach. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-036_fir.pdf",
+      "cy2025-036_forensics.zip"
+    ],
+    "tags": [
+      "data breach"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-037",
+    "parties": "Amit Singh vs Banking Customer",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Awaiting forensic report",
+    "filing_date": "2023-06-21",
+    "next_hearing": "2023-06-28",
+    "summary": "Auto-generated cybercrime case CY2025-037: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-037_fir.pdf",
+      "cy2025-037_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-038",
+    "parties": "Arjun Iyer vs Banking Customer",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Bail hearing",
+    "filing_date": "2022-12-13",
+    "next_hearing": "2023-06-14",
+    "summary": "Auto-generated cybercrime case CY2025-038: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-038_fir.pdf",
+      "cy2025-038_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-039",
+    "parties": "Vikram Gupta vs E-commerce Platform",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Trial ongoing",
+    "filing_date": "2023-06-01",
+    "next_hearing": "2024-04-02",
+    "summary": "Auto-generated cybercrime case CY2025-039: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-039_fir.pdf",
+      "cy2025-039_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-040",
+    "parties": "Neha Mehta vs Individual User",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Trial ongoing",
+    "filing_date": "2025-07-10",
+    "next_hearing": "2026-04-15",
+    "summary": "Auto-generated cybercrime case CY2025-040: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-040_fir.pdf",
+      "cy2025-040_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-041",
+    "parties": "Sameer Gupta vs A Corporate Entity",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Awaiting forensic report",
+    "filing_date": "2022-03-29",
+    "next_hearing": "2022-12-01",
+    "summary": "Auto-generated cybercrime case CY2025-041: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-041_fir.pdf",
+      "cy2025-041_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-042",
+    "parties": "Priya Gupta vs Individual User",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Awaiting forensic report",
+    "filing_date": "2024-07-13",
+    "next_hearing": "2024-11-02",
+    "summary": "Auto-generated cybercrime case CY2025-042: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-042_fir.pdf",
+      "cy2025-042_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-043",
+    "parties": "Vikram Gupta vs E-commerce Platform",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Under investigation",
+    "filing_date": "2021-01-08",
+    "next_hearing": "2021-06-19",
+    "summary": "Auto-generated cybercrime case CY2025-043: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-043_fir.pdf",
+      "cy2025-043_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-044",
+    "parties": "Arjun Sharma vs Educational Institute",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Under investigation",
+    "filing_date": "2023-04-07",
+    "next_hearing": "2023-11-30",
+    "summary": "Auto-generated cybercrime case CY2025-044: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-044_fir.pdf",
+      "cy2025-044_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-045",
+    "parties": "Deepa Singh vs A Corporate Entity",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Charge sheet filed",
+    "filing_date": "2021-03-21",
+    "next_hearing": "2021-10-27",
+    "summary": "Auto-generated cybercrime case CY2025-045: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-045_fir.pdf",
+      "cy2025-045_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-046",
+    "parties": "Vikram Mehta vs Banking Customer",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Awaiting forensic report",
+    "filing_date": "2021-06-30",
+    "next_hearing": "2021-07-16",
+    "summary": "Auto-generated cybercrime case CY2025-046: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-046_fir.pdf",
+      "cy2025-046_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-047",
+    "parties": "Arjun Joshi vs Banking Customer",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Under investigation",
+    "filing_date": "2025-01-14",
+    "next_hearing": "2025-08-02",
+    "summary": "Auto-generated cybercrime case CY2025-047: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-047_fir.pdf",
+      "cy2025-047_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-048",
+    "parties": "Amit Mehta vs A Corporate Entity",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Trial ongoing",
+    "filing_date": "2022-02-28",
+    "next_hearing": "2023-01-26",
+    "summary": "Auto-generated cybercrime case CY2025-048: concerning cryptojacking. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-048_fir.pdf",
+      "cy2025-048_forensics.zip"
+    ],
+    "tags": [
+      "cryptojacking"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-049",
+    "parties": "Deepa Gupta vs Educational Institute",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Awaiting forensic report",
+    "filing_date": "2025-05-24",
+    "next_hearing": "2026-01-20",
+    "summary": "Auto-generated cybercrime case CY2025-049: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-049_fir.pdf",
+      "cy2025-049_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-050",
+    "parties": "Amit Joshi vs Banking Customer",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Evidence collection",
+    "filing_date": "2020-10-17",
+    "next_hearing": "2021-07-23",
+    "summary": "Auto-generated cybercrime case CY2025-050: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-050_fir.pdf",
+      "cy2025-050_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-051",
+    "parties": "Neha Gupta vs Individual User",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Charge sheet filed",
+    "filing_date": "2025-05-31",
+    "next_hearing": "2026-02-04",
+    "summary": "Auto-generated cybercrime case CY2025-051: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-051_fir.pdf",
+      "cy2025-051_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-052",
+    "parties": "Neha Singh vs Educational Institute",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Charge sheet filed",
+    "filing_date": "2023-11-11",
+    "next_hearing": "2024-09-19",
+    "summary": "Auto-generated cybercrime case CY2025-052: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-052_fir.pdf",
+      "cy2025-052_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-053",
+    "parties": "Deepa Mehta vs Government Portal",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Evidence collection",
+    "filing_date": "2021-04-25",
+    "next_hearing": "2021-11-29",
+    "summary": "Auto-generated cybercrime case CY2025-053: concerning data breach. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-053_fir.pdf",
+      "cy2025-053_forensics.zip"
+    ],
+    "tags": [
+      "data breach"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-054",
+    "parties": "Arjun Singh vs E-commerce Platform",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Charge sheet filed",
+    "filing_date": "2024-09-15",
+    "next_hearing": "2025-09-07",
+    "summary": "Auto-generated cybercrime case CY2025-054: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-054_fir.pdf",
+      "cy2025-054_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-055",
+    "parties": "Deepa Reddy vs Healthcare Provider",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Charge sheet filed",
+    "filing_date": "2023-09-11",
+    "next_hearing": "2024-08-20",
+    "summary": "Auto-generated cybercrime case CY2025-055: concerning cryptojacking. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-055_fir.pdf",
+      "cy2025-055_forensics.zip"
+    ],
+    "tags": [
+      "cryptojacking"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-056",
+    "parties": "Arjun Reddy vs Educational Institute",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Awaiting forensic report",
+    "filing_date": "2022-09-02",
+    "next_hearing": "2022-12-04",
+    "summary": "Auto-generated cybercrime case CY2025-056: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-056_fir.pdf",
+      "cy2025-056_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-057",
+    "parties": "Deepa Mehta vs Healthcare Provider",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Charge sheet filed",
+    "filing_date": "2023-03-30",
+    "next_hearing": "2023-05-18",
+    "summary": "Auto-generated cybercrime case CY2025-057: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-057_fir.pdf",
+      "cy2025-057_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-058",
+    "parties": "Sneha Singh vs Healthcare Provider",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Evidence collection",
+    "filing_date": "2020-12-08",
+    "next_hearing": "2021-04-17",
+    "summary": "Auto-generated cybercrime case CY2025-058: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-058_fir.pdf",
+      "cy2025-058_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-059",
+    "parties": "Amit Patel vs Healthcare Provider",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Under investigation",
+    "filing_date": "2020-08-27",
+    "next_hearing": "2021-02-05",
+    "summary": "Auto-generated cybercrime case CY2025-059: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-059_fir.pdf",
+      "cy2025-059_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-060",
+    "parties": "Sneha Sharma vs Crypto Exchange",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Under investigation",
+    "filing_date": "2020-03-12",
+    "next_hearing": "2020-06-16",
+    "summary": "Auto-generated cybercrime case CY2025-060: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-060_fir.pdf",
+      "cy2025-060_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-061",
+    "parties": "Neha Khan vs Crypto Exchange",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Charge sheet filed",
+    "filing_date": "2024-09-01",
+    "next_hearing": "2025-08-22",
+    "summary": "Auto-generated cybercrime case CY2025-061: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-061_fir.pdf",
+      "cy2025-061_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-062",
+    "parties": "Sameer Sharma vs Individual User",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Evidence collection",
+    "filing_date": "2023-11-26",
+    "next_hearing": "2024-04-13",
+    "summary": "Auto-generated cybercrime case CY2025-062: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-062_fir.pdf",
+      "cy2025-062_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-063",
+    "parties": "Priya Reddy vs A Corporate Entity",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Bail hearing",
+    "filing_date": "2025-08-19",
+    "next_hearing": "2025-12-09",
+    "summary": "Auto-generated cybercrime case CY2025-063: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-063_fir.pdf",
+      "cy2025-063_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-064",
+    "parties": "Deepa Sharma vs Banking Customer",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Trial ongoing",
+    "filing_date": "2022-12-13",
+    "next_hearing": "2023-06-10",
+    "summary": "Auto-generated cybercrime case CY2025-064: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-064_fir.pdf",
+      "cy2025-064_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-065",
+    "parties": "Arjun Sharma vs Individual User",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Charge sheet filed",
+    "filing_date": "2022-06-27",
+    "next_hearing": "2023-02-10",
+    "summary": "Auto-generated cybercrime case CY2025-065: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-065_fir.pdf",
+      "cy2025-065_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-066",
+    "parties": "Neha Singh vs Government Portal",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Evidence collection",
+    "filing_date": "2021-06-08",
+    "next_hearing": "2022-04-18",
+    "summary": "Auto-generated cybercrime case CY2025-066: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-066_fir.pdf",
+      "cy2025-066_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-067",
+    "parties": "Rahul Mehta vs Crypto Exchange",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Charge sheet filed",
+    "filing_date": "2021-10-19",
+    "next_hearing": "2022-10-06",
+    "summary": "Auto-generated cybercrime case CY2025-067: concerning data breach. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-067_fir.pdf",
+      "cy2025-067_forensics.zip"
+    ],
+    "tags": [
+      "data breach"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-068",
+    "parties": "Neha Iyer vs Healthcare Provider",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Charge sheet filed",
+    "filing_date": "2020-04-07",
+    "next_hearing": "2020-11-04",
+    "summary": "Auto-generated cybercrime case CY2025-068: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-068_fir.pdf",
+      "cy2025-068_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-069",
+    "parties": "Arjun Patel vs Healthcare Provider",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Trial ongoing",
+    "filing_date": "2020-08-06",
+    "next_hearing": "2021-04-19",
+    "summary": "Auto-generated cybercrime case CY2025-069: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-069_fir.pdf",
+      "cy2025-069_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-070",
+    "parties": "Rahul Khan vs Healthcare Provider",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Under investigation",
+    "filing_date": "2021-10-09",
+    "next_hearing": "2022-03-31",
+    "summary": "Auto-generated cybercrime case CY2025-070: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-070_fir.pdf",
+      "cy2025-070_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-071",
+    "parties": "Karan Joshi vs A Corporate Entity",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Bail hearing",
+    "filing_date": "2021-05-21",
+    "next_hearing": "2021-08-27",
+    "summary": "Auto-generated cybercrime case CY2025-071: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-071_fir.pdf",
+      "cy2025-071_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-072",
+    "parties": "Karan Sharma vs Banking Customer",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Trial ongoing",
+    "filing_date": "2023-08-29",
+    "next_hearing": "2023-10-10",
+    "summary": "Auto-generated cybercrime case CY2025-072: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-072_fir.pdf",
+      "cy2025-072_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-073",
+    "parties": "Neha Joshi vs Crypto Exchange",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Bail hearing",
+    "filing_date": "2020-04-03",
+    "next_hearing": "2021-03-25",
+    "summary": "Auto-generated cybercrime case CY2025-073: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-073_fir.pdf",
+      "cy2025-073_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-074",
+    "parties": "Karan Joshi vs Crypto Exchange",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Under investigation",
+    "filing_date": "2022-11-01",
+    "next_hearing": "2023-01-14",
+    "summary": "Auto-generated cybercrime case CY2025-074: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-074_fir.pdf",
+      "cy2025-074_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-075",
+    "parties": "Arjun Patel vs Banking Customer",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Trial ongoing",
+    "filing_date": "2023-03-10",
+    "next_hearing": "2023-12-16",
+    "summary": "Auto-generated cybercrime case CY2025-075: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-075_fir.pdf",
+      "cy2025-075_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-076",
+    "parties": "Vikram Singh vs Crypto Exchange",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Bail hearing",
+    "filing_date": "2025-03-18",
+    "next_hearing": "2026-02-13",
+    "summary": "Auto-generated cybercrime case CY2025-076: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-076_fir.pdf",
+      "cy2025-076_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-077",
+    "parties": "Karan Khan vs Government Portal",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Trial ongoing",
+    "filing_date": "2020-12-05",
+    "next_hearing": "2021-06-04",
+    "summary": "Auto-generated cybercrime case CY2025-077: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-077_fir.pdf",
+      "cy2025-077_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-078",
+    "parties": "Priya Mehta vs Individual User",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Evidence collection",
+    "filing_date": "2024-12-24",
+    "next_hearing": "2025-02-23",
+    "summary": "Auto-generated cybercrime case CY2025-078: concerning data breach. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-078_fir.pdf",
+      "cy2025-078_forensics.zip"
+    ],
+    "tags": [
+      "data breach"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-079",
+    "parties": "Rahul Joshi vs Healthcare Provider",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Charge sheet filed",
+    "filing_date": "2021-05-03",
+    "next_hearing": "2021-10-31",
+    "summary": "Auto-generated cybercrime case CY2025-079: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-079_fir.pdf",
+      "cy2025-079_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-080",
+    "parties": "Arjun Reddy vs Educational Institute",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Under investigation",
+    "filing_date": "2021-01-25",
+    "next_hearing": "2021-04-19",
+    "summary": "Auto-generated cybercrime case CY2025-080: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-080_fir.pdf",
+      "cy2025-080_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-081",
+    "parties": "Sneha Joshi vs Educational Institute",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Evidence collection",
+    "filing_date": "2023-10-03",
+    "next_hearing": "2024-03-10",
+    "summary": "Auto-generated cybercrime case CY2025-081: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-081_fir.pdf",
+      "cy2025-081_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-082",
+    "parties": "Arjun Joshi vs Crypto Exchange",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Evidence collection",
+    "filing_date": "2020-08-27",
+    "next_hearing": "2021-03-30",
+    "summary": "Auto-generated cybercrime case CY2025-082: concerning ransomware. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-082_fir.pdf",
+      "cy2025-082_forensics.zip"
+    ],
+    "tags": [
+      "ransomware"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-083",
+    "parties": "Vikram Khan vs A Corporate Entity",
+    "court": "Sessions Court, Bengaluru (Cyber Desk)",
+    "status": "Evidence collection",
+    "filing_date": "2024-11-19",
+    "next_hearing": "2025-03-01",
+    "summary": "Auto-generated cybercrime case CY2025-083: concerning cryptojacking. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-083_fir.pdf",
+      "cy2025-083_forensics.zip"
+    ],
+    "tags": [
+      "cryptojacking"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-084",
+    "parties": "Karan Iyer vs Educational Institute",
+    "court": "Cyber Tribunal, Pune",
+    "status": "Awaiting forensic report",
+    "filing_date": "2024-02-25",
+    "next_hearing": "2024-04-29",
+    "summary": "Auto-generated cybercrime case CY2025-084: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-084_fir.pdf",
+      "cy2025-084_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-085",
+    "parties": "Sameer Iyer vs Government Portal",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Bail hearing",
+    "filing_date": "2025-06-17",
+    "next_hearing": "2026-05-09",
+    "summary": "Auto-generated cybercrime case CY2025-085: concerning cryptojacking. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-085_fir.pdf",
+      "cy2025-085_forensics.zip"
+    ],
+    "tags": [
+      "cryptojacking"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-086",
+    "parties": "Vikram Gupta vs Healthcare Provider",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Evidence collection",
+    "filing_date": "2020-02-12",
+    "next_hearing": "2020-09-06",
+    "summary": "Auto-generated cybercrime case CY2025-086: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-086_fir.pdf",
+      "cy2025-086_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-087",
+    "parties": "Sameer Patel vs A Corporate Entity",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Awaiting forensic report",
+    "filing_date": "2021-12-01",
+    "next_hearing": "2022-04-02",
+    "summary": "Auto-generated cybercrime case CY2025-087: concerning cryptojacking. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-087_fir.pdf",
+      "cy2025-087_forensics.zip"
+    ],
+    "tags": [
+      "cryptojacking"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-088",
+    "parties": "Rahul Rao vs Banking Customer",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Bail hearing",
+    "filing_date": "2025-04-09",
+    "next_hearing": "2025-09-24",
+    "summary": "Auto-generated cybercrime case CY2025-088: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-088_fir.pdf",
+      "cy2025-088_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-089",
+    "parties": "Neha Gupta vs Government Portal",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Charge sheet filed",
+    "filing_date": "2022-12-22",
+    "next_hearing": "2023-08-11",
+    "summary": "Auto-generated cybercrime case CY2025-089: concerning data breach. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-089_fir.pdf",
+      "cy2025-089_forensics.zip"
+    ],
+    "tags": [
+      "data breach"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-090",
+    "parties": "Neha Patel vs Educational Institute",
+    "court": "Cyber Appellate Bench, Jaipur",
+    "status": "Under investigation",
+    "filing_date": "2020-01-06",
+    "next_hearing": "2020-05-03",
+    "summary": "Auto-generated cybercrime case CY2025-090: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-090_fir.pdf",
+      "cy2025-090_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-091",
+    "parties": "Priya Sharma vs Educational Institute",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Under investigation",
+    "filing_date": "2020-12-23",
+    "next_hearing": "2021-04-19",
+    "summary": "Auto-generated cybercrime case CY2025-091: concerning identity theft. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-091_fir.pdf",
+      "cy2025-091_forensics.zip"
+    ],
+    "tags": [
+      "identity theft"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "CY2025-092",
+    "parties": "Arjun Patel vs E-commerce Platform",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Charge sheet filed",
+    "filing_date": "2025-07-27",
+    "next_hearing": "2026-02-23",
+    "summary": "Auto-generated cybercrime case CY2025-092: concerning malware distribution. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-092_fir.pdf",
+      "cy2025-092_forensics.zip"
+    ],
+    "tags": [
+      "malware distribution"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "CY2025-093",
+    "parties": "Vikram Sharma vs Healthcare Provider",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Awaiting forensic report",
+    "filing_date": "2022-03-07",
+    "next_hearing": "2022-08-16",
+    "summary": "Auto-generated cybercrime case CY2025-093: concerning credential stuffing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-093_fir.pdf",
+      "cy2025-093_forensics.zip"
+    ],
+    "tags": [
+      "credential stuffing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-094",
+    "parties": "Neha Gupta vs Crypto Exchange",
+    "court": "Special Cyber Court, Hyderabad",
+    "status": "Trial ongoing",
+    "filing_date": "2024-08-05",
+    "next_hearing": "2024-10-06",
+    "summary": "Auto-generated cybercrime case CY2025-094: concerning social engineering. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-094_fir.pdf",
+      "cy2025-094_forensics.zip"
+    ],
+    "tags": [
+      "social engineering"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-095",
+    "parties": "Neha Khan vs Healthcare Provider",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Under investigation",
+    "filing_date": "2024-02-15",
+    "next_hearing": "2024-06-27",
+    "summary": "Auto-generated cybercrime case CY2025-095: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-095_fir.pdf",
+      "cy2025-095_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-096",
+    "parties": "Amit Reddy vs Individual User",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Under investigation",
+    "filing_date": "2023-06-13",
+    "next_hearing": "2024-03-14",
+    "summary": "Auto-generated cybercrime case CY2025-096: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-096_fir.pdf",
+      "cy2025-096_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-097",
+    "parties": "Sneha Sharma vs Government Portal",
+    "court": "Cyber Crime Cell, Mumbai",
+    "status": "Bail hearing",
+    "filing_date": "2021-03-03",
+    "next_hearing": "2021-04-19",
+    "summary": "Auto-generated cybercrime case CY2025-097: concerning online fraud. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-097_fir.pdf",
+      "cy2025-097_forensics.zip"
+    ],
+    "tags": [
+      "online fraud"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-098",
+    "parties": "Vikram Iyer vs A Corporate Entity",
+    "court": "Sessions Court, Kolkata (Cyber Unit)",
+    "status": "Trial ongoing",
+    "filing_date": "2022-09-18",
+    "next_hearing": "2022-10-10",
+    "summary": "Auto-generated cybercrime case CY2025-098: concerning ddos attack. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-098_fir.pdf",
+      "cy2025-098_forensics.zip"
+    ],
+    "tags": [
+      "ddos attack"
+    ],
+    "priority": "Critical"
+  },
+  {
+    "case_id": "CY2025-099",
+    "parties": "Sameer Reddy vs Crypto Exchange",
+    "court": "Cyber Crime Annex, Chennai",
+    "status": "Under investigation",
+    "filing_date": "2025-03-18",
+    "next_hearing": "2026-01-02",
+    "summary": "Auto-generated cybercrime case CY2025-099: concerning data breach. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-099_fir.pdf",
+      "cy2025-099_forensics.zip"
+    ],
+    "tags": [
+      "data breach"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "CY2025-100",
+    "parties": "Vikram Khan vs E-commerce Platform",
+    "court": "Cyber Crime Cell, Delhi",
+    "status": "Evidence collection",
+    "filing_date": "2024-07-30",
+    "next_hearing": "2024-10-30",
+    "summary": "Auto-generated cybercrime case CY2025-100: concerning phishing. Court proceedings ongoing.",
+    "documents": [
+      "cy2025-100_fir.pdf",
+      "cy2025-100_forensics.zip"
+    ],
+    "tags": [
+      "phishing"
+    ],
+    "priority": "High"
+  }
+]

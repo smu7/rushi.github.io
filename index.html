@@ -1,0 +1,2595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAC - Legal AI Chat Bot</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #e8f5e8 0%, #f0f8ff 25%, #f5f0ff 50%, #fff0f5 75%, #f0fff0 100%);
+    background-size: 300% 300%;
+    animation: gentleGradientFlow 20s ease infinite;
+    color: #2d3748;
+    transition: all 0.4s ease;
+    overflow-x: hidden;
+    line-height: 1.4;
+    font-size: 13px;
+    position: relative;
+  }
+  
+  @keyframes gentleGradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .dark {
+    background: linear-gradient(135deg, #1a202c 0%, #2d3748 25%, #4a5568 50%, #2c5282 75%, #3182ce 100%);
+    background-size: 300% 300%;
+    animation: gentleGradientFlowDark 20s ease infinite;
+    color: #f7fafc;
+  }
+  
+  @keyframes gentleGradientFlowDark {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Soft Animated Background Elements */
+  .bg-shapes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .shape {
+    position: absolute;
+    opacity: 0.08;
+    animation: gentleFloat 25s infinite ease-in-out;
+  }
+  
+  .shape:nth-child(1) {
+    top: 20%;
+    left: 10%;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #81c784, #aed581);
+    border-radius: 50%;
+    animation-delay: 0s;
+  }
+  
+  .shape:nth-child(2) {
+    top: 60%;
+    right: 10%;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #90caf9, #42a5f5);
+    transform: rotate(45deg);
+    animation-delay: -8s;
+  }
+  
+  .shape:nth-child(3) {
+    top: 80%;
+    left: 30%;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, #ce93d8, #ba68c8);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    animation-delay: -16s;
+  }
+  
+  @keyframes gentleFloat {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    25% { transform: translateY(-15px) rotate(5deg); }
+    50% { transform: translateY(-8px) rotate(-3deg); }
+    75% { transform: translateY(-20px) rotate(8deg); }
+  }
+  
+  /* Top Bar for Menu */
+  .top-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .dark .top-bar {
+    background: rgba(26, 32, 44, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Navigation */
+  nav {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    z-index: 1000;
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .dark nav {
+    background: rgba(26, 32, 44, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .nav-brand {
+    font-size: 1.3em;
+    font-weight: 900;
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -0.5px;
+  }
+  
+  .nav-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8em;
+    animation: logoFloat 3s ease-in-out infinite;
+    color: #4a90e2;
+    text-shadow: 0 0 10px rgba(74, 144, 226, 0.3);
+  }
+  
+  @keyframes logoFloat {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(-3px); }
+  }
+  
+  .live-clock {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.75em;
+    box-shadow: 0 2px 10px rgba(74, 144, 226, 0.2);
+  }
+  
+  .nav-controls {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+  
+  .nav-btn {
+    background: rgba(74, 144, 226, 0.15);
+    border: 1px solid rgba(74, 144, 226, 0.3);
+    color: #4a90e2;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.75em;
+  }
+  
+  .nav-btn:hover {
+    background: rgba(74, 144, 226, 0.25);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.2);
+  }
+  
+  .nav-btn.active {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
+  }
+  
+  /* Three Dots Menu */
+  .menu-toggle {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(74, 144, 226, 0.2);
+  }
+  
+  .menu-toggle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
+  }
+  
+  .side-menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 280px;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-left: 1px solid rgba(74, 144, 226, 0.2);
+    z-index: 1003;
+    transition: right 0.4s ease;
+    padding: 60px 20px 20px;
+    box-shadow: -5px 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .dark .side-menu {
+    background: rgba(45, 55, 72, 0.95);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .side-menu.open {
+    right: 0;
+  }
+  
+  .side-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1002;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .side-menu-overlay.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .menu-section {
+    margin-bottom: 25px;
+  }
+  
+  .menu-title {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #4a90e2;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .menu-item {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 10px;
+    background: rgba(74, 144, 226, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  
+  .menu-item:hover {
+    background: rgba(74, 144, 226, 0.2);
+    transform: translateX(5px);
+  }
+  
+  .language-toggle {
+    display: flex;
+    background: rgba(74, 144, 226, 0.1);
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 10px;
+  }
+  
+  .lang-btn {
+    flex: 1;
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #4a90e2;
+  }
+  
+  .lang-btn.active {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    box-shadow: 0 2px 10px rgba(74, 144, 226, 0.2);
+  }
+  
+  .theme-toggle {
+    display: flex;
+    background: rgba(74, 144, 226, 0.1);
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 10px;
+  }
+  
+  .theme-btn {
+    flex: 1;
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #4a90e2;
+  }
+  
+  .theme-btn.active {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    box-shadow: 0 2px 10px rgba(74, 144, 226, 0.2);
+  }
+  
+  /* Main Container */
+  .main-container {
+    margin-top: 100px;
+    min-height: calc(100vh - 100px);
+    position: relative;
+    z-index: 10;
+  }
+  
+  .page {
+    display: none;
+    min-height: calc(100vh - 100px);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+  }
+  
+  .page.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+    animation: pageSlideIn 0.6s ease;
+  }
+  
+  @keyframes pageSlideIn {
+    from { opacity: 0; transform: translateY(30px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  
+  /* Hero Section */
+  .hero {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px 12px;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .welcome-title {
+    font-size: 1em;
+    font-weight: 400;
+    color: #4a5568;
+    margin-bottom: 5px;
+    opacity: 0.8;
+  }
+  
+  .legal-ai-title {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 900;
+    background: linear-gradient(135deg, #4a90e2 0%, #7b68ee 50%, #4a90e2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: titleGlow 4s ease-in-out infinite;
+    margin: 8px 0 20px 0;
+    letter-spacing: -1px;
+    text-align: center;
+    position: relative;
+  }
+  
+  @keyframes titleGlow {
+    0%, 100% { filter: drop-shadow(0 0 8px rgba(74, 144, 226, 0.3)); }
+    50% { filter: drop-shadow(0 0 16px rgba(74, 144, 226, 0.5)); }
+  }
+  
+  /* Quick Access Cards */
+  .quick-access {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 20px 0;
+  }
+  
+  .quick-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .quick-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(74, 144, 226, 0.1), transparent);
+    transform: rotate(45deg);
+    transition: all 0.5s;
+    opacity: 0;
+  }
+  
+  .quick-card:hover::before {
+    animation: gentleShimmer 0.8s ease-in-out;
+  }
+  
+  @keyframes gentleShimmer {
+    0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateX(100%) translateY(100%) rotate(45deg); opacity: 0; }
+  }
+  
+  .quick-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(74, 144, 226, 0.15);
+    background: rgba(255, 255, 255, 0.85);
+  }
+  
+  .quick-card-icon {
+    font-size: 2.2em;
+    margin-bottom: 8px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  }
+  
+  .quick-card h3 {
+    font-size: 1em;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 5px;
+  }
+  
+  .quick-card p {
+    font-size: 0.8em;
+    color: #4a5568;
+    opacity: 0.8;
+  }
+  
+  /* Resources Button */
+  .resources-button-section {
+    text-align: center;
+    margin: 30px 0 20px 0;
+  }
+  
+  .resources-main-btn {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.3);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .resources-main-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(74, 144, 226, 0.4);
+  }
+  
+  /* Enhanced Statistics Section with Animations */
+  .stats-section {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 25px 0;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    box-shadow: 0 8px 32px rgba(74, 144, 226, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .stats-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #81c784, #42a5f5, #ce93d8, #ffb74d, #f06292);
+    background-size: 300% 100%;
+    animation: gentleRainbowSlide 8s ease-in-out infinite;
+  }
+  
+  @keyframes gentleRainbowSlide {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+  
+  .stats-title {
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: #2d3748;
+    text-align: center;
+    position: relative;
+  }
+  
+  .stats-description {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #2d3748;
+  }
+  
+  .stats-description p {
+    margin-bottom: 18px;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border-left: 4px solid #81c784;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    position: relative;
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .stats-description p:nth-child(1) { animation-delay: 0.1s; border-left-color: #81c784; }
+  .stats-description p:nth-child(2) { animation-delay: 0.2s; border-left-color: #42a5f5; }
+  .stats-description p:nth-child(3) { animation-delay: 0.3s; border-left-color: #ce93d8; }
+  .stats-description p:nth-child(4) { animation-delay: 0.4s; border-left-color: #ffb74d; }
+  .stats-description p:nth-child(5) { animation-delay: 0.5s; border-left-color: #f06292; }
+  .stats-description p:nth-child(6) { animation-delay: 0.6s; border-left-color: #4db6ac; }
+  
+  .stats-description p:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.15);
+    background: rgba(255, 255, 255, 0.95);
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 18px;
+    margin: 25px 0;
+  }
+  
+  .stat-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    position: relative;
+    overflow: hidden;
+    animation: slideInScale 0.6s ease-out;
+  }
+  
+  @keyframes slideInScale {
+    from {
+      opacity: 0;
+      transform: scale(0.8) translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+  .stat-card:nth-child(1) { animation-delay: 0.1s; }
+  .stat-card:nth-child(2) { animation-delay: 0.2s; }
+  .stat-card:nth-child(3) { animation-delay: 0.3s; }
+  .stat-card:nth-child(4) { animation-delay: 0.4s; }
+  .stat-card:nth-child(5) { animation-delay: 0.5s; }
+  .stat-card:nth-child(6) { animation-delay: 0.6s; }
+  .stat-card:nth-child(7) { animation-delay: 0.7s; }
+  .stat-card:nth-child(8) { animation-delay: 0.8s; }
+  
+  .stat-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #81c784, #42a5f5, #ce93d8);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .stat-card:hover::after {
+    transform: scaleX(1);
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 15px 35px rgba(74, 144, 226, 0.2);
+    background: rgba(255, 255, 255, 0.95);
+  }
+  
+  .stat-number {
+    font-size: 1.9em;
+    font-weight: 900;
+    margin-bottom: 8px;
+    color: #2d3748;
+    animation: countUp 2s ease-out;
+  }
+  
+  @keyframes countUp {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  .stat-label {
+    font-weight: 600;
+    font-size: 0.85em;
+    color: #2d3748;
+    margin-bottom: 4px;
+  }
+  
+  .stat-detail {
+    font-size: 0.75em;
+    color: #4a5568;
+    opacity: 0.8;
+  }
+  
+  /* Enhanced Sections */
+  .section {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px 0;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    box-shadow: 0 8px 32px rgba(74, 144, 226, 0.1);
+  }
+  
+  .section-title {
+    font-size: 1.6em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #2d3748;
+    text-align: center;
+  }
+  
+  /* Contact Section - Updated */
+  .contact-section {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px 0;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    box-shadow: 0 8px 32px rgba(74, 144, 226, 0.1);
+  }
+  
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.15);
+  }
+  
+  .contact-card i {
+    font-size: 2em;
+    color: #4a90e2;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card h3 {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 8px;
+  }
+  
+  .contact-card p {
+    font-size: 0.9em;
+    color: #4a5568;
+    margin: 0;
+  }
+  
+  .feedback-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 1em;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid rgba(74, 144, 226, 0.3);
+    border-radius: 10px;
+    font-size: 1em;
+    outline: none;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.8);
+    color: #2d3748;
+    font-family: inherit;
+    backdrop-filter: blur(10px);
+  }
+  
+  .form-input::placeholder {
+    color: rgba(45, 55, 72, 0.6);
+  }
+  
+  .form-input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+    background: rgba(255, 255, 255, 0.95);
+  }
+  
+  .form-textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(74, 144, 226, 0.3);
+  }
+  
+  .submit-btn:disabled {
+    background: #a0aec0;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .success-message {
+    display: none;
+    background: linear-gradient(135deg, #81c784, #66bb6a);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(129, 199, 132, 0.3);
+  }
+  
+  .success-message.show {
+    display: block;
+    animation: slideDown 0.4s ease;
+  }
+  
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Resources Page */
+  .resources-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 12px;
+    min-height: calc(100vh - 120px);
+  }
+  
+  .page-title {
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 900;
+    color: #2d3748;
+  }
+  
+  .resources-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .resource-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    border-radius: 18px;
+    padding: 25px;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(74, 144, 226, 0.2);
+    background: rgba(255, 255, 255, 0.95);
+  }
+  
+  .resource-card h3 {
+    font-size: 1.3em;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #2d3748;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .resource-list {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .resource-list li {
+    padding: 8px 0;
+    color: #2d3748;
+    position: relative;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(74, 144, 226, 0.1);
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+  }
+  
+  .resource-list li:hover {
+    transform: translateX(5px);
+    color: #4a90e2;
+  }
+  
+  .resource-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #81c784;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .resource-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .chat-button {
+    width: 100%;
+    background: linear-gradient(135deg, #4a90e2 0%, #7b68ee 100%);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .chat-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3);
+  }
+  
+  /* FAQ Section */
+  .faq-item {
+    margin-bottom: 15px;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+  }
+  
+  .faq-question {
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #2d3748;
+    transition: all 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    background: rgba(74, 144, 226, 0.05);
+  }
+  
+  .faq-answer {
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .faq-answer.active {
+    padding: 15px 20px;
+    max-height: 200px;
+  }
+  
+  .faq-answer p {
+    color: #2d3748;
+    font-size: 0.85em;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .faq-arrow {
+    transition: transform 0.3s ease;
+    color: #4a90e2;
+    font-size: 1.1em;
+  }
+  
+  .faq-arrow.active {
+    transform: rotate(180deg);
+  }
+  
+  /* Quick Questions */
+  .questions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+  }
+  
+  .question-bubble {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(74, 144, 226, 0.3);
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #2d3748;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  .question-bubble:hover {
+    background: rgba(74, 144, 226, 0.1);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.15);
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+  }
+  
+  .modal.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: modalFadeIn 0.3s ease;
+  }
+  
+  @keyframes modalFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .modal-content {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+    animation: modalSlideIn 0.4s ease;
+    border: 1px solid rgba(74, 144, 226, 0.2);
+  }
+  
+  @keyframes modalSlideIn {
+    from { transform: translateY(-40px) scale(0.9); opacity: 0; }
+    to { transform: translateY(0) scale(1); opacity: 1; }
+  }
+  
+  .modal-header {
+    background: linear-gradient(135deg, #4a90e2 0%, #7b68ee 100%);
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .modal-close:hover {
+    transform: scale(1.2);
+  }
+  
+  .chat-area {
+    height: 350px;
+    padding: 20px;
+    overflow-y: auto;
+    background: rgba(248, 250, 252, 0.9);
+  }
+  
+  .chat-message {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 12px;
+    animation: messageSlideIn 0.3s ease;
+  }
+  
+  @keyframes messageSlideIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .chat-message.user {
+    justify-content: flex-end;
+  }
+  
+  .chat-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: white;
+    flex-shrink: 0;
+    box-shadow: 0 2px 10px rgba(74, 144, 226, 0.2);
+  }
+  
+  .chat-bubble {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 12px 16px;
+    max-width: 70%;
+    font-size: 0.9em;
+    line-height: 1.4;
+    border: 1px solid rgba(74, 144, 226, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    white-space: pre-line;
+  }
+  
+  .chat-message.user .chat-bubble {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    border: none;
+  }
+  
+  .chat-input-area {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    border-top: 1px solid rgba(74, 144, 226, 0.1);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid rgba(74, 144, 226, 0.2);
+    border-radius: 20px;
+    font-size: 0.9em;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .chat-input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+  }
+  
+  .send-button {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9em;
+  }
+  
+  .send-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.3);
+  }
+  
+  /* Case Tracking */
+  .case-input-section {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .case-input {
+    flex: 1;
+    min-width: 250px;
+    padding: 12px 18px;
+    border: 2px solid rgba(74, 144, 226, 0.3);
+    border-radius: 12px;
+    font-size: 1em;
+    outline: none;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.8);
+    color: #2d3748;
+    backdrop-filter: blur(10px);
+  }
+  
+  .case-input::placeholder {
+    color: rgba(45, 55, 72, 0.6);
+  }
+  
+  .case-input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+    background: rgba(255, 255, 255, 0.95);
+  }
+  
+  .case-search-btn {
+    background: linear-gradient(135deg, #4a90e2, #7b68ee);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1em;
+  }
+  
+  .case-search-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.3);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero { padding: 12px 10px; }
+    .legal-ai-title { font-size: 2.5em; }
+    .section, .stats-section { padding: 20px 15px; margin: 20px 10px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .modal-content { width: 95%; }
+    .quick-access { grid-template-columns: repeat(2, 1fr); }
+    .case-input-section { flex-direction: column; }
+    .case-input { min-width: auto; }
+    .nav-logo { font-size: 1.5em; }
+    .nav-controls { gap: 4px; }
+    .nav-btn { padding: 3px 8px; font-size: 0.7em; }
+    .side-menu { width: 250px; }
+    .menu-toggle { width: 30px; height: 30px; }
+    .main-container { margin-top: 110px; }
+    .contact-info { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+  <!-- Animated Background Shapes -->
+  <div class="bg-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  
+  <!-- Top Bar for Menu -->
+  <div class="top-bar">
+    <button class="menu-toggle" onclick="toggleSideMenu()">
+      <i class="fas fa-ellipsis-v"></i>
+    </button>
+  </div>
+  
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-left">
+      <div class="nav-brand">LAC</div>
+      <div class="live-clock" id="liveClock">00:00:00</div>
+    </div>
+    
+    <div class="nav-logo">⚖️</div>
+    
+    <div class="nav-controls">
+      <button class="nav-btn active" onclick="showPage('home')" id="home-btn">Home</button>
+      <button class="nav-btn" onclick="showPage('resources')" id="resources-btn">Resources</button>
+      <button class="nav-btn" onclick="showPage('tracking')" id="tracking-btn">Cases</button>
+    </div>
+  </nav>
+
+  <!-- Side Menu Overlay -->
+  <div class="side-menu-overlay" id="sideMenuOverlay" onclick="closeSideMenu()"></div>
+
+  <!-- Side Menu -->
+  <div class="side-menu" id="sideMenu">
+    <div class="menu-section">
+      <div class="menu-title">
+        <i class="fas fa-language"></i>
+        <span>Language</span>
+      </div>
+      <div class="language-toggle">
+        <button class="lang-btn active" onclick="switchLanguage('en')" id="lang-en">English</button>
+        <button class="lang-btn" onclick="switchLanguage('hi')" id="lang-hi">हिंदी</button>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-title">
+        <i class="fas fa-palette"></i>
+        <span>Theme</span>
+      </div>
+      <div class="theme-toggle">
+        <button class="theme-btn active" onclick="setTheme('light')" id="theme-light">
+          <i class="fas fa-sun"></i> Light
+        </button>
+        <button class="theme-btn" onclick="setTheme('dark')" id="theme-dark">
+          <i class="fas fa-moon"></i> Dark
+        </button>
+      </div>
+    </div>
+
+    <div class="menu-section">
+      <div class="menu-title">
+        <i class="fas fa-users"></i>
+        <span>Directory</span>
+      </div>
+      <div class="menu-item" onclick="showPage('directory'); closeSideMenu();">
+        <i class="fas fa-gavel"></i>
+        <span>Lawyers & Judges</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <!-- Home Page -->
+    <div class="page active" id="home">
+      <div class="hero">
+        <div class="welcome-section">
+          <h2 class="welcome-title">Welcome to India's Most Advanced</h2>
+        </div>
+        
+        <h1 class="legal-ai-title">LAC - Legal AI Chat Bot</h1>
+        
+        <!-- Quick Access Cards -->
+        <div class="quick-access">
+          <div class="quick-card" onclick="openChat('property')">
+            <div class="quick-card-icon">🏠</div>
+            <h3>Property Law</h3>
+            <p>Registration & Disputes</p>
+          </div>
+          <div class="quick-card" onclick="openChat('criminal')">
+            <div class="quick-card-icon">⚖️</div>
+            <h3>Criminal Law</h3>
+            <p>FIR & Bail Procedures</p>
+          </div>
+          <div class="quick-card" onclick="openChat('taxation')">
+            <div class="quick-card-icon">💰</div>
+            <h3>Tax Law</h3>
+            <p>Income Tax & GST</p>
+          </div>
+          <div class="quick-card" onclick="openChat('constitutional')">
+            <div class="quick-card-icon">🛡️</div>
+            <h3>Constitutional</h3>
+            <p>Rights & Remedies</p>
+          </div>
+          <div class="quick-card" onclick="openChat('cyber')">
+            <div class="quick-card-icon">💻</div>
+            <h3>Cyber Law</h3>
+            <p>IT Act & Data Protection</p>
+          </div>
+        </div>
+        
+        <!-- Resources Button -->
+        <div class="resources-button-section">
+          <button class="resources-main-btn" onclick="showPage('resources')">
+            <i class="fas fa-comments"></i>
+            <span>Chat with Legal Specialists</span>
+          </button>
+        </div>
+        
+        <!-- Enhanced Statistics Section -->
+        <div class="stats-section">
+          <h2 class="stats-title">📊 Indian Judiciary Crisis: Comprehensive Analysis & Impact</h2>
+          <div class="stats-description">
+            <p><strong>🚨 Overwhelming Case Backlog Crisis:</strong> India's judicial system faces an unprecedented challenge with over 5.04 crore cases pending across all court levels, representing a staggering 22% increase since 2020. This massive backlog has created a justice delivery crisis affecting millions of Indian citizens, with average case resolution times stretching to 3-7 years in most courts, and some civil matters remaining unresolved for over two decades.</p>
+            
+            <p><strong>⚖️ Critical Judge Shortage & Workload:</strong> With only 20,580 working judges serving India's 1.39 billion population, the judge-to-population ratio stands at a critically low 21 judges per million people. The Law Commission's recommendation of 50 judges per million indicates we need approximately 35,000 additional judges. Each judge currently handles an average of 2,500+ cases, creating an impossible workload that severely impacts the quality and speed of justice delivery.</p>
+            
+            <p><strong>📈 Massive Economic & Social Impact:</strong> The judicial backlog costs India approximately ₹5.8 lakh crore annually, equivalent to 2% of the nation's GDP. This economic burden includes lost productivity, delayed business decisions, reduced investor confidence, and increased litigation costs. Over 75% of prison inmates are under-trial prisoners, many spending years in custody before their cases are even heard, leading to overcrowded prisons and human rights concerns.</p>
+            
+            <p><strong>🏛️ Infrastructure Deficit & Digital Divide:</strong> India faces a shortage of 4,250 courtrooms and over 6,000 residential units for judges. Remarkably, 42.9% of courtrooms under construction have been delayed for more than 3 years, further hampering justice delivery. The digital divide significantly affects rural courts, limiting access to modern case management systems and video conferencing facilities, especially impacting marginalized communities.</p>
+            
+            <p><strong>👩‍⚖️ Gender Representation & Regional Disparities:</strong> Women now constitute 36.3% of the district judiciary, showing positive progress toward gender parity, though representation decreases significantly at higher judicial levels. Regional disparities are stark - while some high courts have cleared significant backlogs, others struggle with cases pending for decades. Rural areas face additional challenges including language barriers, limited legal aid, and geographic difficulties in accessing courts.</p>
+            
+            <p><strong>🔄 Reform Initiatives & Technology Integration:</strong> The government has launched several reform initiatives including e-Courts Mission Mode Project, Lok Adalats, and Fast Track Courts. Despite these efforts, the pace of technological adoption remains slow, with only 65% of courts fully digitized. Alternative Dispute Resolution (ADR) mechanisms show promise but need wider implementation. The COVID-19 pandemic accelerated virtual court adoption, but infrastructure gaps persist in rural areas.</p>
+          </div>
+          
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">5.04Cr</div>
+              <div class="stat-label">Pending Cases</div>
+              <div class="stat-detail">22% increase since 2020</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">20,580</div>
+              <div class="stat-label">Working Judges</div>
+              <div class="stat-detail">Need 35,000 more</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">21:1M</div>
+              <div class="stat-label">Judge-Population Ratio</div>
+              <div class="stat-detail">vs 50:1M recommended</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">75%</div>
+              <div class="stat-label">Under-trial Prisoners</div>
+              <div class="stat-detail">Awaiting justice</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">₹5.8L Cr</div>
+              <div class="stat-label">Annual Economic Loss</div>
+              <div class="stat-detail">2% of India's GDP</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">36.3%</div>
+              <div class="stat-label">Women in District Courts</div>
+              <div class="stat-detail">Improving representation</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">4,250</div>
+              <div class="stat-label">Courtroom Shortage</div>
+              <div class="stat-detail">Infrastructure gap</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">42.9%</div>
+              <div class="stat-label">Delayed Construction</div>
+              <div class="stat-detail">Over 3 years delay</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="section">
+          <h2 class="section-title">❓ How can LAC help you?</h2>
+          
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFAQ(0)">
+              <span>🏠 Property registration and transfer guidance?</span>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Get comprehensive step-by-step guidance on property registration under Registration Act 1908, transfer procedures, documentation requirements, stamp duty calculations, and dispute resolution mechanisms through civil courts.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFAQ(1)">
+              <span>⚖️ Criminal case procedures and bail applications?</span>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Learn about FIR filing under CrPC, bail procedures (regular, anticipatory, interim), BNS 2023 provisions, evidence rules, criminal trial processes, and your legal rights during investigation.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFAQ(2)">
+              <span>💰 Tax compliance and GST procedures?</span>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Understand Income Tax Act 1961, current tax slabs, GST registration and compliance, return filing deadlines, TDS procedures, and tax dispute resolution through appellate authorities.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFAQ(3)">
+              <span>🛡️ Constitutional rights and legal remedies?</span>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Explore Fundamental Rights under Articles 12-35, constitutional remedies through writs (Habeas Corpus, Mandamus, etc.), PIL procedures, and protection mechanisms available to Indian citizens.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFAQ(4)">
+              <span>💻 Cyber crime reporting and data protection?</span>
+              <span class="faq-arrow">▼</span>
+            </div>
+            <div class="faq-answer">
+              <p>Learn about IT Act 2000 provisions, cyber crime reporting procedures, data protection laws, digital evidence rules under Section 65A & 65B, and online fraud prevention strategies.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Questions Section -->
+        <div class="section">
+          <h3 class="section-title">💡 Quick Legal Questions</h3>
+          <div class="questions-grid">
+            <div class="question-bubble" onclick="openQuickChat('How to file FIR online?')">How to file FIR online?</div>
+            <div class="question-bubble" onclick="openQuickChat('Property registration fees?')">Property registration fees?</div>
+            <div class="question-bubble" onclick="openQuickChat('Bail application process?')">Bail application process?</div>
+            <div class="question-bubble" onclick="openQuickChat('GST registration required?')">GST registration required?</div>
+            <div class="question-bubble" onclick="openQuickChat('Rights during arrest?')">Rights during arrest?</div>
+            <div class="question-bubble" onclick="openQuickChat('Cyber crime complaint?')">Cyber crime complaint?</div>
+            <div class="question-bubble" onclick="openQuickChat('Property ownership proof?')">Property ownership proof?</div>
+            <div class="question-bubble" onclick="openQuickChat('Tax return deadline?')">Tax return deadline?</div>
+          </div>
+        </div>
+
+        <!-- Contact Us Section -->
+        <div class="contact-section">
+          <h2 class="section-title">📞 Contact Us</h2>
+          
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <div class="contact-card">
+              <i class="fas fa-envelope"></i>
+              <h3>Email</h3>
+              <p>legalai.support@lacbot.in</p>
+            </div>
+            <div class="contact-card">
+              <i class="fas fa-phone"></i>
+              <h3>Phone</h3>
+              <p>+91-9876543210</p>
+            </div>
+          </div>
+          
+          <!-- Feedback Form -->
+          <h3 style="text-align: center; margin: 30px 0 20px 0; color: #2d3748; font-size: 1.4em;">Send us your feedback</h3>
+          <form class="feedback-form" onsubmit="submitFeedback(event)">
+            <div class="form-group">
+              <label class="form-label">Your Name *</label>
+              <input type="text" class="form-input" id="userName" required placeholder="Enter your full name">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Email Address *</label>
+              <input type="email" class="form-input" id="userEmail" required placeholder="Enter your email address">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Your Feedback *</label>
+              <textarea class="form-input form-textarea" id="userFeedback" required placeholder="Share your thoughts, suggestions, or report any issues..."></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn" id="submitBtn">📧 Send Feedback</button>
+            
+            <div class="success-message" id="successMessage">✅ Your response has been recorded! Thank you for your feedback.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resources Page -->
+    <div class="page" id="resources">
+      <div class="resources-container">
+        <h1 class="page-title">🤖 LAC Legal Specialists</h1>
+        
+        <div class="resources-list">
+          <div class="resource-card">
+            <h3>🏠 <span>Property Law Assistant</span></h3>
+            <ul class="resource-list">
+              <li>Transfer of Property Act, 1882 comprehensive guidance</li>
+              <li>Registration procedures and mandatory documentation</li>
+              <li>Property ownership rights and transfer mechanisms</li>
+              <li>Real estate dispute resolution and legal remedies</li>
+              <li>Mortgage, lease agreements and stamp duty calculations</li>
+            </ul>
+            <button class="chat-button" onclick="openChat('property')">💬 Start Property Chat</button>
+          </div>
+
+          <div class="resource-card">
+            <h3>⚖️ <span>Criminal Law Assistant</span></h3>
+            <ul class="resource-list">
+              <li>Bharatiya Nyaya Sanhita (BNS) 2023 complete coverage</li>
+              <li>FIR filing procedures and police complaint processes</li>
+              <li>Bail applications: regular, anticipatory, and interim</li>
+              <li>Criminal trial procedures and court representations</li>
+              <li>Evidence rules and investigation timelines</li>
+            </ul>
+            <button class="chat-button" onclick="openChat('criminal')">💬 Start Criminal Chat</button>
+          </div>
+
+          <div class="resource-card">
+            <h3>💰 <span>Tax Law Assistant</span></h3>
+            <ul class="resource-list">
+              <li>Income Tax Act 1961 provisions and amendments</li>
+              <li>GST registration, compliance, and return filing</li>
+              <li>Tax slabs, deductions, and exemption calculations</li>
+              <li>Filing deadlines and penalty implications</li>
+              <li>Tax dispute resolution through appellate authorities</li>
+            </ul>
+            <button class="chat-button" onclick="openChat('taxation')">💬 Start Tax Chat</button>
+          </div>
+
+          <div class="resource-card">
+            <h3>🛡️ <span>Constitutional Rights Assistant</span></h3>
+            <ul class="resource-list">
+              <li>Fundamental Rights (Articles 12-35) detailed analysis</li>
+              <li>Constitutional remedies and writ procedures</li>
+              <li>Equality rights and non-discrimination laws</li>
+              <li>Freedom of speech, expression, and assembly</li>
+              <li>Right to education, life, and personal liberty</li>
+            </ul>
+            <button class="chat-button" onclick="openChat('constitutional')">💬 Start Rights Chat</button>
+          </div>
+
+          <div class="resource-card">
+            <h3>💻 <span>Cyber Law Assistant</span></h3>
+            <ul class="resource-list">
+              <li>Information Technology Act 2000 comprehensive coverage</li>
+              <li>Cybercrime reporting and investigation procedures</li>
+              <li>Data protection laws and privacy regulations</li>
+              <li>Digital evidence authentication and admissibility</li>
+              <li>Online fraud, identity theft, and hacking cases</li>
+            </ul>
+            <button class="chat-button" onclick="openChat('cyber')">💬 Start Cyber Chat</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Case Tracking Page -->
+    <div class="page" id="tracking">
+      <div class="resources-container">
+        <h1 class="page-title">🔍 Case Status Tracker</h1>
+        
+        <div class="section">
+          <h2 class="section-title">📋 Check Your Case Status</h2>
+          <p style="text-align: center; margin-bottom: 25px; color: #4a5568; font-size: 1em;">
+            Enter your CNR number, case number, or party name to get real-time case status information
+          </p>
+          
+          <div class="case-input-section">
+            <input type="text" class="case-input" id="caseInput" placeholder="Enter CNR Number, Case Number, or Party Name">
+            <button class="case-search-btn" onclick="searchCase()">🔍 Search Case</button>
+          </div>
+          
+          <div class="case-result" id="caseResult" style="display: none;">
+            <div class="case-result-header">
+              <h3 style="color: #2d3748; margin: 0;">Case Information</h3>
+              <div class="case-status-badge" id="statusBadge">Status</div>
+            </div>
+            <div class="case-details-grid" id="caseDetails"></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3 class="section-title">📂 Try Sample Case Searches</h3>
+          <div class="quick-access">
+            <div class="quick-card" onclick="searchSampleCase('MHBA010012342023')">
+              <div class="quick-card-icon">⚖️</div>
+              <h3>Criminal Case</h3>
+              <p>MHBA010012342023</p>
+            </div>
+            <div class="quick-card" onclick="searchSampleCase('DLHC098765432024')">
+              <div class="quick-card-icon">🏠</div>
+              <h3>Property Dispute</h3>
+              <p>DLHC098765432024</p>
+            </div>
+            <div class="quick-card" onclick="searchSampleCase('GUJHC567891234')">
+              <div class="quick-card-icon">💼</div>
+              <h3>Commercial Case</h3>
+              <p>GUJHC567891234</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Directory Page -->
+    <div class="page" id="directory">
+      <div class="resources-container">
+        <h1 class="page-title">🏛️ Legal Directory</h1>
+        
+        <div class="quick-access">
+          <div class="quick-card" onclick="showProfile('harish-salve')">
+            <div class="quick-card-icon">👨‍⚖️</div>
+            <h3>Harish Salve</h3>
+            <p>Senior Advocate, Supreme Court</p>
+          </div>
+          <div class="quick-card" onclick="showProfile('fali-nariman')">
+            <div class="quick-card-icon">👨‍⚖️</div>
+            <h3>Fali S. Nariman</h3>
+            <p>Constitutional Law Expert</p>
+          </div>
+          <div class="quick-card" onclick="showProfile('indira-jaising')">
+            <div class="quick-card-icon">👩‍⚖️</div>
+            <h3>Indira Jaising</h3>
+            <p>Women's Rights Pioneer</p>
+          </div>
+          <div class="quick-card" onclick="showProfile('kapil-sibal')">
+            <div class="quick-card-icon">👨‍⚖️</div>
+            <h3>Kapil Sibal</h3>
+            <p>Former Law Minister</p>
+          </div>
+          <div class="quick-card" onclick="showProfile('dy-chandrachud')">
+            <div class="quick-card-icon">👨‍⚖️</div>
+            <h3>D.Y. Chandrachud</h3>
+            <p>Former Chief Justice</p>
+          </div>
+          <div class="quick-card" onclick="showProfile('br-gavai')">
+            <div class="quick-card-icon">👨‍⚖️</div>
+            <h3>B.R. Gavai</h3>
+            <p>Current Chief Justice</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Modal -->
+  <div class="modal" id="chatModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div id="modalTitle">LAC Legal Assistant</div>
+        <button class="modal-close" onclick="closeChat()">&times;</button>
+      </div>
+      <div class="chat-area" id="chatArea"></div>
+      <div class="chat-input-area">
+        <input type="text" class="chat-input" id="chatInput" placeholder="Type your legal question...">
+        <button class="send-button" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+<script>
+let currentChatType = '';
+let currentLanguage = 'en';
+let isDarkMode = false;
+
+// JSON Database containers for all 5 legal areas
+let civilCases = [];
+let criminalCases = [];
+let taxationCases = [];
+let constitutionalCases = [];
+let cyberCases = [];
+
+// Fuse instances for all 5 areas
+let civilFuse = null;
+let criminalFuse = null;
+let taxationFuse = null;
+let constitutionalFuse = null;
+let cyberFuse = null;
+
+// Load functions for all 5 JSON databases - CORRECTED FILENAMES
+async function loadCivilCases() {
+  if (civilFuse) return;
+  try {
+    const res = await fetch('civil_cases.json');
+    civilCases = await res.json();
+    civilFuse = new Fuse(civilCases, {
+      includeScore: true,
+      threshold: 0.4,
+      ignoreLocation: true,
+      keys: ['title','facts','issues','holding','ratio','citations','statutes','keywords','case_id','parties','court','status','summary','tags','priority','documents']
+    });
+    console.log('✅ Civil cases loaded:', civilCases.length, 'cases');
+  } catch (error) {
+    console.log('⚠️ civil_cases.json not found - using fallback responses');
+  }
+}
+
+async function loadCriminalCases() {
+  if (criminalFuse) return;
+  try {
+    const res = await fetch('criminal_cases.json');
+    criminalCases = await res.json();
+    criminalFuse = new Fuse(criminalCases, {
+      includeScore: true,
+      threshold: 0.4,
+      ignoreLocation: true,
+      keys: ['title','facts','issues','holding','ratio','citations','statutes','keywords','case_id','parties','court','status','summary','tags','priority','documents','offense','sections','punishment']
+    });
+    console.log('✅ Criminal cases loaded:', criminalCases.length, 'cases');
+  } catch (error) {
+    console.log('⚠️ criminal_cases.json not found - using fallback responses');
+  }
+}
+
+async function loadTaxationCases() {
+  if (taxationFuse) return;
+  try {
+    const res = await fetch('taxation_cases.json');
+    taxationCases = await res.json();
+    taxationFuse = new Fuse(taxationCases, {
+      includeScore: true,
+      threshold: 0.4,
+      ignoreLocation: true,
+      keys: ['title','facts','issues','holding','ratio','citations','statutes','keywords','case_id','parties','court','status','summary','tags','priority','documents','tax_type','amount','year']
+    });
+    console.log('✅ Taxation cases loaded:', taxationCases.length, 'cases');
+  } catch (error) {
+    console.log('⚠️ taxation_cases.json not found - using fallback responses');
+  }
+}
+
+async function loadConstitutionalCases() {
+  if (constitutionalFuse) return;
+  try {
+    const res = await fetch('constitutional_cases.json'); // CORRECTED: try this name first
+    constitutionalCases = await res.json();
+    constitutionalFuse = new Fuse(constitutionalCases, {
+      includeScore: true,
+      threshold: 0.4,
+      ignoreLocation: true,
+      keys: ['title','facts','issues','holding','ratio','citations','statutes','keywords','case_id','parties','court','status','summary','tags','priority','documents','article','fundamental_right']
+    });
+    console.log('✅ Constitutional cases loaded:', constitutionalCases.length, 'cases');
+  } catch (error) {
+    try {
+      const res = await fetch('law_cases.json'); // FALLBACK: if first name fails, try this
+      constitutionalCases = await res.json();
+      constitutionalFuse = new Fuse(constitutionalCases, {
+        includeScore: true,
+        threshold: 0.4,
+        ignoreLocation: true,
+        keys: ['title','facts','issues','holding','ratio','citations','statutes','keywords','case_id','parties','court','status','summary','tags','priority','documents','article','fundamental_right']
+      });
+      console.log('✅ Constitutional cases loaded from law_cases.json:', constitutionalCases.length, 'cases');
+    } catch (error2) {
+      console.log('⚠️ constitutional_cases.json AND law_cases.json not found - using fallback responses');
+    }
+  }
+}
+
+async function loadCyberCases() {
+  if (cyberFuse) return;
+  try {
+    const res = await fetch('cybercrime_cases.json');
+    cyberCases = await res.json();
+    cyberFuse = new Fuse(cyberCases, {
+      includeScore: true,
+      threshold: 0.4,
+      ignoreLocation: true,
+      keys: ['title','facts','issues','holding','ratio','citations','statutes','keywords','case_id','parties','court','status','summary','tags','priority','documents','cyber_crime_type','it_section']
+    });
+    console.log('✅ Cyber cases loaded:', cyberCases.length, 'cases');
+  } catch (error) {
+    console.log('⚠️ cybercrime_cases.json not found - using fallback responses');
+  }
+}
+
+// Search functions for all 5 areas
+async function searchCivilDB(query, limit = 3) {
+  await loadCivilCases();
+  if (!civilFuse || !query.trim()) return [];
+  const results = civilFuse.search(query).slice(0, limit).map(r => r.item);
+  console.log('Civil Query:', query, 'Fuse hits:', results.length);
+  return results;
+}
+
+async function searchCriminalDB(query, limit = 3) {
+  await loadCriminalCases();
+  if (!criminalFuse || !query.trim()) return [];
+  const results = criminalFuse.search(query).slice(0, limit).map(r => r.item);
+  console.log('Criminal Query:', query, 'Fuse hits:', results.length);
+  return results;
+}
+
+async function searchTaxationDB(query, limit = 3) {
+  await loadTaxationCases();
+  if (!taxationFuse || !query.trim()) return [];
+  const results = taxationFuse.search(query).slice(0, limit).map(r => r.item);
+  console.log('Taxation Query:', query, 'Fuse hits:', results.length);
+  return results;
+}
+
+async function searchConstitutionalDB(query, limit = 3) {
+  await loadConstitutionalCases();
+  if (!constitutionalFuse || !query.trim()) return [];
+  const results = constitutionalFuse.search(query).slice(0, limit).map(r => r.item);
+  console.log('Constitutional Query:', query, 'Fuse hits:', results.length);
+  return results;
+}
+
+async function searchCyberDB(query, limit = 3) {
+  await loadCyberCases();
+  if (!cyberFuse || !query.trim()) return [];
+  const results = cyberFuse.search(query).slice(0, limit).map(r => r.item);
+  console.log('Cyber Query:', query, 'Fuse hits:', results.length);
+  return results;
+}
+
+// Format case results for display
+function formatCaseResults(cases, area) {
+  let reply = `Here are relevant ${area} cases from the database:\n\n`;
+  
+  cases.forEach((c, i) => {
+    reply += `${i + 1}) **${c.case_id || c.title}**\n`;
+    if (c.parties) reply += `Parties: ${c.parties}\n`;
+    if (c.court) reply += `Court: ${c.court}\n`;
+    if (c.status) reply += `Status: ${c.status}\n`;
+    if (c.summary) reply += `Summary: ${c.summary}\n`;
+    if (c.holding) reply += `Holding: ${c.holding}\n`;
+    if (c.ratio) reply += `Ratio: ${c.ratio}\n`;
+    if (c.tags?.length) reply += `Tags: ${c.tags.join(', ')}\n`;
+    if (c.citations?.length) reply += `Citations: ${c.citations.join('; ')}\n`;
+    if (c.sections) reply += `Sections: ${c.sections}\n`;
+    if (c.offense) reply += `Offense: ${c.offense}\n`;
+    if (c.punishment) reply += `Punishment: ${c.punishment}\n`;
+    if (c.tax_type) reply += `Tax Type: ${c.tax_type}\n`;
+    if (c.amount) reply += `Amount: ${c.amount}\n`;
+    if (c.article) reply += `Article: ${c.article}\n`;
+    if (c.fundamental_right) reply += `Right: ${c.fundamental_right}\n`;
+    if (c.cyber_crime_type) reply += `Crime Type: ${c.cyber_crime_type}\n`;
+    if (c.it_section) reply += `IT Section: ${c.it_section}\n`;
+    if (c.next_hearing) reply += `Next Hearing: ${c.next_hearing}\n`;
+    if (c.priority) reply += `Priority: ${c.priority}\n`;
+    reply += '\n';
+  });
+  
+  reply += 'For case-specific strategy, please consult a lawyer.';
+  return reply;
+}
+
+// Updated Legal Knowledge Base with fallback responses
+const legalDB = {
+  property: {
+    title: "🏠 Property Law Assistant",
+    icon: "🏠",
+    responses: {
+      "registration": "**Property Registration**: Under Registration Act 1908, all property transfers above ₹100 must be registered. Required documents: sale deed, title documents, NOC. Registration fee: typically 1-8% of property value. Process takes 15-30 days.",
+      "ownership": "**Property Ownership**: Includes right to possess, use, dispose, and exclude others. Types: Freehold (permanent), Leasehold (limited period), Co-ownership (joint/tenancy in common).",
+      "transfer": "**Property Transfer**: Methods include Sale, Gift, Mortgage, Lease, Exchange. All require registered deed except gifts under ₹100 and leases under 1 year.",
+      "dispute": "**Property Disputes**: Title disputes, boundary issues, possession conflicts. File civil suit for declaration, possession recovery, or specific performance.",
+      "default": "I help with property registration, ownership rights, transfer procedures, and dispute resolution under Indian property laws. What property matter can I assist with?"
+    }
+  },
+  criminal: {
+    title: "⚖️ Criminal Law Assistant", 
+    icon: "⚖️",
+    responses: {
+      "fir": "**FIR Filing**: Required for cognizable offenses under Section 154 CrPC. Police cannot refuse. Must contain incident details, time, place. Copy given to complainant.",
+      "bail": "**Bail Types**: Regular Bail (after arrest), Anticipatory Bail (before arrest), Interim Bail (temporary). Conditions include surety, court attendance.",
+      "bns": "**BNS 2023**: Replaced IPC. Key sections - Murder (103), Theft (303), Fraud (316), Assault (115). Enhanced provisions for crimes against women and children.",
+      "investigation": "**Investigation Process**: FIR → Investigation → Chargesheet/Closure → Trial → Judgment. Investigation should complete within 60-90 days.",
+      "default": "I assist with criminal law under BNS 2023, CrPC procedures, FIR filing, and bail applications. What criminal law issue needs guidance?"
+    }
+  },
+  taxation: {
+    title: "💰 Tax Law Assistant",
+    icon: "💰", 
+    responses: {
+      "income": "**Income Tax 2024-25**: Up to ₹3L: Nil, ₹3-6L: 5%, ₹6-9L: 10%, ₹9-12L: 15%, ₹12-15L: 20%, Above ₹15L: 30%. Deductions: 80C (₹1.5L), 80D (health insurance). ITR deadline: July 31.",
+      "gst": "**GST**: Rates 0%, 5%, 12%, 18%, 28%. Registration mandatory if turnover > ₹40L (goods) or ₹20L (services). Monthly returns GSTR-1, 3B required.",
+      "compliance": "**Tax Compliance**: PAN mandatory for transactions > ₹50K. TDS on salary, professional fees. Tax audit if turnover > ₹1 crore.",
+      "default": "I help with Income Tax Act 1961, GST laws, compliance, and dispute resolution. What tax matter needs assistance?"
+    }
+  },
+  constitutional: {
+    title: "🛡️ Constitutional Rights Assistant",
+    icon: "🛡️",
+    responses: {
+      "fundamental": "**Fundamental Rights**: Articles 12-35 include Right to Equality, Freedom, Against Exploitation, Religion, Cultural Rights, Constitutional Remedies. Enforceable against State.",
+      "equality": "**Right to Equality**: Article 14 (equality before law), Article 15 (no discrimination), Article 16 (equal employment), Article 17 (abolition of untouchability).",
+      "freedom": "**Right to Freedom**: Article 19 (six freedoms including speech, assembly), Article 20 (criminal protection), Article 21 (life and liberty), Article 22 (arrest protection).",
+      "remedies": "**Constitutional Remedies**: Writs - Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto. Supreme Court as guardian of fundamental rights.",
+      "default": "I explain Fundamental Rights, constitutional remedies, and protection mechanisms under Indian Constitution. Which constitutional aspect needs clarification?"
+    }
+  },
+  cyber: {
+    title: "💻 Cyber Law Assistant",
+    icon: "💻",
+    responses: {
+      "itact": "**IT Act 2000**: Covers cyber crimes, digital signatures, e-governance. Key sections: 66 (hacking), 66C (identity theft), 66D (cheating), 67 (obscene content).",
+      "cybercrime": "**Cyber Crimes**: Hacking (Sec 66), Data theft (66B), Identity theft (66C), Online fraud (66D), Privacy violation (66E), Cyber terrorism (66F).",
+      "data": "**Data Protection**: IT Rules 2011 mandate reasonable security practices. Companies must protect sensitive data. Breach notification required.",
+      "evidence": "**Digital Evidence**: Sections 65A & 65B of Evidence Act. Electronic records admissible with proper certification. Chain of custody important.",
+      "default": "I assist with IT Act 2000, cyber crime procedures, data protection, and digital evidence rules. What cyber law matter needs guidance?"
+    }
+  }
+};
+
+// Sample case database
+const sampleCases = {
+  'MHBA010012342023': {
+    caseNumber: 'MHBA010012342023',
+    caseType: 'Criminal',
+    title: 'State vs. Ramesh Kumar',
+    court: 'Sessions Court, Mumbai',
+    status: 'Under Trial',
+    nextHearing: '2025-09-20',
+    stage: 'Evidence Recording',
+    lastOrder: 'Witness examination scheduled',
+    filedDate: '2023-03-15',
+    lawyer: 'Adv. Priya Sharma'
+  },
+  'DLHC098765432024': {
+    caseNumber: 'DLHC098765432024',
+    caseType: 'Civil - Property',
+    title: 'Rajesh Singh vs. Municipal Corporation',
+    court: 'Delhi High Court',
+    status: 'Pending',
+    nextHearing: '2025-09-25',
+    stage: 'Arguments',
+    lastOrder: 'Notice issued to respondent',
+    filedDate: '2024-01-10',
+    lawyer: 'Adv. Vikram Malhotra'
+  },
+  'GUJHC567891234': {
+    caseNumber: 'GUJHC567891234',
+    caseType: 'Commercial',
+    title: 'ABC Ltd vs. XYZ Corp',
+    court: 'Gujarat High Court',
+    status: 'Disposed',
+    nextHearing: 'N/A',
+    stage: 'Judgment Delivered',
+    lastOrder: 'Decree passed in favor of plaintiff',
+    filedDate: '2023-08-22',
+    lawyer: 'Adv. Neha Patel'
+  }
+};
+
+// Profile data for popups
+const profileData = {
+  'harish-salve': {
+    name: 'Harish Salve',
+    designation: 'Senior Advocate, Supreme Court of India',
+    details: 'Former Solicitor General of India (1999-2009), Queens Counsel (QC), Harvard Law School graduate. One of India\'s most expensive lawyers.',
+    cases: [
+      'Kulbhushan Jadhav case at International Court of Justice (ICJ)',
+      'Vodafone tax case - landmark international arbitration',
+      'Reliance Industries vs. Government of India',
+      '2G spectrum case representations'
+    ]
+  },
+  'fali-nariman': {
+    name: 'Fali S. Nariman',
+    designation: 'Senior Advocate, Supreme Court of India',
+    details: 'Doyen of Indian legal profession with over 70 years of practice. Padma Vibhushan recipient.',
+    cases: [
+      'Bhopal Gas Tragedy case - represented Union Carbide',
+      'TMA Pai Foundation case on private education',
+      'Bommai case on Article 356 (Presidents Rule)',
+      'Minerva Mills case on constitutional amendments'
+    ]
+  },
+  'indira-jaising': {
+    name: 'Indira Jaising',
+    designation: 'Senior Advocate, Supreme Court of India',
+    details: 'First woman Additional Solicitor General of India. Pioneer in women\'s rights and human rights litigation.',
+    cases: [
+      'Vishaka case - workplace sexual harassment guidelines',
+      'Various women\'s rights matters',
+      'Human rights violations cases',
+      'LGBTQ+ rights cases'
+    ]
+  },
+  'kapil-sibal': {
+    name: 'Kapil Sibal',
+    designation: 'Senior Advocate, Supreme Court of India',
+    details: 'Former Law Minister of India and Additional Solicitor General. Expert in constitutional and corporate law.',
+    cases: [
+      'Aarushi Talwar murder case',
+      '2G spectrum case',
+      'Various election disputes',
+      'Constitutional challenges in Supreme Court'
+    ]
+  },
+  'dy-chandrachud': {
+    name: 'D.Y. Chandrachud',
+    designation: 'Former Chief Justice of India (50th CJI)',
+    details: 'Harvard-educated judge who served as CJI from November 2022 to November 2024. Known for progressive judgments.',
+    cases: [
+      'Navtej Singh Johar case - decriminalizing homosexuality',
+      'Sabarimala temple entry case',
+      'Right to Privacy judgment',
+      'Aadhaar constitutional challenge'
+    ]
+  },
+  'br-gavai': {
+    name: 'B.R. Gavai',
+    designation: 'Current Chief Justice of India (52nd CJI)',
+    details: 'Current Chief Justice since May 2025. Expert in constitutional and administrative law.',
+    cases: [
+      'Various constitutional law matters',
+      'Administrative law cases',
+      'Corporate governance issues',
+      'Environmental law matters'
+    ]
+  }
+};
+
+// Live Clock Function
+function updateClock() {
+  const now = new Date();
+  const timeString = now.toLocaleTimeString('en-IN', {
+    hour12: false,
+    timeZone: 'Asia/Kolkata'
+  });
+  const dateString = now.toLocaleDateString('en-IN', {
+    day: '2-digit',
+    month: 'short',
+    timeZone: 'Asia/Kolkata'
+  });
+  document.getElementById('liveClock').textContent = `${dateString} ${timeString}`;
+}
+
+// Side Menu Functions
+function toggleSideMenu() {
+  const sideMenu = document.getElementById('sideMenu');
+  const overlay = document.getElementById('sideMenuOverlay');
+  
+  if (sideMenu.classList.contains('open')) {
+    closeSideMenu();
+  } else {
+    sideMenu.classList.add('open');
+    overlay.classList.add('open');
+  }
+}
+
+function closeSideMenu() {
+  document.getElementById('sideMenu').classList.remove('open');
+  document.getElementById('sideMenuOverlay').classList.remove('open');
+}
+
+// Language Functions
+function switchLanguage(lang) {
+  currentLanguage = lang;
+  
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  document.getElementById(`lang-${lang}`).classList.add('active');
+  
+  localStorage.setItem('selectedLanguage', lang);
+}
+
+// Theme Functions
+function setTheme(theme) {
+  isDarkMode = theme === 'dark';
+  
+  document.querySelectorAll('.theme-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  document.getElementById(`theme-${theme}`).classList.add('active');
+  
+  if (isDarkMode) {
+    document.body.classList.add('dark');
+  } else {
+    document.body.classList.remove('dark');
+  }
+  
+  localStorage.setItem('isDarkMode', isDarkMode);
+}
+
+// Page Navigation
+function showPage(pageId) {
+  document.querySelectorAll('.page').forEach(page => {
+    page.classList.remove('active');
+  });
+  document.getElementById(pageId).classList.add('active');
+  
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  if (document.getElementById(pageId + '-btn')) {
+    document.getElementById(pageId + '-btn').classList.add('active');
+  }
+}
+
+// FAQ Toggle
+function toggleFAQ(index) {
+  const faqItems = document.querySelectorAll('.faq-item');
+  const answer = faqItems[index].querySelector('.faq-answer');
+  const arrow = faqItems[index].querySelector('.faq-arrow');
+  
+  faqItems.forEach((item, i) => {
+    if (i !== index) {
+      item.querySelector('.faq-answer').classList.remove('active');
+      item.querySelector('.faq-arrow').classList.remove('active');
+    }
+  });
+  
+  answer.classList.toggle('active');
+  arrow.classList.toggle('active');
+}
+
+// Case Search Functions
+function searchCase() {
+  const caseId = document.getElementById('caseInput').value.trim().toUpperCase();
+  const resultDiv = document.getElementById('caseResult');
+  const detailsDiv = document.getElementById('caseDetails');
+  
+  if (!caseId) {
+    alert(currentLanguage === 'hi' ? 'कृपया केस नंबर या CNR नंबर दर्ज करें' : 'Please enter a case number or CNR number');
+    return;
+  }
+  
+  if (sampleCases[caseId]) {
+    const caseData = sampleCases[caseId];
+    
+    detailsDiv.innerHTML = `
+      <div style="background: rgba(255, 255, 255, 0.9); padding: 20px; border-radius: 12px; margin-bottom: 15px; border-left: 4px solid #4a90e2;">
+        <strong>Case Number:</strong> ${caseData.caseNumber}<br><br>
+        <strong>Title:</strong> ${caseData.title}<br><br>
+        <strong>Court:</strong> ${caseData.court}<br><br>
+        <strong>Status:</strong> <span style="color: #4a90e2; font-weight: bold;">${caseData.status}</span><br><br>
+        <strong>Next Hearing:</strong> ${caseData.nextHearing}<br><br>
+        <strong>Stage:</strong> ${caseData.stage}<br><br>
+        <strong>Last Order:</strong> ${caseData.lastOrder}<br><br>
+        <strong>Filed:</strong> ${caseData.filedDate}<br><br>
+        <strong>Advocate:</strong> ${caseData.lawyer}
+      </div>
+    `;
+    resultDiv.style.display = 'block';
+  } else {
+    detailsDiv.innerHTML = `
+      <div style="text-align: center; color: #e74c3c; font-weight: 600; background: rgba(255, 255, 255, 0.9); padding: 25px; border-radius: 12px;">
+        ❌ Information not available in database<br><br>
+        <small style="color: #4a5568; font-weight: normal; margin-top: 10px; display: block;">
+          Please consult a lawyer for case-specific information or try official eCourts portal.
+        </small>
+      </div>
+    `;
+    resultDiv.style.display = 'block';
+  }
+}
+
+function searchSampleCase(caseId) {
+  document.getElementById('caseInput').value = caseId;
+  searchCase();
+}
+
+// Profile Functions
+function showProfile(profileId) {
+  if (profileData[profileId]) {
+    const profile = profileData[profileId];
+    const casesText = profile.cases.join('\n• ');
+    alert(`${profile.name}\n${profile.designation}\n\n${profile.details}\n\nFamous Cases:\n• ${casesText}`);
+  }
+}
+
+// Chat Functions
+function openChat(type) {
+  currentChatType = type;
+  const modal = document.getElementById('chatModal');
+  const title = document.getElementById('modalTitle');
+  const chatArea = document.getElementById('chatArea');
+  
+  title.textContent = legalDB[type].title;
+  
+  chatArea.innerHTML = `
+    <div class="chat-message">
+      <div class="chat-avatar">${legalDB[type].icon}</div>
+      <div class="chat-bubble">
+        ${legalDB[type].responses.default}
+      </div>
+    </div>
+  `;
+  
+  modal.classList.add('show');
+  document.getElementById('chatInput').focus();
+}
+
+function openQuickChat(question) {
+  currentChatType = 'property';
+  const modal = document.getElementById('chatModal');
+  const title = document.getElementById('modalTitle');
+  const chatArea = document.getElementById('chatArea');
+  const input = document.getElementById('chatInput');
+  
+  title.textContent = '💡 LAC Quick Query';
+  
+  chatArea.innerHTML = `
+    <div class="chat-message">
+      <div class="chat-avatar">💡</div>
+      <div class="chat-bubble">
+        I'll help you with: "${question}". Let me provide you with relevant information.
+      </div>
+    </div>
+  `;
+  
+  input.value = question;
+  modal.classList.add('show');
+  
+  setTimeout(() => {
+    sendMessage();
+  }, 500);
+}
+
+function closeChat() {
+  document.getElementById('chatModal').classList.remove('show');
+  currentChatType = '';
+}
+
+function addMessage(message, isUser = false) {
+  const chatArea = document.getElementById('chatArea');
+  const messageDiv = document.createElement('div');
+  messageDiv.className = `chat-message ${isUser ? 'user' : ''}`;
+  
+  if (isUser) {
+    messageDiv.innerHTML = `<div class="chat-bubble">${message}</div>`;
+  } else {
+    const icon = currentChatType ? legalDB[currentChatType].icon : '💡';
+    messageDiv.innerHTML = `
+      <div class="chat-avatar">${icon}</div>
+      <div class="chat-bubble">${message}</div>
+    `;
+  }
+  
+  chatArea.appendChild(messageDiv);
+  chatArea.scrollTop = chatArea.scrollHeight;
+}
+
+// Enhanced getResponse function with all 5 JSON databases
+async function getResponse(message) {
+  console.log('JSON branch active for:', currentChatType);
+  
+  let matches = [];
+  
+  // Search respective database based on chat type
+  if (currentChatType === 'property') {
+    matches = await searchCivilDB(message, 3);
+    if (matches.length > 0) {
+      return formatCaseResults(matches, 'civil');
+    }
+  } else if (currentChatType === 'criminal') {
+    matches = await searchCriminalDB(message, 3);
+    if (matches.length > 0) {
+      return formatCaseResults(matches, 'criminal');
+    }
+  } else if (currentChatType === 'taxation') {
+    matches = await searchTaxationDB(message, 3);
+    if (matches.length > 0) {
+      return formatCaseResults(matches, 'taxation');
+    }
+  } else if (currentChatType === 'constitutional') {
+    matches = await searchConstitutionalDB(message, 3);
+    if (matches.length > 0) {
+      return formatCaseResults(matches, 'constitutional');
+    }
+  } else if (currentChatType === 'cyber') {
+    matches = await searchCyberDB(message, 3);
+    if (matches.length > 0) {
+      return formatCaseResults(matches, 'cyber');
+    }
+  }
+
+  const msg = message.toLowerCase();
+  
+  if (!currentChatType) {
+    return "I'm here to help with Indian legal matters. Please specify which area you need assistance with: Property Law, Criminal Law, Tax Law, Constitutional Rights, or Cyber Law.";
+  }
+  
+  const responses = legalDB[currentChatType].responses;
+  
+  // Check for specific keywords
+  for (let key in responses) {
+    if (key !== 'default' && msg.includes(key)) {
+      return responses[key];
+    }
+  }
+  
+  // Context-specific responses with fallback
+  if (currentChatType === 'property') {
+    if (msg.includes('buy') || msg.includes('sale')) return responses.transfer || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('title') || msg.includes('own')) return responses.ownership || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('conflict') || msg.includes('problem')) return responses.dispute || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('fees') || msg.includes('cost')) return "**Property Registration Fees**: Vary by state (1-8% of property value). Information not available in database for specific states. Please consult a lawyer.";
+  } else if (currentChatType === 'criminal') {
+    if (msg.includes('complaint') || msg.includes('police')) return responses.fir || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('arrest') || msg.includes('custody')) return responses.bail || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('rights') && msg.includes('arrest')) return "**Rights During Arrest**: Right to be informed of grounds, right to lawyer, right to remain silent, right to medical examination. Information not available in database for specific situations. Please consult a lawyer.";
+  } else if (currentChatType === 'taxation') {
+    if (msg.includes('salary') || msg.includes('deduction')) return responses.income || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('business') || msg.includes('trade')) return responses.gst || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('deadline') || msg.includes('due date')) return "**Tax Filing Deadlines**: ITR - July 31 (individuals), September 30 (audit cases). GST - Monthly by 20th. Information not available in database for specific cases. Please consult a lawyer.";
+  } else if (currentChatType === 'constitutional') {
+    if (msg.includes('rights')) return responses.fundamental || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('equality')) return responses.equality || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('freedom')) return responses.freedom || "Information not available in database. Please consult a lawyer.";
+  } else if (currentChatType === 'cyber') {
+    if (msg.includes('hacking') || msg.includes('fraud')) return responses.cybercrime || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('data') || msg.includes('privacy')) return responses.data || "Information not available in database. Please consult a lawyer.";
+    if (msg.includes('evidence')) return responses.evidence || "Information not available in database. Please consult a lawyer.";
+  }
+  
+  // Fallback response
+  return "Information not available in database. Please consult a lawyer for detailed guidance on this matter.";
+}
+
+// Make sendMessage async
+async function sendMessage() {
+  const input = document.getElementById('chatInput');
+  const message = input.value.trim();
+  
+  if (!message) return;
+  
+  addMessage(message, true);
+  input.value = '';
+  
+  // Show searching indicator
+  if (currentChatType !== 'property') {
+    addMessage(`🔎 Searching ${currentChatType} database...`, false);
+  } else {
+    addMessage('🔎 Searching civil database...', false);
+  }
+  
+  try {
+    const response = await getResponse(message);
+    
+    // Remove searching message if it was added
+    const chatArea = document.getElementById('chatArea');
+    const lastMessage = chatArea.lastChild;
+    if (lastMessage && lastMessage.textContent.includes('Searching')) {
+      chatArea.removeChild(lastMessage);
+    }
+    
+    addMessage(response, false);
+  } catch (error) {
+    console.error('Error getting response:', error);
+    // Remove searching message
+    const chatArea = document.getElementById('chatArea');
+    const lastMessage = chatArea.lastChild;
+    if (lastMessage && lastMessage.textContent.includes('Searching')) {
+      chatArea.removeChild(lastMessage);
+    }
+    addMessage('Information not available in database. Please consult a lawyer.', false);
+  }
+}
+
+// Enhanced Feedback Form Submission
+async function submitFeedback(event) {
+  event.preventDefault();
+  
+  const name = document.getElementById('userName').value;
+  const email = document.getElementById('userEmail').value;
+  const feedback = document.getElementById('userFeedback').value;
+  const submitBtn = document.getElementById('submitBtn');
+  const successMessage = document.getElementById('successMessage');
+  
+  submitBtn.disabled = true;
+  submitBtn.textContent = '📤 Recording...';
+  
+  try {
+    // Simulate feedback recording process
+    setTimeout(() => {
+      // Show success message with updated text
+      successMessage.classList.add('show');
+      
+      // Reset form
+      document.getElementById('userName').value = '';
+      document.getElementById('userEmail').value = '';
+      document.getElementById('userFeedback').value = '';
+      
+      // Reset button
+      submitBtn.disabled = false;
+      submitBtn.textContent = '📧 Send Feedback';
+      
+      // Hide success message after 5 seconds
+      setTimeout(() => {
+        successMessage.classList.remove('show');
+      }, 5000);
+      
+      // Log feedback for demonstration (in real app, send to server)
+      console.log('Feedback Recorded:', {
+        name: name,
+        email: email,
+        feedback: feedback,
+        timestamp: new Date().toISOString(),
+        language: currentLanguage
+      });
+      
+    }, 1500);
+    
+  } catch (error) {
+    console.error('Error recording feedback:', error);
+    submitBtn.disabled = false;
+    submitBtn.textContent = '📧 Send Feedback';
+    alert(currentLanguage === 'hi' ? 'फीडबैक रिकॉर्ड करने में त्रुटि। कृपया पुनः प्रयास करें।' : 'Error recording feedback. Please try again.');
+  }
+}
+
+// Initialize everything
+document.addEventListener('DOMContentLoaded', function() {
+  // Start clock
+  setInterval(updateClock, 1000);
+  updateClock();
+  
+  // Load saved preferences
+  const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+  const savedTheme = localStorage.getItem('isDarkMode') === 'true' ? 'dark' : 'light';
+  
+  switchLanguage(savedLanguage);
+  setTheme(savedTheme);
+  
+  // Add event listeners
+  document.getElementById('chatInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      sendMessage();
+    }
+  });
+  
+  document.getElementById('caseInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      searchCase();
+    }
+  });
+  
+  document.getElementById('chatModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeChat();
+    }
+  });
+  
+  // Close side menu when clicking outside
+  document.addEventListener('click', function(e) {
+    const sideMenu = document.getElementById('sideMenu');
+    const menuToggle = document.querySelector('.menu-toggle');
+    
+    if (!sideMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+      closeSideMenu();
+    }
+  });
+  
+  // Add keyboard navigation
+  document.addEventListener('keydown', function(e) {
+    // Press Escape to close modal or side menu
+    if (e.key === 'Escape') {
+      if (document.getElementById('chatModal').classList.contains('show')) {
+        closeChat();
+      }
+      if (document.getElementById('sideMenu').classList.contains('open')) {
+        closeSideMenu();
+      }
+    }
+    
+    // Press Ctrl+/ to open side menu
+    if (e.ctrlKey && e.key === '/') {
+      e.preventDefault();
+      toggleSideMenu();
+    }
+  });
+  
+  console.log("🚀 LAC - Legal AI Chat Bot loaded successfully with JSON civil cases!");
+  console.log("✅ All 5 JSON databases integrated:");
+  console.log("   - civil_cases.json");
+  console.log("   - criminal_cases.json"); 
+  console.log("   - taxation_cases.json");
+  console.log("   - constitutional_cases.json (or law_cases.json as fallback)");
+  console.log("   - cybercrime_cases.json");
+  console.log("✅ Place all JSON files in the same folder as this HTML");
+  console.log("✅ Open with Live Server for proper JSON loading");
+});
+
+// Make functions globally accessible
+window.showPage = showPage;
+window.openChat = openChat;
+window.openQuickChat = openQuickChat;
+window.closeChat = closeChat;
+window.toggleSideMenu = toggleSideMenu;
+window.closeSideMenu = closeSideMenu;
+window.switchLanguage = switchLanguage;
+window.setTheme = setTheme;
+window.toggleFAQ = toggleFAQ;
+window.sendMessage = sendMessage;
+window.searchCase = searchCase;
+window.searchSampleCase = searchSampleCase;
+window.showProfile = showProfile;
+window.submitFeedback = submitFeedback;
+</script>
+</body>
+</html>

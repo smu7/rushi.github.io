@@ -1,0 +1,1702 @@
+[
+  {
+    "case_id": "TX2025-001",
+    "parties": "Income Tax Department vs Reddy Industries Pvt Ltd",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2023-09-27",
+    "next_hearing": "2024-11-10",
+    "summary": "Auto-generated taxation case TX2025-001: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-001_notice.pdf",
+      "tx2025-001_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-002",
+    "parties": "Income Tax Department vs Mehta Traders",
+    "court": "National Faceless Appeal Centre",
+    "status": "Hearing adjourned",
+    "filing_date": "2022-07-08",
+    "next_hearing": "2023-11-28",
+    "summary": "Auto-generated taxation case TX2025-002: concerning penalty for non-filing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-002_notice.pdf",
+      "tx2025-002_records.zip"
+    ],
+    "tags": [
+      "penalty for non-filing"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-003",
+    "parties": "State Tax Department vs Verma Exports",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Penalty imposed",
+    "filing_date": "2021-06-10",
+    "next_hearing": "2022-01-26",
+    "summary": "Auto-generated taxation case TX2025-003: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-003_notice.pdf",
+      "tx2025-003_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-004",
+    "parties": "GST Department vs Patel Corporation",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Under appeal",
+    "filing_date": "2023-03-26",
+    "next_hearing": "2024-01-29",
+    "summary": "Auto-generated taxation case TX2025-004: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-004_notice.pdf",
+      "tx2025-004_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-005",
+    "parties": "GST Department vs Patel Enterprises Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2022-09-27",
+    "next_hearing": "2023-01-03",
+    "summary": "Auto-generated taxation case TX2025-005: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-005_notice.pdf",
+      "tx2025-005_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-006",
+    "parties": "Central Board of Direct Taxes vs Verma LLP",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Assessment pending",
+    "filing_date": "2021-09-10",
+    "next_hearing": "2022-10-03",
+    "summary": "Auto-generated taxation case TX2025-006: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-006_notice.pdf",
+      "tx2025-006_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-007",
+    "parties": "Central Board of Direct Taxes vs Mehta Traders",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Hearing adjourned",
+    "filing_date": "2021-01-28",
+    "next_hearing": "2021-10-19",
+    "summary": "Auto-generated taxation case TX2025-007: concerning income tax evasion. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-007_notice.pdf",
+      "tx2025-007_records.zip"
+    ],
+    "tags": [
+      "income tax evasion"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-008",
+    "parties": "Central Board of Direct Taxes vs Kumar Traders",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Penalty imposed",
+    "filing_date": "2024-06-03",
+    "next_hearing": "2025-10-11",
+    "summary": "Auto-generated taxation case TX2025-008: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-008_notice.pdf",
+      "tx2025-008_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-009",
+    "parties": "Income Tax Department vs Sinha Services",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Under investigation",
+    "filing_date": "2019-05-20",
+    "next_hearing": "2020-04-25",
+    "summary": "Auto-generated taxation case TX2025-009: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-009_notice.pdf",
+      "tx2025-009_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-010",
+    "parties": "Income Tax Department vs Singh Holdings Ltd",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Hearing adjourned",
+    "filing_date": "2022-12-28",
+    "next_hearing": "2023-05-23",
+    "summary": "Auto-generated taxation case TX2025-010: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-010_notice.pdf",
+      "tx2025-010_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-011",
+    "parties": "GST Department vs Johnson Consultants",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Under appeal",
+    "filing_date": "2024-05-18",
+    "next_hearing": "2024-12-25",
+    "summary": "Auto-generated taxation case TX2025-011: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-011_notice.pdf",
+      "tx2025-011_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-012",
+    "parties": "Income Tax Department vs Kumar Corporation",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Under appeal",
+    "filing_date": "2024-12-16",
+    "next_hearing": "2025-08-30",
+    "summary": "Auto-generated taxation case TX2025-012: concerning income tax evasion. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-012_notice.pdf",
+      "tx2025-012_records.zip"
+    ],
+    "tags": [
+      "income tax evasion"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-013",
+    "parties": "GST Department vs Verma Corporation",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Stay granted",
+    "filing_date": "2023-05-11",
+    "next_hearing": "2024-07-27",
+    "summary": "Auto-generated taxation case TX2025-013: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-013_notice.pdf",
+      "tx2025-013_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-014",
+    "parties": "Central Board of Direct Taxes vs Singh Consultancy",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Penalty imposed",
+    "filing_date": "2019-06-30",
+    "next_hearing": "2020-02-29",
+    "summary": "Auto-generated taxation case TX2025-014: concerning penalty for non-filing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-014_notice.pdf",
+      "tx2025-014_records.zip"
+    ],
+    "tags": [
+      "penalty for non-filing"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-015",
+    "parties": "State Tax Department vs Mehta Consultants",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Under investigation",
+    "filing_date": "2020-04-28",
+    "next_hearing": "2021-08-08",
+    "summary": "Auto-generated taxation case TX2025-015: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-015_notice.pdf",
+      "tx2025-015_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-016",
+    "parties": "GST Department vs Patel Traders",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Assessment pending",
+    "filing_date": "2021-11-02",
+    "next_hearing": "2023-04-25",
+    "summary": "Auto-generated taxation case TX2025-016: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-016_notice.pdf",
+      "tx2025-016_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-017",
+    "parties": "GST Department vs Nova Enterprises Pvt Ltd",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Hearing adjourned",
+    "filing_date": "2024-12-31",
+    "next_hearing": "2025-08-28",
+    "summary": "Auto-generated taxation case TX2025-017: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-017_notice.pdf",
+      "tx2025-017_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-018",
+    "parties": "State Tax Department vs Singh Consultants",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Hearing adjourned",
+    "filing_date": "2024-07-31",
+    "next_hearing": "2025-10-08",
+    "summary": "Auto-generated taxation case TX2025-018: concerning income tax evasion. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-018_notice.pdf",
+      "tx2025-018_records.zip"
+    ],
+    "tags": [
+      "income tax evasion"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-019",
+    "parties": "Income Tax Department vs Kumar Holdings Ltd",
+    "court": "National Faceless Appeal Centre",
+    "status": "Hearing adjourned",
+    "filing_date": "2025-01-30",
+    "next_hearing": "2025-11-01",
+    "summary": "Auto-generated taxation case TX2025-019: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-019_notice.pdf",
+      "tx2025-019_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-020",
+    "parties": "Central Board of Direct Taxes vs Mehta Enterprises Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Stay granted",
+    "filing_date": "2024-11-26",
+    "next_hearing": "2026-04-03",
+    "summary": "Auto-generated taxation case TX2025-020: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-020_notice.pdf",
+      "tx2025-020_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-021",
+    "parties": "Central Board of Direct Taxes vs Sinha Traders",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Under investigation",
+    "filing_date": "2019-03-02",
+    "next_hearing": "2020-07-03",
+    "summary": "Auto-generated taxation case TX2025-021: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-021_notice.pdf",
+      "tx2025-021_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-022",
+    "parties": "State Tax Department vs Apex Exports",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Penalty imposed",
+    "filing_date": "2023-11-20",
+    "next_hearing": "2023-12-28",
+    "summary": "Auto-generated taxation case TX2025-022: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-022_notice.pdf",
+      "tx2025-022_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-023",
+    "parties": "State Tax Department vs Mehta Industries Pvt Ltd",
+    "court": "National Faceless Appeal Centre",
+    "status": "Hearing adjourned",
+    "filing_date": "2025-03-09",
+    "next_hearing": "2025-05-08",
+    "summary": "Auto-generated taxation case TX2025-023: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-023_notice.pdf",
+      "tx2025-023_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-024",
+    "parties": "State Tax Department vs Nova Services",
+    "court": "National Faceless Appeal Centre",
+    "status": "Under investigation",
+    "filing_date": "2025-02-24",
+    "next_hearing": "2025-07-15",
+    "summary": "Auto-generated taxation case TX2025-024: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-024_notice.pdf",
+      "tx2025-024_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-025",
+    "parties": "Central Board of Direct Taxes vs Reddy Traders",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Hearing adjourned",
+    "filing_date": "2020-11-18",
+    "next_hearing": "2022-02-03",
+    "summary": "Auto-generated taxation case TX2025-025: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-025_notice.pdf",
+      "tx2025-025_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-026",
+    "parties": "Central Board of Direct Taxes vs Mehta Holdings Ltd",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Stay granted",
+    "filing_date": "2025-07-30",
+    "next_hearing": "2026-01-23",
+    "summary": "Auto-generated taxation case TX2025-026: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-026_notice.pdf",
+      "tx2025-026_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-027",
+    "parties": "GST Department vs Apex Enterprises Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Penalty imposed",
+    "filing_date": "2024-07-20",
+    "next_hearing": "2025-04-29",
+    "summary": "Auto-generated taxation case TX2025-027: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-027_notice.pdf",
+      "tx2025-027_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-028",
+    "parties": "GST Department vs Johnson Traders",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Under investigation",
+    "filing_date": "2021-12-09",
+    "next_hearing": "2023-02-07",
+    "summary": "Auto-generated taxation case TX2025-028: concerning penalty for non-filing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-028_notice.pdf",
+      "tx2025-028_records.zip"
+    ],
+    "tags": [
+      "penalty for non-filing"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-029",
+    "parties": "State Tax Department vs Mehta Holdings Ltd",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2019-04-30",
+    "next_hearing": "2020-07-02",
+    "summary": "Auto-generated taxation case TX2025-029: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-029_notice.pdf",
+      "tx2025-029_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-030",
+    "parties": "Income Tax Department vs Verma Industries Pvt Ltd",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Stay granted",
+    "filing_date": "2022-04-22",
+    "next_hearing": "2023-07-30",
+    "summary": "Auto-generated taxation case TX2025-030: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-030_notice.pdf",
+      "tx2025-030_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-031",
+    "parties": "GST Department vs Johnson Consultants",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2022-03-24",
+    "next_hearing": "2022-07-10",
+    "summary": "Auto-generated taxation case TX2025-031: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-031_notice.pdf",
+      "tx2025-031_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-032",
+    "parties": "State Tax Department vs Reddy Services",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Under investigation",
+    "filing_date": "2023-11-13",
+    "next_hearing": "2025-05-06",
+    "summary": "Auto-generated taxation case TX2025-032: concerning penalty for non-filing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-032_notice.pdf",
+      "tx2025-032_records.zip"
+    ],
+    "tags": [
+      "penalty for non-filing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-033",
+    "parties": "Central Board of Direct Taxes vs Johnson Traders",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Stay granted",
+    "filing_date": "2024-06-19",
+    "next_hearing": "2025-11-29",
+    "summary": "Auto-generated taxation case TX2025-033: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-033_notice.pdf",
+      "tx2025-033_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-034",
+    "parties": "GST Department vs Kumar LLP",
+    "court": "National Faceless Appeal Centre",
+    "status": "Penalty imposed",
+    "filing_date": "2025-01-22",
+    "next_hearing": "2025-09-18",
+    "summary": "Auto-generated taxation case TX2025-034: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-034_notice.pdf",
+      "tx2025-034_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-035",
+    "parties": "GST Department vs Singh Consultants",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Under investigation",
+    "filing_date": "2024-04-11",
+    "next_hearing": "2024-11-30",
+    "summary": "Auto-generated taxation case TX2025-035: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-035_notice.pdf",
+      "tx2025-035_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-036",
+    "parties": "Central Board of Direct Taxes vs Kumar Industries Pvt Ltd",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2023-05-04",
+    "next_hearing": "2024-08-18",
+    "summary": "Auto-generated taxation case TX2025-036: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-036_notice.pdf",
+      "tx2025-036_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-037",
+    "parties": "Income Tax Department vs Mehta Consultants",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Under appeal",
+    "filing_date": "2023-02-19",
+    "next_hearing": "2023-06-23",
+    "summary": "Auto-generated taxation case TX2025-037: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-037_notice.pdf",
+      "tx2025-037_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-038",
+    "parties": "State Tax Department vs Apex Exports",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2023-01-06",
+    "next_hearing": "2024-03-25",
+    "summary": "Auto-generated taxation case TX2025-038: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-038_notice.pdf",
+      "tx2025-038_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-039",
+    "parties": "Income Tax Department vs Mehta Industries Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Stay granted",
+    "filing_date": "2025-05-14",
+    "next_hearing": "2026-05-23",
+    "summary": "Auto-generated taxation case TX2025-039: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-039_notice.pdf",
+      "tx2025-039_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-040",
+    "parties": "GST Department vs Nova Holdings Ltd",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2024-04-24",
+    "next_hearing": "2025-09-28",
+    "summary": "Auto-generated taxation case TX2025-040: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-040_notice.pdf",
+      "tx2025-040_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-041",
+    "parties": "Central Board of Direct Taxes vs Mehta Consultants",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Hearing adjourned",
+    "filing_date": "2022-04-14",
+    "next_hearing": "2022-05-29",
+    "summary": "Auto-generated taxation case TX2025-041: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-041_notice.pdf",
+      "tx2025-041_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-042",
+    "parties": "Central Board of Direct Taxes vs Nova Consultancy",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2025-08-31",
+    "next_hearing": "2026-11-06",
+    "summary": "Auto-generated taxation case TX2025-042: concerning income tax evasion. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-042_notice.pdf",
+      "tx2025-042_records.zip"
+    ],
+    "tags": [
+      "income tax evasion"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-043",
+    "parties": "State Tax Department vs Patel Exports",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Stay granted",
+    "filing_date": "2023-11-10",
+    "next_hearing": "2024-07-22",
+    "summary": "Auto-generated taxation case TX2025-043: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-043_notice.pdf",
+      "tx2025-043_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-044",
+    "parties": "Central Board of Direct Taxes vs Johnson Exports",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Hearing adjourned",
+    "filing_date": "2021-08-23",
+    "next_hearing": "2022-07-26",
+    "summary": "Auto-generated taxation case TX2025-044: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-044_notice.pdf",
+      "tx2025-044_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-045",
+    "parties": "GST Department vs Mehta Services",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Stay granted",
+    "filing_date": "2024-02-19",
+    "next_hearing": "2024-09-04",
+    "summary": "Auto-generated taxation case TX2025-045: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-045_notice.pdf",
+      "tx2025-045_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-046",
+    "parties": "Income Tax Department vs Verma LLP",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Stay granted",
+    "filing_date": "2020-07-09",
+    "next_hearing": "2021-12-03",
+    "summary": "Auto-generated taxation case TX2025-046: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-046_notice.pdf",
+      "tx2025-046_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-047",
+    "parties": "Income Tax Department vs Nova Consultancy",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Assessment pending",
+    "filing_date": "2020-01-03",
+    "next_hearing": "2020-09-18",
+    "summary": "Auto-generated taxation case TX2025-047: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-047_notice.pdf",
+      "tx2025-047_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-048",
+    "parties": "Central Board of Direct Taxes vs Kumar Corporation",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Assessment pending",
+    "filing_date": "2021-04-01",
+    "next_hearing": "2022-06-14",
+    "summary": "Auto-generated taxation case TX2025-048: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-048_notice.pdf",
+      "tx2025-048_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-049",
+    "parties": "Income Tax Department vs Singh Services",
+    "court": "National Faceless Appeal Centre",
+    "status": "Assessment pending",
+    "filing_date": "2022-03-18",
+    "next_hearing": "2022-10-21",
+    "summary": "Auto-generated taxation case TX2025-049: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-049_notice.pdf",
+      "tx2025-049_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-050",
+    "parties": "GST Department vs Sinha Corporation",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2024-11-30",
+    "next_hearing": "2025-08-22",
+    "summary": "Auto-generated taxation case TX2025-050: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-050_notice.pdf",
+      "tx2025-050_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-051",
+    "parties": "Income Tax Department vs Kumar LLP",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Assessment pending",
+    "filing_date": "2024-01-19",
+    "next_hearing": "2024-10-20",
+    "summary": "Auto-generated taxation case TX2025-051: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-051_notice.pdf",
+      "tx2025-051_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-052",
+    "parties": "Central Board of Direct Taxes vs Sinha Consultants",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Assessment pending",
+    "filing_date": "2020-01-09",
+    "next_hearing": "2021-02-20",
+    "summary": "Auto-generated taxation case TX2025-052: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-052_notice.pdf",
+      "tx2025-052_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-053",
+    "parties": "Income Tax Department vs Kumar Exports",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Under appeal",
+    "filing_date": "2023-06-21",
+    "next_hearing": "2023-11-10",
+    "summary": "Auto-generated taxation case TX2025-053: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-053_notice.pdf",
+      "tx2025-053_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-054",
+    "parties": "State Tax Department vs Kumar LLP",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Assessment pending",
+    "filing_date": "2020-05-22",
+    "next_hearing": "2021-09-12",
+    "summary": "Auto-generated taxation case TX2025-054: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-054_notice.pdf",
+      "tx2025-054_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-055",
+    "parties": "State Tax Department vs Singh Consultancy",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Under appeal",
+    "filing_date": "2021-10-24",
+    "next_hearing": "2021-11-05",
+    "summary": "Auto-generated taxation case TX2025-055: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-055_notice.pdf",
+      "tx2025-055_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-056",
+    "parties": "Income Tax Department vs Patel LLP",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Hearing adjourned",
+    "filing_date": "2021-08-16",
+    "next_hearing": "2022-09-17",
+    "summary": "Auto-generated taxation case TX2025-056: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-056_notice.pdf",
+      "tx2025-056_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-057",
+    "parties": "Income Tax Department vs Apex Consultants",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Assessment pending",
+    "filing_date": "2020-11-19",
+    "next_hearing": "2021-11-29",
+    "summary": "Auto-generated taxation case TX2025-057: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-057_notice.pdf",
+      "tx2025-057_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-058",
+    "parties": "Income Tax Department vs Sinha Enterprises Pvt Ltd",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Stay granted",
+    "filing_date": "2020-09-10",
+    "next_hearing": "2021-10-04",
+    "summary": "Auto-generated taxation case TX2025-058: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-058_notice.pdf",
+      "tx2025-058_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-059",
+    "parties": "State Tax Department vs Nova Services",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Assessment pending",
+    "filing_date": "2023-05-21",
+    "next_hearing": "2024-05-13",
+    "summary": "Auto-generated taxation case TX2025-059: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-059_notice.pdf",
+      "tx2025-059_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-060",
+    "parties": "State Tax Department vs Mehta LLP",
+    "court": "National Faceless Appeal Centre",
+    "status": "Stay granted",
+    "filing_date": "2024-04-02",
+    "next_hearing": "2025-09-22",
+    "summary": "Auto-generated taxation case TX2025-060: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-060_notice.pdf",
+      "tx2025-060_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-061",
+    "parties": "State Tax Department vs Verma Consultants",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Penalty imposed",
+    "filing_date": "2025-06-12",
+    "next_hearing": "2026-08-27",
+    "summary": "Auto-generated taxation case TX2025-061: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-061_notice.pdf",
+      "tx2025-061_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-062",
+    "parties": "Central Board of Direct Taxes vs Reddy Holdings Ltd",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Penalty imposed",
+    "filing_date": "2021-04-16",
+    "next_hearing": "2021-11-21",
+    "summary": "Auto-generated taxation case TX2025-062: concerning penalty for non-filing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-062_notice.pdf",
+      "tx2025-062_records.zip"
+    ],
+    "tags": [
+      "penalty for non-filing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-063",
+    "parties": "State Tax Department vs Patel Enterprises Pvt Ltd",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Stay granted",
+    "filing_date": "2024-10-30",
+    "next_hearing": "2025-12-18",
+    "summary": "Auto-generated taxation case TX2025-063: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-063_notice.pdf",
+      "tx2025-063_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-064",
+    "parties": "GST Department vs Singh Traders",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Stay granted",
+    "filing_date": "2021-08-15",
+    "next_hearing": "2021-12-30",
+    "summary": "Auto-generated taxation case TX2025-064: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-064_notice.pdf",
+      "tx2025-064_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-065",
+    "parties": "GST Department vs Johnson Corporation",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Under appeal",
+    "filing_date": "2022-07-31",
+    "next_hearing": "2023-12-16",
+    "summary": "Auto-generated taxation case TX2025-065: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-065_notice.pdf",
+      "tx2025-065_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-066",
+    "parties": "State Tax Department vs Mehta Enterprises Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Hearing adjourned",
+    "filing_date": "2019-12-18",
+    "next_hearing": "2021-03-20",
+    "summary": "Auto-generated taxation case TX2025-066: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-066_notice.pdf",
+      "tx2025-066_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-067",
+    "parties": "State Tax Department vs Verma Services",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2023-10-18",
+    "next_hearing": "2024-12-08",
+    "summary": "Auto-generated taxation case TX2025-067: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-067_notice.pdf",
+      "tx2025-067_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-068",
+    "parties": "GST Department vs Apex Exports",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Assessment pending",
+    "filing_date": "2020-05-14",
+    "next_hearing": "2021-01-31",
+    "summary": "Auto-generated taxation case TX2025-068: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-068_notice.pdf",
+      "tx2025-068_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-069",
+    "parties": "State Tax Department vs Nova Holdings Ltd",
+    "court": "National Faceless Appeal Centre",
+    "status": "Under investigation",
+    "filing_date": "2021-02-13",
+    "next_hearing": "2022-07-23",
+    "summary": "Auto-generated taxation case TX2025-069: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-069_notice.pdf",
+      "tx2025-069_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-070",
+    "parties": "Income Tax Department vs Singh Consultants",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Assessment pending",
+    "filing_date": "2023-03-29",
+    "next_hearing": "2023-06-28",
+    "summary": "Auto-generated taxation case TX2025-070: concerning income tax evasion. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-070_notice.pdf",
+      "tx2025-070_records.zip"
+    ],
+    "tags": [
+      "income tax evasion"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-071",
+    "parties": "Income Tax Department vs Nova Industries Pvt Ltd",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2019-02-14",
+    "next_hearing": "2019-06-30",
+    "summary": "Auto-generated taxation case TX2025-071: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-071_notice.pdf",
+      "tx2025-071_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-072",
+    "parties": "GST Department vs Singh Consultants",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Penalty imposed",
+    "filing_date": "2024-04-12",
+    "next_hearing": "2025-03-20",
+    "summary": "Auto-generated taxation case TX2025-072: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-072_notice.pdf",
+      "tx2025-072_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-073",
+    "parties": "Central Board of Direct Taxes vs Kumar Traders",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Hearing adjourned",
+    "filing_date": "2025-03-23",
+    "next_hearing": "2026-02-10",
+    "summary": "Auto-generated taxation case TX2025-073: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-073_notice.pdf",
+      "tx2025-073_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-074",
+    "parties": "Income Tax Department vs Johnson Enterprises Pvt Ltd",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2024-12-13",
+    "next_hearing": "2026-04-17",
+    "summary": "Auto-generated taxation case TX2025-074: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-074_notice.pdf",
+      "tx2025-074_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-075",
+    "parties": "GST Department vs Singh Corporation",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Under appeal",
+    "filing_date": "2023-08-13",
+    "next_hearing": "2023-09-21",
+    "summary": "Auto-generated taxation case TX2025-075: concerning income tax evasion. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-075_notice.pdf",
+      "tx2025-075_records.zip"
+    ],
+    "tags": [
+      "income tax evasion"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-076",
+    "parties": "GST Department vs Apex Industries Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2020-05-04",
+    "next_hearing": "2021-07-11",
+    "summary": "Auto-generated taxation case TX2025-076: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-076_notice.pdf",
+      "tx2025-076_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-077",
+    "parties": "Central Board of Direct Taxes vs Sinha Services",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Penalty imposed",
+    "filing_date": "2022-05-17",
+    "next_hearing": "2023-05-13",
+    "summary": "Auto-generated taxation case TX2025-077: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-077_notice.pdf",
+      "tx2025-077_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-078",
+    "parties": "State Tax Department vs Reddy Industries Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Under investigation",
+    "filing_date": "2021-05-09",
+    "next_hearing": "2022-10-03",
+    "summary": "Auto-generated taxation case TX2025-078: concerning transfer pricing. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-078_notice.pdf",
+      "tx2025-078_records.zip"
+    ],
+    "tags": [
+      "transfer pricing"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-079",
+    "parties": "GST Department vs Johnson Industries Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2024-09-22",
+    "next_hearing": "2025-02-18",
+    "summary": "Auto-generated taxation case TX2025-079: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-079_notice.pdf",
+      "tx2025-079_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-080",
+    "parties": "Income Tax Department vs Reddy Consultancy",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2023-03-14",
+    "next_hearing": "2023-09-26",
+    "summary": "Auto-generated taxation case TX2025-080: concerning tax avoidance scheme. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-080_notice.pdf",
+      "tx2025-080_records.zip"
+    ],
+    "tags": [
+      "tax avoidance scheme"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-081",
+    "parties": "Income Tax Department vs Nova Enterprises Pvt Ltd",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Under investigation",
+    "filing_date": "2020-04-28",
+    "next_hearing": "2020-07-24",
+    "summary": "Auto-generated taxation case TX2025-081: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-081_notice.pdf",
+      "tx2025-081_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-082",
+    "parties": "State Tax Department vs Kumar LLP",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Stay granted",
+    "filing_date": "2024-06-30",
+    "next_hearing": "2025-09-11",
+    "summary": "Auto-generated taxation case TX2025-082: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-082_notice.pdf",
+      "tx2025-082_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-083",
+    "parties": "Central Board of Direct Taxes vs Apex Exports",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Under investigation",
+    "filing_date": "2024-12-10",
+    "next_hearing": "2025-11-11",
+    "summary": "Auto-generated taxation case TX2025-083: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-083_notice.pdf",
+      "tx2025-083_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-084",
+    "parties": "Central Board of Direct Taxes vs Kumar LLP",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under investigation",
+    "filing_date": "2025-05-08",
+    "next_hearing": "2025-05-29",
+    "summary": "Auto-generated taxation case TX2025-084: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-084_notice.pdf",
+      "tx2025-084_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-085",
+    "parties": "State Tax Department vs Nova Industries Pvt Ltd",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Under appeal",
+    "filing_date": "2022-07-28",
+    "next_hearing": "2023-05-28",
+    "summary": "Auto-generated taxation case TX2025-085: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-085_notice.pdf",
+      "tx2025-085_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "TX2025-086",
+    "parties": "State Tax Department vs Nova Holdings Ltd",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Assessment pending",
+    "filing_date": "2023-08-07",
+    "next_hearing": "2024-04-13",
+    "summary": "Auto-generated taxation case TX2025-086: concerning income tax evasion. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-086_notice.pdf",
+      "tx2025-086_records.zip"
+    ],
+    "tags": [
+      "income tax evasion"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-087",
+    "parties": "GST Department vs Verma Consultants",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Hearing adjourned",
+    "filing_date": "2024-03-09",
+    "next_hearing": "2024-08-06",
+    "summary": "Auto-generated taxation case TX2025-087: concerning gst fraud. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-087_notice.pdf",
+      "tx2025-087_records.zip"
+    ],
+    "tags": [
+      "gst fraud"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-088",
+    "parties": "GST Department vs Apex Consultants",
+    "court": "Income Tax Appellate Tribunal, Delhi",
+    "status": "Under appeal",
+    "filing_date": "2024-05-22",
+    "next_hearing": "2025-08-01",
+    "summary": "Auto-generated taxation case TX2025-088: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-088_notice.pdf",
+      "tx2025-088_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-089",
+    "parties": "GST Department vs Singh Holdings Ltd",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Under appeal",
+    "filing_date": "2021-04-30",
+    "next_hearing": "2022-08-07",
+    "summary": "Auto-generated taxation case TX2025-089: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-089_notice.pdf",
+      "tx2025-089_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-090",
+    "parties": "GST Department vs Mehta Consultancy",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Hearing adjourned",
+    "filing_date": "2020-10-04",
+    "next_hearing": "2022-01-03",
+    "summary": "Auto-generated taxation case TX2025-090: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-090_notice.pdf",
+      "tx2025-090_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "TX2025-091",
+    "parties": "GST Department vs Verma Holdings Ltd",
+    "court": "National Faceless Appeal Centre",
+    "status": "Penalty imposed",
+    "filing_date": "2021-08-09",
+    "next_hearing": "2021-11-11",
+    "summary": "Auto-generated taxation case TX2025-091: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-091_notice.pdf",
+      "tx2025-091_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-092",
+    "parties": "GST Department vs Johnson Services",
+    "court": "Income Tax Appellate Tribunal, Mumbai",
+    "status": "Stay granted",
+    "filing_date": "2021-04-05",
+    "next_hearing": "2022-01-24",
+    "summary": "Auto-generated taxation case TX2025-092: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-092_notice.pdf",
+      "tx2025-092_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-093",
+    "parties": "Income Tax Department vs Singh Holdings Ltd",
+    "court": "High Court, Chennai (Taxation Bench)",
+    "status": "Under appeal",
+    "filing_date": "2022-09-29",
+    "next_hearing": "2022-12-22",
+    "summary": "Auto-generated taxation case TX2025-093: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-093_notice.pdf",
+      "tx2025-093_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-094",
+    "parties": "State Tax Department vs Nova LLP",
+    "court": "National Faceless Appeal Centre",
+    "status": "Under appeal",
+    "filing_date": "2021-07-28",
+    "next_hearing": "2022-06-03",
+    "summary": "Auto-generated taxation case TX2025-094: concerning tax residency dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-094_notice.pdf",
+      "tx2025-094_records.zip"
+    ],
+    "tags": [
+      "tax residency dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-095",
+    "parties": "Central Board of Direct Taxes vs Singh Enterprises Pvt Ltd",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Assessment pending",
+    "filing_date": "2019-06-12",
+    "next_hearing": "2019-06-27",
+    "summary": "Auto-generated taxation case TX2025-095: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-095_notice.pdf",
+      "tx2025-095_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-096",
+    "parties": "Central Board of Direct Taxes vs Singh Exports",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Penalty imposed",
+    "filing_date": "2022-08-25",
+    "next_hearing": "2023-05-29",
+    "summary": "Auto-generated taxation case TX2025-096: concerning tax refund dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-096_notice.pdf",
+      "tx2025-096_records.zip"
+    ],
+    "tags": [
+      "tax refund dispute"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-097",
+    "parties": "Central Board of Direct Taxes vs Nova Consultancy",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Stay granted",
+    "filing_date": "2023-07-05",
+    "next_hearing": "2024-01-04",
+    "summary": "Auto-generated taxation case TX2025-097: concerning wrong input tax credit claim. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-097_notice.pdf",
+      "tx2025-097_records.zip"
+    ],
+    "tags": [
+      "wrong input tax credit claim"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "TX2025-098",
+    "parties": "State Tax Department vs Patel Industries Pvt Ltd",
+    "court": "National Faceless Appeal Centre",
+    "status": "Hearing adjourned",
+    "filing_date": "2024-11-22",
+    "next_hearing": "2025-04-14",
+    "summary": "Auto-generated taxation case TX2025-098: concerning failure to disclose income. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-098_notice.pdf",
+      "tx2025-098_records.zip"
+    ],
+    "tags": [
+      "failure to disclose income"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-099",
+    "parties": "GST Department vs Johnson Consultancy",
+    "court": "GST Appellate Authority, Bangalore",
+    "status": "Penalty imposed",
+    "filing_date": "2022-10-30",
+    "next_hearing": "2023-03-14",
+    "summary": "Auto-generated taxation case TX2025-099: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-099_notice.pdf",
+      "tx2025-099_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "Urgent"
+  },
+  {
+    "case_id": "TX2025-100",
+    "parties": "Central Board of Direct Taxes vs Mehta Exports",
+    "court": "High Court, Kolkata (Taxation Bench)",
+    "status": "Under investigation",
+    "filing_date": "2022-02-09",
+    "next_hearing": "2023-06-09",
+    "summary": "Auto-generated taxation case TX2025-100: concerning capital gains dispute. Court proceedings ongoing.",
+    "documents": [
+      "tx2025-100_notice.pdf",
+      "tx2025-100_records.zip"
+    ],
+    "tags": [
+      "capital gains dispute"
+    ],
+    "priority": "Urgent"
+  }
+]

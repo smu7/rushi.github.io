@@ -1,0 +1,1802 @@
+[
+  {
+    "case_id": "RJ2025-001",
+    "parties": "Meera vs Neighbor",
+    "court": "Consumer Court, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2023-10-26",
+    "next_hearing": "2025-12-25",
+    "summary": "Auto-generated civil case RJ2025-001: petition concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-001_petition.pdf",
+      "rj2025-001_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-002",
+    "parties": "Suresh vs Employer Pvt Ltd",
+    "court": "District Court, Jodhpur",
+    "status": "Pending for evidence",
+    "filing_date": "2024-11-05",
+    "next_hearing": "2025-09-24",
+    "summary": "Auto-generated civil case RJ2025-002: dispute concerning IP, contract. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-002_petition.pdf",
+      "rj2025-002_documents.zip"
+    ],
+    "tags": [
+      "IP",
+      "contract"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-003",
+    "parties": "Imran vs Insurance Co.",
+    "court": "Consumer Court, Jaipur",
+    "status": "Under hearing",
+    "filing_date": "2025-03-04",
+    "next_hearing": "2025-11-11",
+    "summary": "Auto-generated civil case RJ2025-003: dispute concerning insurance, claim. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-003_petition.pdf",
+      "rj2025-003_documents.zip"
+    ],
+    "tags": [
+      "insurance",
+      "claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-004",
+    "parties": "Meera vs Insurance Co.",
+    "court": "Civil Court, Udaipur",
+    "status": "Under hearing",
+    "filing_date": "2023-03-29",
+    "next_hearing": "2026-02-04",
+    "summary": "Auto-generated civil case RJ2025-004: petition concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-004_petition.pdf",
+      "rj2025-004_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-005",
+    "parties": "ABC Traders vs Supplier Co.",
+    "court": "Family Court, Jodhpur",
+    "status": "Under hearing",
+    "filing_date": "2023-01-06",
+    "next_hearing": "2026-02-10",
+    "summary": "Auto-generated civil case RJ2025-005: dispute concerning insurance, claim. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-005_petition.pdf",
+      "rj2025-005_documents.zip"
+    ],
+    "tags": [
+      "insurance",
+      "claim"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-006",
+    "parties": "Gautam vs Insurance Co.",
+    "court": "Consumer Court, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2025-06-21",
+    "next_hearing": "2026-01-20",
+    "summary": "Auto-generated civil case RJ2025-006: claim concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-006_petition.pdf",
+      "rj2025-006_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-007",
+    "parties": "Imran vs Union Bank",
+    "court": "Civil Court, Udaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2024-01-11",
+    "next_hearing": "2025-11-17",
+    "summary": "Auto-generated civil case RJ2025-007: dispute concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-007_petition.pdf",
+      "rj2025-007_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-008",
+    "parties": "Meera vs Employer Pvt Ltd",
+    "court": "High Court, Rajasthan",
+    "status": "Dismissed",
+    "filing_date": "2023-12-05",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-008: dispute concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-008_petition.pdf",
+      "rj2025-008_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-009",
+    "parties": "Rina vs Employer Pvt Ltd",
+    "court": "Small Causes Court, Kota",
+    "status": "Pending for evidence",
+    "filing_date": "2023-12-02",
+    "next_hearing": "2026-01-18",
+    "summary": "Auto-generated civil case RJ2025-009: dispute concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-009_petition.pdf",
+      "rj2025-009_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-010",
+    "parties": "Mohan & Co. vs Housing Society",
+    "court": "Commercial Court, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2023-10-05",
+    "next_hearing": "2026-03-11",
+    "summary": "Auto-generated civil case RJ2025-010: claim concerning tax, assessment. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-010_petition.pdf",
+      "rj2025-010_documents.zip"
+    ],
+    "tags": [
+      "tax",
+      "assessment"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-011",
+    "parties": "Rakesh vs State Environment Dept.",
+    "court": "Consumer Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2024-08-28",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-011: petition concerning property, boundary. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-011_petition.pdf",
+      "rj2025-011_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "boundary"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-012",
+    "parties": "Vandana vs ABC Constructions",
+    "court": "Consumer Court, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2024-07-01",
+    "next_hearing": "2025-12-22",
+    "summary": "Auto-generated civil case RJ2025-012: claim concerning employment, labour. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-012_petition.pdf",
+      "rj2025-012_documents.zip"
+    ],
+    "tags": [
+      "employment",
+      "labour"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-013",
+    "parties": "Arjun vs College Trust",
+    "court": "Family Court, Jaipur",
+    "status": "Under hearing",
+    "filing_date": "2024-10-08",
+    "next_hearing": "2025-11-09",
+    "summary": "Auto-generated civil case RJ2025-013: claim concerning contract, commercial. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-013_petition.pdf",
+      "rj2025-013_documents.zip"
+    ],
+    "tags": [
+      "contract",
+      "commercial"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-014",
+    "parties": "Tanvi vs Developer Pvt Ltd",
+    "court": "Small Causes Court, Kota",
+    "status": "Pending for evidence",
+    "filing_date": "2022-06-15",
+    "next_hearing": "2026-01-07",
+    "summary": "Auto-generated civil case RJ2025-014: dispute concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-014_petition.pdf",
+      "rj2025-014_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-015",
+    "parties": "Green Fields NGO vs ABC Constructions",
+    "court": "Small Causes Court, Kota",
+    "status": "Dismissed",
+    "filing_date": "2023-07-25",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-015: claim concerning employment, labour. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-015_petition.pdf",
+      "rj2025-015_documents.zip"
+    ],
+    "tags": [
+      "employment",
+      "labour"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-016",
+    "parties": "Rohit vs Union Bank",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Dismissed",
+    "filing_date": "2023-04-21",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-016: petition concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-016_petition.pdf",
+      "rj2025-016_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-017",
+    "parties": "Vikram vs Supplier Co.",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Settlement negotiation",
+    "filing_date": "2022-10-26",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-017: claim concerning employment, labour. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-017_petition.pdf",
+      "rj2025-017_documents.zip"
+    ],
+    "tags": [
+      "employment",
+      "labour"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-018",
+    "parties": "Siddharth vs Employer Pvt Ltd",
+    "court": "Consumer Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2025-06-18",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-018: petition concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-018_petition.pdf",
+      "rj2025-018_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-019",
+    "parties": "Pooja vs Transport Co.",
+    "court": "District Court, Jodhpur",
+    "status": "Settlement negotiation",
+    "filing_date": "2024-03-28",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-019: dispute concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-019_petition.pdf",
+      "rj2025-019_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-020",
+    "parties": "Imran vs ABC Constructions",
+    "court": "Commercial Court, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2024-06-21",
+    "next_hearing": "2025-10-13",
+    "summary": "Auto-generated civil case RJ2025-020: dispute concerning tax, assessment. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-020_petition.pdf",
+      "rj2025-020_documents.zip"
+    ],
+    "tags": [
+      "tax",
+      "assessment"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-021",
+    "parties": "Vikram vs State Environment Dept.",
+    "court": "District Court, Jodhpur",
+    "status": "Appeal filed",
+    "filing_date": "2024-01-15",
+    "next_hearing": "2025-09-21",
+    "summary": "Auto-generated civil case RJ2025-021: claim concerning debts, recovery. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-021_petition.pdf",
+      "rj2025-021_documents.zip"
+    ],
+    "tags": [
+      "debts",
+      "recovery"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-022",
+    "parties": "Gautam vs Landlord",
+    "court": "High Court, Rajasthan",
+    "status": "Appeal filed",
+    "filing_date": "2023-12-13",
+    "next_hearing": "2025-12-17",
+    "summary": "Auto-generated civil case RJ2025-022: claim concerning property, boundary. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-022_petition.pdf",
+      "rj2025-022_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "boundary"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-023",
+    "parties": "Tanvi vs Supplier Co.",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Pending for evidence",
+    "filing_date": "2022-06-25",
+    "next_hearing": "2025-10-11",
+    "summary": "Auto-generated civil case RJ2025-023: claim concerning employment, labour. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-023_petition.pdf",
+      "rj2025-023_documents.zip"
+    ],
+    "tags": [
+      "employment",
+      "labour"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-024",
+    "parties": "Rina vs Employer Pvt Ltd",
+    "court": "Commercial Court, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2022-02-17",
+    "next_hearing": "2026-01-28",
+    "summary": "Auto-generated civil case RJ2025-024: dispute concerning contract, commercial. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-024_petition.pdf",
+      "rj2025-024_documents.zip"
+    ],
+    "tags": [
+      "contract",
+      "commercial"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-025",
+    "parties": "Vandana vs College Trust",
+    "court": "District Court, Jodhpur",
+    "status": "Closed",
+    "filing_date": "2025-08-09",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-025: petition concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-025_petition.pdf",
+      "rj2025-025_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-026",
+    "parties": "Siddharth vs Builder Associates",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Appeal filed",
+    "filing_date": "2023-04-02",
+    "next_hearing": "2026-01-31",
+    "summary": "Auto-generated civil case RJ2025-026: petition concerning employment, labour. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-026_petition.pdf",
+      "rj2025-026_documents.zip"
+    ],
+    "tags": [
+      "employment",
+      "labour"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-027",
+    "parties": "Pooja vs Employer Pvt Ltd",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Closed",
+    "filing_date": "2023-02-04",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-027: dispute concerning debts, recovery. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-027_petition.pdf",
+      "rj2025-027_documents.zip"
+    ],
+    "tags": [
+      "debts",
+      "recovery"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-028",
+    "parties": "Vandana vs Landlord",
+    "court": "High Court, Rajasthan",
+    "status": "Under hearing",
+    "filing_date": "2022-03-01",
+    "next_hearing": "2025-11-25",
+    "summary": "Auto-generated civil case RJ2025-028: petition concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-028_petition.pdf",
+      "rj2025-028_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-029",
+    "parties": "Sonal vs XYZ Hospital",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Awaiting judgment",
+    "filing_date": "2023-12-17",
+    "next_hearing": "2025-10-05",
+    "summary": "Auto-generated civil case RJ2025-029: dispute concerning property, boundary. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-029_petition.pdf",
+      "rj2025-029_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "boundary"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-030",
+    "parties": "ABC Traders vs State Environment Dept.",
+    "court": "Civil Court, Jaipur",
+    "status": "Closed",
+    "filing_date": "2025-06-03",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-030: claim concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-030_petition.pdf",
+      "rj2025-030_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-031",
+    "parties": "Leela vs Builder Associates",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Closed",
+    "filing_date": "2024-03-06",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-031: dispute concerning inheritance, will. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-031_petition.pdf",
+      "rj2025-031_documents.zip"
+    ],
+    "tags": [
+      "inheritance",
+      "will"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-032",
+    "parties": "Suresh vs Supplier Co.",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Closed",
+    "filing_date": "2022-06-27",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-032: petition concerning IP, contract. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-032_petition.pdf",
+      "rj2025-032_documents.zip"
+    ],
+    "tags": [
+      "IP",
+      "contract"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-033",
+    "parties": "Vikram vs Insurance Co.",
+    "court": "Family Court, Jodhpur",
+    "status": "Under hearing",
+    "filing_date": "2022-09-18",
+    "next_hearing": "2025-10-23",
+    "summary": "Auto-generated civil case RJ2025-033: petition concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-033_petition.pdf",
+      "rj2025-033_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-034",
+    "parties": "Aman vs City Corporation",
+    "court": "Commercial Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2024-08-29",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-034: dispute concerning contract, commercial. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-034_petition.pdf",
+      "rj2025-034_documents.zip"
+    ],
+    "tags": [
+      "contract",
+      "commercial"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-035",
+    "parties": "Tanvi vs Housing Society",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Under hearing",
+    "filing_date": "2025-08-23",
+    "next_hearing": "2026-01-27",
+    "summary": "Auto-generated civil case RJ2025-035: dispute concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-035_petition.pdf",
+      "rj2025-035_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-036",
+    "parties": "Nitin vs Employer Pvt Ltd",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2023-05-31",
+    "next_hearing": "2025-11-28",
+    "summary": "Auto-generated civil case RJ2025-036: claim concerning consumer, services. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-036_petition.pdf",
+      "rj2025-036_documents.zip"
+    ],
+    "tags": [
+      "consumer",
+      "services"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-037",
+    "parties": "Leela vs Housing Society",
+    "court": "High Court, Rajasthan",
+    "status": "Under hearing",
+    "filing_date": "2022-09-26",
+    "next_hearing": "2025-12-14",
+    "summary": "Auto-generated civil case RJ2025-037: petition concerning insurance, claim. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-037_petition.pdf",
+      "rj2025-037_documents.zip"
+    ],
+    "tags": [
+      "insurance",
+      "claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-038",
+    "parties": "Rina vs ABC Constructions",
+    "court": "Civil Court, Udaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2024-10-24",
+    "next_hearing": "2026-01-29",
+    "summary": "Auto-generated civil case RJ2025-038: claim concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-038_petition.pdf",
+      "rj2025-038_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-039",
+    "parties": "Deepa vs Neighbor",
+    "court": "High Court, Rajasthan",
+    "status": "Pending for evidence",
+    "filing_date": "2022-11-03",
+    "next_hearing": "2025-10-21",
+    "summary": "Auto-generated civil case RJ2025-039: petition concerning tax, assessment. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-039_petition.pdf",
+      "rj2025-039_documents.zip"
+    ],
+    "tags": [
+      "tax",
+      "assessment"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-040",
+    "parties": "ABC Traders vs Union Bank",
+    "court": "District Court, Jodhpur",
+    "status": "Appeal filed",
+    "filing_date": "2024-12-22",
+    "next_hearing": "2026-01-16",
+    "summary": "Auto-generated civil case RJ2025-040: dispute concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-040_petition.pdf",
+      "rj2025-040_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-041",
+    "parties": "Gautam vs Neighbor",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Settlement negotiation",
+    "filing_date": "2024-11-05",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-041: dispute concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-041_petition.pdf",
+      "rj2025-041_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-042",
+    "parties": "Tanya vs Builder Associates",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Appeal filed",
+    "filing_date": "2024-11-01",
+    "next_hearing": "2026-01-24",
+    "summary": "Auto-generated civil case RJ2025-042: petition concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-042_petition.pdf",
+      "rj2025-042_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-043",
+    "parties": "Anand vs Employer Pvt Ltd",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2023-05-23",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-043: claim concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-043_petition.pdf",
+      "rj2025-043_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-044",
+    "parties": "Green Fields NGO vs Neighbor",
+    "court": "High Court, Rajasthan",
+    "status": "Closed",
+    "filing_date": "2023-02-19",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-044: claim concerning contract, commercial. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-044_petition.pdf",
+      "rj2025-044_documents.zip"
+    ],
+    "tags": [
+      "contract",
+      "commercial"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-045",
+    "parties": "Priya vs State Environment Dept.",
+    "court": "Consumer Court, Jaipur",
+    "status": "Under hearing",
+    "filing_date": "2024-05-27",
+    "next_hearing": "2025-11-08",
+    "summary": "Auto-generated civil case RJ2025-045: dispute concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-045_petition.pdf",
+      "rj2025-045_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-046",
+    "parties": "Arjun vs College Trust",
+    "court": "High Court, Rajasthan",
+    "status": "Awaiting judgment",
+    "filing_date": "2022-10-20",
+    "next_hearing": "2025-10-20",
+    "summary": "Auto-generated civil case RJ2025-046: dispute concerning consumer, services. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-046_petition.pdf",
+      "rj2025-046_documents.zip"
+    ],
+    "tags": [
+      "consumer",
+      "services"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-047",
+    "parties": "Mohan & Co. vs Neighbor",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2023-04-04",
+    "next_hearing": "2026-01-03",
+    "summary": "Auto-generated civil case RJ2025-047: dispute concerning IP, contract. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-047_petition.pdf",
+      "rj2025-047_documents.zip"
+    ],
+    "tags": [
+      "IP",
+      "contract"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-048",
+    "parties": "Sonal vs Employer Pvt Ltd",
+    "court": "High Court, Rajasthan",
+    "status": "Awaiting judgment",
+    "filing_date": "2022-02-09",
+    "next_hearing": "2026-02-03",
+    "summary": "Auto-generated civil case RJ2025-048: claim concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-048_petition.pdf",
+      "rj2025-048_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-049",
+    "parties": "Nitin vs City Corporation",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Under hearing",
+    "filing_date": "2024-11-15",
+    "next_hearing": "2025-10-13",
+    "summary": "Auto-generated civil case RJ2025-049: claim concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-049_petition.pdf",
+      "rj2025-049_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-050",
+    "parties": "Arjun vs ABC Constructions",
+    "court": "Small Causes Court, Kota",
+    "status": "Awaiting judgment",
+    "filing_date": "2023-01-07",
+    "next_hearing": "2025-10-18",
+    "summary": "Auto-generated civil case RJ2025-050: claim concerning debts, recovery. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-050_petition.pdf",
+      "rj2025-050_documents.zip"
+    ],
+    "tags": [
+      "debts",
+      "recovery"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-051",
+    "parties": "Siddharth vs Supplier Co.",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Appeal filed",
+    "filing_date": "2024-11-20",
+    "next_hearing": "2026-01-19",
+    "summary": "Auto-generated civil case RJ2025-051: dispute concerning employment, labour. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-051_petition.pdf",
+      "rj2025-051_documents.zip"
+    ],
+    "tags": [
+      "employment",
+      "labour"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-052",
+    "parties": "Farah vs Housing Society",
+    "court": "Consumer Court, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2022-05-29",
+    "next_hearing": "2025-09-19",
+    "summary": "Auto-generated civil case RJ2025-052: dispute concerning property, boundary. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-052_petition.pdf",
+      "rj2025-052_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "boundary"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-053",
+    "parties": "Leela vs College Trust",
+    "court": "District Court, Jodhpur",
+    "status": "Closed",
+    "filing_date": "2023-06-26",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-053: petition concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-053_petition.pdf",
+      "rj2025-053_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-054",
+    "parties": "Green Fields NGO vs Union Bank",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2025-06-27",
+    "next_hearing": "2025-09-26",
+    "summary": "Auto-generated civil case RJ2025-054: dispute concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-054_petition.pdf",
+      "rj2025-054_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-055",
+    "parties": "Gautam vs Employer Pvt Ltd",
+    "court": "Family Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2023-10-01",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-055: claim concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-055_petition.pdf",
+      "rj2025-055_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-056",
+    "parties": "Yash vs Employer Pvt Ltd",
+    "court": "Family Court, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2023-07-09",
+    "next_hearing": "2025-09-19",
+    "summary": "Auto-generated civil case RJ2025-056: petition concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-056_petition.pdf",
+      "rj2025-056_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-057",
+    "parties": "Tanvi vs State Environment Dept.",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Settlement negotiation",
+    "filing_date": "2024-11-19",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-057: petition concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-057_petition.pdf",
+      "rj2025-057_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-058",
+    "parties": "Sonal vs XYZ Hospital",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Appeal filed",
+    "filing_date": "2024-10-10",
+    "next_hearing": "2025-12-24",
+    "summary": "Auto-generated civil case RJ2025-058: dispute concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-058_petition.pdf",
+      "rj2025-058_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-059",
+    "parties": "Suresh vs State Environment Dept.",
+    "court": "Commercial Court, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2025-07-26",
+    "next_hearing": "2025-12-27",
+    "summary": "Auto-generated civil case RJ2025-059: dispute concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-059_petition.pdf",
+      "rj2025-059_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-060",
+    "parties": "Hemant vs Employer Pvt Ltd",
+    "court": "Civil Court, Udaipur",
+    "status": "Settlement negotiation",
+    "filing_date": "2023-06-08",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-060: claim concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-060_petition.pdf",
+      "rj2025-060_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-061",
+    "parties": "Rohit vs Union Bank",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Appeal filed",
+    "filing_date": "2023-08-01",
+    "next_hearing": "2025-11-16",
+    "summary": "Auto-generated civil case RJ2025-061: dispute concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-061_petition.pdf",
+      "rj2025-061_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-062",
+    "parties": "Pooja vs Neighbor",
+    "court": "Company Law Tribunal, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2023-06-24",
+    "next_hearing": "2025-12-08",
+    "summary": "Auto-generated civil case RJ2025-062: claim concerning employment, labour. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-062_petition.pdf",
+      "rj2025-062_documents.zip"
+    ],
+    "tags": [
+      "employment",
+      "labour"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-063",
+    "parties": "Pooja vs XYZ Hospital",
+    "court": "District Court, Jodhpur",
+    "status": "Settlement negotiation",
+    "filing_date": "2023-11-18",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-063: petition concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-063_petition.pdf",
+      "rj2025-063_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-064",
+    "parties": "Arjun vs City Corporation",
+    "court": "District Court, Jodhpur",
+    "status": "Under hearing",
+    "filing_date": "2022-01-11",
+    "next_hearing": "2025-11-21",
+    "summary": "Auto-generated civil case RJ2025-064: dispute concerning contract, commercial. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-064_petition.pdf",
+      "rj2025-064_documents.zip"
+    ],
+    "tags": [
+      "contract",
+      "commercial"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-065",
+    "parties": "Manish vs College Trust",
+    "court": "Family Court, Jodhpur",
+    "status": "Pending for evidence",
+    "filing_date": "2025-07-13",
+    "next_hearing": "2025-10-06",
+    "summary": "Auto-generated civil case RJ2025-065: dispute concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-065_petition.pdf",
+      "rj2025-065_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-066",
+    "parties": "Rakesh vs Supplier Co.",
+    "court": "Commercial Court, Jaipur",
+    "status": "Settlement negotiation",
+    "filing_date": "2025-05-06",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-066: dispute concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-066_petition.pdf",
+      "rj2025-066_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-067",
+    "parties": "Vikram vs College Trust",
+    "court": "Consumer Court, Jaipur",
+    "status": "Under hearing",
+    "filing_date": "2022-10-24",
+    "next_hearing": "2026-01-24",
+    "summary": "Auto-generated civil case RJ2025-067: petition concerning IP, contract. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-067_petition.pdf",
+      "rj2025-067_documents.zip"
+    ],
+    "tags": [
+      "IP",
+      "contract"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-068",
+    "parties": "Manish vs Supplier Co.",
+    "court": "Consumer Court, Jaipur",
+    "status": "Appeal filed",
+    "filing_date": "2024-10-29",
+    "next_hearing": "2025-09-19",
+    "summary": "Auto-generated civil case RJ2025-068: petition concerning tax, assessment. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-068_petition.pdf",
+      "rj2025-068_documents.zip"
+    ],
+    "tags": [
+      "tax",
+      "assessment"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-069",
+    "parties": "Arjun vs Housing Society",
+    "court": "Civil Court, Udaipur",
+    "status": "Under hearing",
+    "filing_date": "2022-06-24",
+    "next_hearing": "2025-09-25",
+    "summary": "Auto-generated civil case RJ2025-069: dispute concerning insurance, claim. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-069_petition.pdf",
+      "rj2025-069_documents.zip"
+    ],
+    "tags": [
+      "insurance",
+      "claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-070",
+    "parties": "ABC Traders vs Union Bank",
+    "court": "Civil Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2022-04-14",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-070: dispute concerning insurance, claim. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-070_petition.pdf",
+      "rj2025-070_documents.zip"
+    ],
+    "tags": [
+      "insurance",
+      "claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-071",
+    "parties": "Rohini vs Union Bank",
+    "court": "Consumer Court, Jaipur",
+    "status": "Appeal filed",
+    "filing_date": "2024-10-27",
+    "next_hearing": "2025-10-08",
+    "summary": "Auto-generated civil case RJ2025-071: petition concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-071_petition.pdf",
+      "rj2025-071_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-072",
+    "parties": "Rohini vs Housing Society",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Pending for evidence",
+    "filing_date": "2023-06-28",
+    "next_hearing": "2025-11-06",
+    "summary": "Auto-generated civil case RJ2025-072: claim concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-072_petition.pdf",
+      "rj2025-072_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-073",
+    "parties": "Green Fields NGO vs XYZ Hospital",
+    "court": "Family Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2024-09-08",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-073: petition concerning inheritance, will. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-073_petition.pdf",
+      "rj2025-073_documents.zip"
+    ],
+    "tags": [
+      "inheritance",
+      "will"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-074",
+    "parties": "Vikram vs City Corporation",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Awaiting judgment",
+    "filing_date": "2023-11-11",
+    "next_hearing": "2026-02-28",
+    "summary": "Auto-generated civil case RJ2025-074: petition concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-074_petition.pdf",
+      "rj2025-074_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-075",
+    "parties": "Rakesh vs Supplier Co.",
+    "court": "District Court, Jodhpur",
+    "status": "Awaiting judgment",
+    "filing_date": "2024-09-21",
+    "next_hearing": "2026-03-06",
+    "summary": "Auto-generated civil case RJ2025-075: claim concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-075_petition.pdf",
+      "rj2025-075_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-076",
+    "parties": "Pooja vs Union Bank",
+    "court": "High Court, Rajasthan",
+    "status": "Settlement negotiation",
+    "filing_date": "2024-08-09",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-076: petition concerning inheritance, will. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-076_petition.pdf",
+      "rj2025-076_documents.zip"
+    ],
+    "tags": [
+      "inheritance",
+      "will"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-077",
+    "parties": "Nitin vs Developer Pvt Ltd",
+    "court": "High Court, Rajasthan",
+    "status": "Under hearing",
+    "filing_date": "2024-08-26",
+    "next_hearing": "2025-11-28",
+    "summary": "Auto-generated civil case RJ2025-077: claim concerning property, boundary. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-077_petition.pdf",
+      "rj2025-077_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "boundary"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-078",
+    "parties": "Vandana vs ABC Constructions",
+    "court": "District Court, Jodhpur",
+    "status": "Under hearing",
+    "filing_date": "2023-03-08",
+    "next_hearing": "2026-02-10",
+    "summary": "Auto-generated civil case RJ2025-078: claim concerning contract, commercial. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-078_petition.pdf",
+      "rj2025-078_documents.zip"
+    ],
+    "tags": [
+      "contract",
+      "commercial"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-079",
+    "parties": "Shruti vs College Trust",
+    "court": "District Court, Jodhpur",
+    "status": "Appeal filed",
+    "filing_date": "2025-07-17",
+    "next_hearing": "2025-11-25",
+    "summary": "Auto-generated civil case RJ2025-079: claim concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-079_petition.pdf",
+      "rj2025-079_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-080",
+    "parties": "Karan vs ABC Constructions",
+    "court": "High Court, Rajasthan",
+    "status": "Pending for evidence",
+    "filing_date": "2022-02-20",
+    "next_hearing": "2025-09-15",
+    "summary": "Auto-generated civil case RJ2025-080: claim concerning insurance, claim. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-080_petition.pdf",
+      "rj2025-080_documents.zip"
+    ],
+    "tags": [
+      "insurance",
+      "claim"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-081",
+    "parties": "Tanvi vs Developer Pvt Ltd",
+    "court": "Commercial Court, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2024-02-10",
+    "next_hearing": "2025-10-15",
+    "summary": "Auto-generated civil case RJ2025-081: claim concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-081_petition.pdf",
+      "rj2025-081_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-082",
+    "parties": "Vandana vs Transport Co.",
+    "court": "Civil Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2023-02-05",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-082: claim concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-082_petition.pdf",
+      "rj2025-082_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-083",
+    "parties": "Mohan & Co. vs Transport Co.",
+    "court": "Small Causes Court, Kota",
+    "status": "Under hearing",
+    "filing_date": "2025-04-21",
+    "next_hearing": "2025-12-16",
+    "summary": "Auto-generated civil case RJ2025-083: dispute concerning inheritance, will. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-083_petition.pdf",
+      "rj2025-083_documents.zip"
+    ],
+    "tags": [
+      "inheritance",
+      "will"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-084",
+    "parties": "Rina vs Neighbor",
+    "court": "Family Court, Jaipur",
+    "status": "Pending for evidence",
+    "filing_date": "2025-07-24",
+    "next_hearing": "2025-11-17",
+    "summary": "Auto-generated civil case RJ2025-084: dispute concerning IP, contract. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-084_petition.pdf",
+      "rj2025-084_documents.zip"
+    ],
+    "tags": [
+      "IP",
+      "contract"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-085",
+    "parties": "Tanya vs XYZ Hospital",
+    "court": "Small Causes Court, Kota",
+    "status": "Under hearing",
+    "filing_date": "2024-05-26",
+    "next_hearing": "2026-02-23",
+    "summary": "Auto-generated civil case RJ2025-085: petition concerning company, shareholder. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-085_petition.pdf",
+      "rj2025-085_documents.zip"
+    ],
+    "tags": [
+      "company",
+      "shareholder"
+    ],
+    "priority": "Low"
+  },
+  {
+    "case_id": "RJ2025-086",
+    "parties": "Nisha vs Housing Society",
+    "court": "Small Causes Court, Kota",
+    "status": "Dismissed",
+    "filing_date": "2022-04-12",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-086: dispute concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-086_petition.pdf",
+      "rj2025-086_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-087",
+    "parties": "Rakesh vs Union Bank",
+    "court": "Civil Court, Udaipur",
+    "status": "Appeal filed",
+    "filing_date": "2022-04-11",
+    "next_hearing": "2025-10-17",
+    "summary": "Auto-generated civil case RJ2025-087: claim concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-087_petition.pdf",
+      "rj2025-087_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-088",
+    "parties": "Green Fields NGO vs Developer Pvt Ltd",
+    "court": "Consumer Court, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2025-08-29",
+    "next_hearing": "2025-12-27",
+    "summary": "Auto-generated civil case RJ2025-088: petition concerning consumer, services. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-088_petition.pdf",
+      "rj2025-088_documents.zip"
+    ],
+    "tags": [
+      "consumer",
+      "services"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-089",
+    "parties": "Rina vs Landlord",
+    "court": "High Court, Rajasthan",
+    "status": "Pending for evidence",
+    "filing_date": "2022-06-03",
+    "next_hearing": "2026-01-21",
+    "summary": "Auto-generated civil case RJ2025-089: claim concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-089_petition.pdf",
+      "rj2025-089_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-090",
+    "parties": "Sonal vs XYZ Hospital",
+    "court": "District Court, Jodhpur",
+    "status": "Pending for evidence",
+    "filing_date": "2025-01-26",
+    "next_hearing": "2025-11-16",
+    "summary": "Auto-generated civil case RJ2025-090: dispute concerning contract, commercial. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-090_petition.pdf",
+      "rj2025-090_documents.zip"
+    ],
+    "tags": [
+      "contract",
+      "commercial"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-091",
+    "parties": "Karan vs Employer Pvt Ltd",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Pending for evidence",
+    "filing_date": "2025-03-12",
+    "next_hearing": "2025-09-20",
+    "summary": "Auto-generated civil case RJ2025-091: claim concerning debts, recovery. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-091_petition.pdf",
+      "rj2025-091_documents.zip"
+    ],
+    "tags": [
+      "debts",
+      "recovery"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-092",
+    "parties": "Vikram vs State Environment Dept.",
+    "court": "High Court, Rajasthan",
+    "status": "Awaiting judgment",
+    "filing_date": "2023-07-08",
+    "next_hearing": "2025-09-30",
+    "summary": "Auto-generated civil case RJ2025-092: claim concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-092_petition.pdf",
+      "rj2025-092_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-093",
+    "parties": "Arjun vs Developer Pvt Ltd",
+    "court": "Munsiff Court, Ajmer",
+    "status": "Closed",
+    "filing_date": "2025-07-13",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-093: dispute concerning property, boundary. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-093_petition.pdf",
+      "rj2025-093_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "boundary"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-094",
+    "parties": "Tech Startup X vs Landlord",
+    "court": "Civil Court, Udaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2024-06-03",
+    "next_hearing": "2025-09-20",
+    "summary": "Auto-generated civil case RJ2025-094: claim concerning property, partition. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-094_petition.pdf",
+      "rj2025-094_documents.zip"
+    ],
+    "tags": [
+      "property",
+      "partition"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-095",
+    "parties": "Kavita vs ABC Constructions",
+    "court": "High Court, Rajasthan",
+    "status": "Closed",
+    "filing_date": "2024-12-17",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-095: dispute concerning medical, negligence. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-095_petition.pdf",
+      "rj2025-095_documents.zip"
+    ],
+    "tags": [
+      "medical",
+      "negligence"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-096",
+    "parties": "Suresh vs Employer Pvt Ltd",
+    "court": "Consumer Court, Jodhpur",
+    "status": "Closed",
+    "filing_date": "2022-08-12",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-096: claim concerning landlord, tenant. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-096_petition.pdf",
+      "rj2025-096_documents.zip"
+    ],
+    "tags": [
+      "landlord",
+      "tenant"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-097",
+    "parties": "Nisha vs Supplier Co.",
+    "court": "Civil Court, Udaipur",
+    "status": "Closed",
+    "filing_date": "2022-01-03",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-097: dispute concerning consumer, services. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-097_petition.pdf",
+      "rj2025-097_documents.zip"
+    ],
+    "tags": [
+      "consumer",
+      "services"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-098",
+    "parties": "Mohan & Co. vs Transport Co.",
+    "court": "Family Court, Jaipur",
+    "status": "Dismissed",
+    "filing_date": "2022-09-20",
+    "next_hearing": "N/A",
+    "summary": "Auto-generated civil case RJ2025-098: petition concerning environment, PIL. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-098_petition.pdf",
+      "rj2025-098_documents.zip"
+    ],
+    "tags": [
+      "environment",
+      "PIL"
+    ],
+    "priority": "Medium"
+  },
+  {
+    "case_id": "RJ2025-099",
+    "parties": "Aman vs City Corporation",
+    "court": "Small Causes Court, Kota",
+    "status": "Appeal filed",
+    "filing_date": "2024-12-10",
+    "next_hearing": "2025-11-03",
+    "summary": "Auto-generated civil case RJ2025-099: petition concerning construction, permit. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-099_petition.pdf",
+      "rj2025-099_documents.zip"
+    ],
+    "tags": [
+      "construction",
+      "permit"
+    ],
+    "priority": "High"
+  },
+  {
+    "case_id": "RJ2025-100",
+    "parties": "Yash vs XYZ Hospital",
+    "court": "Consumer Court, Jaipur",
+    "status": "Awaiting judgment",
+    "filing_date": "2024-08-01",
+    "next_hearing": "2025-12-04",
+    "summary": "Auto-generated civil case RJ2025-100: claim concerning debts, recovery. Court proceedings ongoing.",
+    "documents": [
+      "rj2025-100_petition.pdf",
+      "rj2025-100_documents.zip"
+    ],
+    "tags": [
+      "debts",
+      "recovery"
+    ],
+    "priority": "Low"
+  }
+]
